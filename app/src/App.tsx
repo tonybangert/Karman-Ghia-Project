@@ -10,15 +10,7 @@ import { Timeline } from '@/views/Timeline'
 import { Ledger } from '@/views/Ledger'
 import { Vendors } from '@/views/Vendors'
 import { Gallery } from '@/views/Gallery'
-
-function Placeholder({ id, title }: { id: string; title: string }) {
-  return (
-    <section id={id} className="mx-auto max-w-content scroll-mt-24 px-6 py-20">
-      <h2 className="text-2xl font-bold text-ink-muted">{title}</h2>
-      <p className="mono mt-2 text-sm text-ink-faint">In progress.</p>
-    </section>
-  )
-}
+import { Mysteries } from '@/views/Mysteries'
 
 export default function App() {
   const [about, setAbout] = useState(false)
@@ -33,7 +25,7 @@ export default function App() {
           <Ledger />
           <Vendors />
           <Gallery />
-          <Placeholder id="mysteries" title="Open Mysteries" />
+          <Mysteries />
         </main>
         <ProvenanceFooter onAbout={() => setAbout(true)} />
         <AboutModal open={about} onClose={() => setAbout(false)} />
