@@ -25,7 +25,7 @@ export function Gallery() {
     <section id="gallery" className="scroll-mt-16 border-t border-line bg-surface-sunken/40">
       <div className="mx-auto max-w-content px-6 py-16">
         <SectionHeader kicker="Before and after" title="From green to silver-blue"
-          lead="Drag each handle to cross the five-year gap. The frames here are placeholders generated from the documented condition; drop the real photos into the gallery folder and they appear in their place." />
+          lead="Drag each handle to cross the five-year gap, from the green project car stripped to primer on the trailer to the finished silver-blue coupe." />
 
         {!loaded ? null : !pairs || pairs.length === 0 ? (
           <div className="mt-8"><EmptyState>No gallery pairs yet. Add image pairs to public/gallery and list them in gallery.json.</EmptyState></div>
