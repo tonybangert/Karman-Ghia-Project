@@ -1,0 +1,1979 @@
+{
+  "schema_version": "1.1",
+  "project_name": "1965 Karmann Ghia Restoration Documentation",
+  "generated_date": "2026-06-10",
+  "generated_from": "Batch 1 (DOC-001 to DOC-007) + Batch 2 (DOC-008 to DOC-024)",
+  "vehicle_master_record": {
+    "vehicle_id": "GHIA-1965-001",
+    "year_titled": 1965,
+    "make": "Volkswagen",
+    "model": "Karmann Ghia",
+    "body_style": "Coupe (Type 14)",
+    "parts_catalog_fitment_note": "Restoration parts were ordered against 1966 GHIACP and 64.5-69 catalog ranges. This is standard catalog grouping for this era and should not be read as a year discrepancy, but title year vs. catalog year must remain explicit in all records.",
+    "vin": null,
+    "chassis_number": null,
+    "engine_serial": null,
+    "paint_code": null,
+    "m_codes": null,
+    "birth_certificate_on_file": null,
+    "ownership_chain": [
+      {
+        "owner": "James Mahan",
+        "addresses": [
+          "678 Covina Dr, Henderson, NV 89002",
+          "566 West 375 South, Hurricane, UT 84737"
+        ],
+        "role": "Restorer / prior owner",
+        "period": "Documented activity Jan 2015 through 2016 (Henderson NV), later Hurricane UT",
+        "phone_on_invoices": "702-351-1031"
+      },
+      {
+        "owner": "Tony Bangert",
+        "role": "Current owner",
+        "location": "Bayside, WI",
+        "period": "Current"
+      }
+    ]
+  },
+  "systems_taxonomy": [
+    {
+      "system_id": "SYS-01",
+      "name": "Engine"
+    },
+    {
+      "system_id": "SYS-02",
+      "name": "Cooling"
+    },
+    {
+      "system_id": "SYS-03",
+      "name": "Fuel / Carburetion"
+    },
+    {
+      "system_id": "SYS-04",
+      "name": "Exhaust"
+    },
+    {
+      "system_id": "SYS-05",
+      "name": "Transmission / Drivetrain"
+    },
+    {
+      "system_id": "SYS-06",
+      "name": "Front Suspension / Steering"
+    },
+    {
+      "system_id": "SYS-07",
+      "name": "Brakes"
+    },
+    {
+      "system_id": "SYS-08",
+      "name": "Body / Paint"
+    },
+    {
+      "system_id": "SYS-09",
+      "name": "Interior"
+    },
+    {
+      "system_id": "SYS-10",
+      "name": "Electrical / Lighting"
+    },
+    {
+      "system_id": "SYS-11",
+      "name": "Wheels / Tires"
+    },
+    {
+      "system_id": "SYS-12",
+      "name": "Consumables / Maintenance"
+    }
+  ],
+  "vendor_registry": [
+    {
+      "vendor_id": "VEN-01",
+      "name": "Raby Enterprises Inc (Aircooled Technology / Type 4 Store)",
+      "address": "47 Raby Drive, Cleveland, GA 30528",
+      "websites": [
+        "www.type4store.com",
+        "www.flat6innovations.com"
+      ],
+      "email": "parts@aircooledtechnology.com",
+      "specialty": "Type 4 engine components, DTM cooling systems. Founded by Jake Raby, the most respected Type 4 builder in the aircooled community.",
+      "current_status_note": "Type 4 Store parts business transferred to LN Engineering in 2014. Aircooled Technology continues engine building. For replacement DTM parts today, contact LN Engineering's Type 4 Store.",
+      "documents": [
+        "DOC-001"
+      ]
+    },
+    {
+      "vendor_id": "VEN-02",
+      "name": "Karmann Ghia Parts & Restoration (KGPR)",
+      "address": "1604 Morse Ave, Ventura, CA 93003",
+      "phones": {
+        "order": "800-927-2787",
+        "info": "805-650-2045",
+        "fax": "805-650-2055"
+      },
+      "specialty": "Karmann Ghia specific restoration parts",
+      "documents": [
+        "DOC-002"
+      ]
+    },
+    {
+      "vendor_id": "VEN-03",
+      "name": "Unidentified machine shop (Las Vegas area)",
+      "address": null,
+      "phones": {
+        "partial": "702-3xx-1241 (top of document cropped)"
+      },
+      "specialty": "Cylinder head machine work, Type 4",
+      "data_gap": "Vendor name and full contact cropped from scan. Re-photograph original to capture letterhead.",
+      "documents": [
+        "DOC-003"
+      ]
+    },
+    {
+      "vendor_id": "VEN-04",
+      "name": "California Pacific / JBugs",
+      "address": "1338 Rocky Point Drive, Oceanside, CA 92056",
+      "phones": {
+        "main": "760-722-2535"
+      },
+      "customer_number": "467595",
+      "specialty": "VW interior kits and restoration parts",
+      "documents": [
+        "DOC-005",
+        "DOC-006"
+      ]
+    },
+    {
+      "vendor_id": "VEN-05",
+      "name": "O'Reilly Auto Parts (Store #4464 area, Henderson NV)",
+      "address": "884 South Boulder Highway, Henderson, NV 89015-7502",
+      "phones": {
+        "store": "702-564-8103"
+      },
+      "specialty": "General automotive consumables",
+      "documents": [
+        "DOC-007"
+      ]
+    },
+    {
+      "vendor_id": "VEN-06",
+      "name": "Steve Hansen (transmission builder)",
+      "address": null,
+      "specialty": "VW transmission builds. Built this car's Freeway Flyer transmission per handwritten build notes.",
+      "data_gap": "No invoice in seed set. Locate transmission build receipt or spec sheet in the full folder if it exists.",
+      "documents": [
+        "DOC-004"
+      ]
+    },
+    {
+      "vendor_id": "VEN-07",
+      "name": "Boulder Auto Parts (CarQuest / Genuine Parts Co.)",
+      "address": "1500 Nevada Highway, Boulder City, NV 89005-1806",
+      "phones": {
+        "main": "702-293-1368"
+      },
+      "specialty": "Auto parts and automotive paint department (DuPont/Nason line)",
+      "customer_number": "B4925",
+      "documents": [
+        "DOC-023"
+      ]
+    },
+    {
+      "vendor_id": "VEN-08",
+      "name": "Meyers Auto Parts",
+      "address": "3540 Boulder Hwy, Las Vegas, NV 89121 (also West: 3345 S. Decatur Blvd, Las Vegas, NV 89102)",
+      "phones": {
+        "east": "702-431-8000 (listed for West store on form)",
+        "fax": "702-431-8528"
+      },
+      "specialty": "Independent auto parts, VW import coverage",
+      "documents": [
+        "DOC-024"
+      ]
+    }
+  ],
+  "document_archive": [
+    {
+      "doc_id": "DOC-001",
+      "type": "Packing list",
+      "vendor_id": "VEN-01",
+      "title": "Raby Enterprises packing list, Type 4 DTM Stage III kit",
+      "reference_numbers": {
+        "sales_order": "94",
+        "packing_list_barcode": "1878"
+      },
+      "date": null,
+      "date_note": "Date cropped from scan. Re-photograph top of document.",
+      "bill_to": "Mahan, James, 566 West 375 South, Hurricane, UT 84737",
+      "handwritten_annotations": "Arrow to Type 4 DTM STG III line: 'Will be shipped as soon as possible'",
+      "terms_notes": "All sales final. Claims for damage or discrepancies within 48 hours. No returns without prior authorization. All items sold intended for off road/racing purposes.",
+      "line_item_count": 15,
+      "total_qty_sold": 16,
+      "extraction_note": "The 'Attribute' column (SHELF, PB-7, A-2-M, C-2-J, etc.) appears to be warehouse bin locations, not SKUs. Recorded as bin_location, not part number."
+    },
+    {
+      "doc_id": "DOC-002",
+      "type": "Invoice (shipping copy)",
+      "vendor_id": "VEN-02",
+      "title": "KGPR Invoice #441346",
+      "reference_numbers": {
+        "invoice": "441346"
+      },
+      "date": "2015-01-29",
+      "order_date": "2015-01-28",
+      "rep": "DW",
+      "bill_to": "James Mahan, 678 Covina Dr, Henderson NV 89002",
+      "ship_to": "James Mahan, 678 Covina Dr, Henderson NV 89002",
+      "fitment_listed": "1966 GHIACP (Ghia Coupe)",
+      "line_item_count": 16,
+      "page_1_merchandise_subtotal_calculated": 348.28,
+      "extraction_note": "Page 1 of possibly multiple pages. Invoice total not visible. Sum of visible extended prices is 348.28."
+    },
+    {
+      "doc_id": "DOC-003",
+      "type": "Machine work invoice",
+      "vendor_id": "VEN-03",
+      "title": "Type 4 cylinder head machine work and compression calculation",
+      "date": null,
+      "bill_to": "James Mahan",
+      "job_reference_as_written": "type 4 (job header)",
+      "line_item_count": 6,
+      "extraction_note": "Vendor letterhead and date cropped. Contains the engine's compression math: 94 x 71 with .028 deck and 61 cc's = 8.6 to one."
+    },
+    {
+      "doc_id": "DOC-004",
+      "type": "Handwritten build notes",
+      "vendor_id": null,
+      "title": "Master build summary, torn graph paper sheet",
+      "date": null,
+      "author": "Presumed James Mahan",
+      "content_verbatim": [
+        "Front Beam",
+        "2 1/2\" Drop spindels [sic] - Beam adjusters - disc brakes - KYB shocks",
+        "Transmission - Built by Steve Hansen - Freeway Flier",
+        "Engine - Type 4 2000cc Dual 44 webers - engle cam - DTM cooling systems",
+        "Exhaust system ceramic coated"
+      ],
+      "extraction_note": "This sheet is the master index of the build. Every claim on it should ultimately be cross-referenced to a supporting receipt or photo."
+    },
+    {
+      "doc_id": "DOC-005",
+      "type": "Invoice",
+      "vendor_id": "VEN-04",
+      "title": "California Pacific/JBugs Order #944952A, interior kit order",
+      "reference_numbers": {
+        "order": "944952A"
+      },
+      "date": "2016-02-23",
+      "bill_to": "James Mahan, 678 Covina Dr, Henderson NV 89002-8267",
+      "payment": "VISA ending 0115",
+      "ship_via": "FedEx Ground (FGR)",
+      "line_item_count": 17,
+      "merchandise_invoice_total": 987.17,
+      "extraction_note": "Several lines show 0.00 because they are components bundled inside kit pricing (kit 122 and SEATPADKIT-GH) or reference lines. Credit card approval shows -1185.1x with closing balance -198.0x, suggesting prepayment covering backorders."
+    },
+    {
+      "doc_id": "DOC-006",
+      "type": "Invoice (backorder fulfillment)",
+      "vendor_id": "VEN-04",
+      "title": "California Pacific/JBugs Order #944952C, seat upholstery backorder ship",
+      "reference_numbers": {
+        "order": "944952C"
+      },
+      "date": "2016-03-26",
+      "bill_to": "James Mahan, 678 Covina Dr, Henderson NV 89002-8267",
+      "ship_via": "FedEx Ground (FGR)",
+      "total_weight_lbs": 6.8,
+      "line_item_count": 1,
+      "invoice_total": 27.0,
+      "extraction_note": "Fulfills the backordered 44-1523 seat upholstery from DOC-005. Opening balance -27.00 consumed."
+    },
+    {
+      "doc_id": "DOC-007",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts cash sale, K&N recharge kit",
+      "reference_numbers": {
+        "invoice": "2655-493365",
+        "counter": "87978"
+      },
+      "date": "2015-03-07",
+      "time": "13:22:11",
+      "payment": "Debit card (VISA ending 7266)",
+      "line_item_count": 1,
+      "subtotal": 11.99,
+      "tax": 0.97,
+      "total": 12.96,
+      "duplicate_note": "A second photo of this same receipt (invoice 2655-493365) arrived in Batch 2 and was matched by invoice number; not re-entered."
+    },
+    {
+      "doc_id": "DOC-008",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-493363",
+      "reference_numbers": {
+        "invoice": "2655-493363"
+      },
+      "date": "2015-03-07",
+      "line_item_count": 1,
+      "total": 41.07,
+      "extraction_note": "Time 13:20:10, two minutes before DOC-007 (13:22:11). Two separate transactions in the same store visit."
+    },
+    {
+      "doc_id": "DOC-009",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-243571",
+      "reference_numbers": {
+        "invoice": "2655-243571"
+      },
+      "date": "2016-09-14",
+      "line_item_count": 1,
+      "total": null,
+      "extraction_note": "Latest-dated document in the archive so far; extends the documented restoration window to Sep 2016. Total partially cropped (subtotal 4.29 visible)."
+    },
+    {
+      "doc_id": "DOC-010",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-187759",
+      "reference_numbers": {
+        "invoice": "2655-187759"
+      },
+      "date": "2016-03-01",
+      "line_item_count": 2,
+      "total": 17.28
+    },
+    {
+      "doc_id": "DOC-011",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-482535",
+      "reference_numbers": {
+        "invoice": "2655-482535"
+      },
+      "date": "2015-01-25",
+      "line_item_count": 5,
+      "total": null,
+      "extraction_note": "Net subtotal 22.65 (list 38.40); tax/total at cropped edge."
+    },
+    {
+      "doc_id": "DOC-012",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-486730",
+      "reference_numbers": {
+        "invoice": "2655-486730"
+      },
+      "date": "2015-02-11",
+      "line_item_count": 3,
+      "total": 21.59,
+      "extraction_note": "Credit card sale; customer signature visible on this copy."
+    },
+    {
+      "doc_id": "DOC-013",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-498473",
+      "reference_numbers": {
+        "invoice": "2655-498473"
+      },
+      "date": "2015-03-18",
+      "line_item_count": 1,
+      "total": 8.63
+    },
+    {
+      "doc_id": "DOC-014",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-496193",
+      "reference_numbers": {
+        "invoice": "2655-496193"
+      },
+      "date": "2015-03-17",
+      "line_item_count": 1,
+      "total": null,
+      "extraction_note": "Subtotal 5.99 visible; tax/total at cropped edge."
+    },
+    {
+      "doc_id": "DOC-015",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-485079",
+      "reference_numbers": {
+        "invoice": "2655-485079"
+      },
+      "date": "2015-02-05",
+      "line_item_count": 3,
+      "total": null,
+      "extraction_note": "Morning visit (11:35). Same day as DOC-019 (17:23). Net subtotal 17.87."
+    },
+    {
+      "doc_id": "DOC-016",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-492277",
+      "reference_numbers": {
+        "invoice": "2655-492277"
+      },
+      "date": "2015-03-28",
+      "line_item_count": 0,
+      "total": null,
+      "extraction_note": "ILLEGIBLE LINE ITEMS: left edge of receipt cut off in photo. Visible: list total 82.15, net subtotal 48.47, debit card. Re-photograph this receipt flat and complete."
+    },
+    {
+      "doc_id": "DOC-017",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-102376",
+      "reference_numbers": {
+        "invoice": "2655-102376"
+      },
+      "date": "2015-04-09",
+      "line_item_count": 1,
+      "total": 36.73,
+      "extraction_note": "Counter lookup header reads '1967 Volkswagen Beetle [H4 1.5L] - All'. H6024 sealed beams fit the Ghia identically; the Beetle lookup is a counter-clerk convenience, but see attribution note GAP-16."
+    },
+    {
+      "doc_id": "DOC-018",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-148201",
+      "reference_numbers": {
+        "invoice": "2655-148201"
+      },
+      "date": "2015-09-30",
+      "line_item_count": 2,
+      "total": 31.87
+    },
+    {
+      "doc_id": "DOC-019",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-485202",
+      "reference_numbers": {
+        "invoice": "2655-485202"
+      },
+      "date": "2015-02-05",
+      "line_item_count": 2,
+      "total": 19.44,
+      "extraction_note": "Evening visit (17:23), second O'Reilly trip of the day after DOC-015."
+    },
+    {
+      "doc_id": "DOC-020",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-488602",
+      "reference_numbers": {
+        "invoice": "2655-488602"
+      },
+      "date": "2015-02-18",
+      "line_item_count": 6,
+      "total": null,
+      "extraction_note": "Page 1 marker; net subtotal 55.22 (list 93.58), 8 units. Handwritten annotation '-28.42' near totals. Tax/total at cropped edge."
+    },
+    {
+      "doc_id": "DOC-021",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-489639",
+      "reference_numbers": {
+        "invoice": "2655-489639"
+      },
+      "date": "2015-02-21",
+      "line_item_count": 2,
+      "total": 0.0,
+      "extraction_note": "Even exchange: Gates 7370 V-belt (from DOC-020, 2015-02-18) returned with return authorization referencing original sale, replaced with Gates 7365. Net 0.00. Receipt carries 'JON DOE' placeholder in counter name field."
+    },
+    {
+      "doc_id": "DOC-022",
+      "type": "Retail receipt",
+      "vendor_id": "VEN-05",
+      "title": "O'Reilly Auto Parts receipt, invoice 2655-489641",
+      "reference_numbers": {
+        "invoice": "2655-489641"
+      },
+      "date": "2015-02-21",
+      "line_item_count": 1,
+      "total": 11.61,
+      "extraction_note": "Three minutes after DOC-021 in same visit."
+    },
+    {
+      "doc_id": "DOC-023",
+      "type": "Invoice (counter)",
+      "vendor_id": "VEN-07",
+      "title": "Boulder Auto Parts / CarQuest invoice L239795, paint department",
+      "reference_numbers": {
+        "invoice": "L239795",
+        "customer": "B4925"
+      },
+      "date": "2015-01-22",
+      "time": "09:26 AM",
+      "terms": "PAINT DEPT-CASH",
+      "line_item_count": 1,
+      "subtotal": 42.69,
+      "tax": 3.2,
+      "total": 42.69,
+      "extraction_note": "First Body/Paint system document in the archive. NAS brand prefix = Nason (DuPont refinish line); header references a DuPont price increase, corroborating. Indicates DuPont Nason clearcoat system used on the body. Taxable amount 39.49 + 3.20 tax = 42.69."
+    },
+    {
+      "doc_id": "DOC-024",
+      "type": "Invoice (counter)",
+      "vendor_id": "VEN-08",
+      "title": "Meyers Auto Parts invoice 854312, Type 1 carburetor kit",
+      "reference_numbers": {
+        "invoice": "854312"
+      },
+      "date": "2016-02-29",
+      "time": "09:31 AM",
+      "payment": "Debit 26.98",
+      "line_item_count": 1,
+      "total": 26.98,
+      "extraction_note": "ATTRIBUTION UNCERTAIN: a Type 1 carburetor rebuild kit conflicts with this car's dual Weber 44 setup. Possibly purchased for a stock Solex before/aside from the Weber installation, for a spare carb, or for a different vehicle (see GAP-16). Leap-day purchase, 2016-02-29."
+    }
+  ],
+  "parts_ledger": [
+    {
+      "entry_id": "P-001",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Type 4 DTM Stage III Cooling System",
+      "vendor_sku": null,
+      "bin_location": "SHELF",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": "Core of the Type 4 conversion. Jake Raby's Down The Middle cooling system, Stage III kit. Handwritten note: will be shipped as soon as possible."
+    },
+    {
+      "entry_id": "P-002",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "T4 Fuel Pump Blockoff",
+      "vendor_sku": null,
+      "bin_location": "PB-7",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-03",
+      "notes": "Blocks off mechanical fuel pump location. Implies electric fuel pump or relocated pump in final configuration. Verify against engine photos."
+    },
+    {
+      "entry_id": "P-003",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Stock Oil Filter",
+      "vendor_sku": null,
+      "bin_location": "A-2-M",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-01",
+      "notes": "Type 4 spin-on oil filter, a native advantage of the Type 4 platform."
+    },
+    {
+      "entry_id": "P-004",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Dipstick Adaptor Kit",
+      "vendor_sku": null,
+      "bin_location": "C-2-J",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-01",
+      "notes": "Adapts Type 4 dipstick for Type 1 chassis installation."
+    },
+    {
+      "entry_id": "P-005",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Surround Tin Kit, 6 pc Waterjet",
+      "vendor_sku": null,
+      "bin_location": "C-1-G",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": "CNC waterjet-cut engine bay sealing tin for the DTM conversion."
+    },
+    {
+      "entry_id": "P-006",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Alternator Stand w/ Billet Oil Filler",
+      "vendor_sku": null,
+      "bin_location": "C-2-H",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": "Confirms alternator (not generator) charging configuration with integrated billet oil filler."
+    },
+    {
+      "entry_id": "P-007",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Fan Belt, Type 4 DTM",
+      "vendor_sku": null,
+      "bin_location": "PB-11",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": "DTM-specific belt. Record belt spec from physical part for future replacement sourcing."
+    },
+    {
+      "entry_id": "P-008",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "DTM Oil Cooler Adaptor Kit",
+      "vendor_sku": null,
+      "bin_location": "C-2-J",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": "Adapts Type 4 oil cooler into DTM shroud housing."
+    },
+    {
+      "entry_id": "P-009",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "DTM Linkage Adaptor Kit",
+      "vendor_sku": null,
+      "bin_location": "C-2-I",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-03",
+      "notes": "Throttle linkage adaptation for DTM shroud clearance."
+    },
+    {
+      "entry_id": "P-010",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Alt/Gen Stand Mount Bar Kit",
+      "vendor_sku": null,
+      "bin_location": "C-2-H",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": null
+    },
+    {
+      "entry_id": "P-011",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "CNC Billet DTM Conversion Pulley",
+      "vendor_sku": null,
+      "bin_location": "C-1-I",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": "Billet crankshaft pulley specific to the DTM conversion."
+    },
+    {
+      "entry_id": "P-012",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Air Sealing Kit Hardware",
+      "vendor_sku": null,
+      "bin_location": "C-2-J",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": "Hardware for sealing engine bay air management (rivets, riv nuts, grommet per Stage kit contents)."
+    },
+    {
+      "entry_id": "P-013",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Type 4 Conversion DVD",
+      "vendor_sku": null,
+      "bin_location": "A-2-B",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-12",
+      "notes": "Step-by-step conversion instructional media. If still in folder, this is part of the car's documentation set."
+    },
+    {
+      "entry_id": "P-014",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "Airhose Clamp 23-70mm",
+      "vendor_sku": null,
+      "bin_location": "C-2-F",
+      "qty": 2,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": null
+    },
+    {
+      "entry_id": "P-015",
+      "doc_id": "DOC-001",
+      "vendor_id": "VEN-01",
+      "date": null,
+      "item_name": "DTM Air Hose, Right",
+      "vendor_sku": null,
+      "bin_location": "C-3-F",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-02",
+      "notes": null
+    },
+    {
+      "entry_id": "P-016",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Gasket Ring, Fuel Tank Screen",
+      "vendor_sku": "209-139 ALL RP",
+      "qty": 1,
+      "unit_price": 0.54,
+      "ext_price": 0.54,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-03",
+      "notes": null
+    },
+    {
+      "entry_id": "P-017",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Fuel Tap, Nut and Pipe",
+      "vendor_sku": "209-223 61 74 RP",
+      "qty": 1,
+      "unit_price": 7.99,
+      "ext_price": 7.99,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-03",
+      "notes": null
+    },
+    {
+      "entry_id": "P-018",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Fuel Filter Inside Tank, Original Style",
+      "vendor_sku": "209-227 ALL GR",
+      "qty": 1,
+      "unit_price": 8.75,
+      "ext_price": 8.75,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-03",
+      "notes": null
+    },
+    {
+      "entry_id": "P-019",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Brake Master Cylinder, TRW",
+      "vendor_sku": "611-015 67 74 BR",
+      "qty": 1,
+      "unit_price": 49.95,
+      "ext_price": 49.95,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-07",
+      "notes": "Invoice annotation: 'customer says it will fit.' Deliberate cross-year adaptation, 67-74 part on a 65 car, consistent with the disc brake conversion noted in DOC-004."
+    },
+    {
+      "entry_id": "P-020",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Brake Calipers w/ Pads, Pair",
+      "vendor_sku": "615-107 67 74 RP PR",
+      "qty": 1,
+      "unit_price": 129.9,
+      "ext_price": 129.9,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-07",
+      "notes": "Invoice annotation: 'customer says it will fit.' Front disc brake calipers supporting the documented disc conversion."
+    },
+    {
+      "entry_id": "P-021",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Shifter Boot",
+      "vendor_sku": "711-115 ALL RP",
+      "qty": 1,
+      "unit_price": 3.99,
+      "ext_price": 3.99,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-09",
+      "notes": null
+    },
+    {
+      "entry_id": "P-022",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Pedal Pad, Brake or Clutch",
+      "vendor_sku": "721-173 ALL RP",
+      "qty": 2,
+      "unit_price": 1.59,
+      "ext_price": 3.18,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-09",
+      "notes": null
+    },
+    {
+      "entry_id": "P-023",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Pedal Pad, Accelerator",
+      "vendor_sku": "721-647 ALL RP",
+      "qty": 1,
+      "unit_price": 6.98,
+      "ext_price": 6.98,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-09",
+      "notes": null
+    },
+    {
+      "entry_id": "P-024",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Cable, Front with Black Knob",
+      "vendor_sku": "823-531 56 67 RPBK",
+      "qty": 1,
+      "unit_price": 17.85,
+      "ext_price": 17.85,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-08",
+      "notes": "Likely hood release cable with black knob, 56-67 fitment."
+    },
+    {
+      "entry_id": "P-025",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Cable Tube, Hood (Cut to Length)",
+      "vendor_sku": "827-545 67 74 RP",
+      "qty": 1,
+      "unit_price": 15.95,
+      "ext_price": 15.95,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-08",
+      "notes": "Invoice annotation: 'customer says it will fit.' 67-74 part adapted."
+    },
+    {
+      "entry_id": "P-026",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Door Hinge, Lower, Left",
+      "vendor_sku": "831-411 59.5-74 RP",
+      "qty": 1,
+      "unit_price": 39.95,
+      "ext_price": 39.95,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-08",
+      "notes": null
+    },
+    {
+      "entry_id": "P-027",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Seal, Fresh Air Inlet Grille, Pair",
+      "vendor_sku": "853-657 60 74 RP PR",
+      "qty": 1,
+      "unit_price": 3.75,
+      "ext_price": 0.0,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-08",
+      "notes": "Backordered at time of invoice ('b/o please'). Confirm later fulfillment exists in folder."
+    },
+    {
+      "entry_id": "P-028",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Gasket, Turn Signal Lens-to-Bulb Holder",
+      "vendor_sku": "953-151 64.5-69 RP PR",
+      "qty": 1,
+      "unit_price": 3.1,
+      "ext_price": 3.1,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-10",
+      "notes": null
+    },
+    {
+      "entry_id": "P-029",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Lens, Turn Signal, Clear",
+      "vendor_sku": "953-161 64.5-69 RPCL",
+      "qty": 2,
+      "unit_price": 7.5,
+      "ext_price": 15.0,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-10",
+      "notes": "Clear lenses, a deliberate style choice over amber."
+    },
+    {
+      "entry_id": "P-030",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Hose, 7mm Blue Hydraulic Hose, per meter",
+      "vendor_sku": "N203501 ALL N",
+      "qty": 2,
+      "unit_price": 18.6,
+      "ext_price": 37.2,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-07",
+      "notes": "Invoice annotation: 'one length 2 meters long please.'"
+    },
+    {
+      "entry_id": "P-031",
+      "doc_id": "DOC-002",
+      "vendor_id": "VEN-02",
+      "date": "2015-01-29",
+      "item_name": "Hose, 5mm Fuel, per meter",
+      "vendor_sku": "N203551 ALL N",
+      "qty": 1,
+      "unit_price": 7.95,
+      "ext_price": 7.95,
+      "fitment_listed": "1966 GHIACP",
+      "system_id": "SYS-03",
+      "notes": null
+    },
+    {
+      "entry_id": "S-001",
+      "doc_id": "DOC-003",
+      "vendor_id": "VEN-03",
+      "date": null,
+      "item_name": "Valve job, Type 4 heads",
+      "entry_type": "service",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-01",
+      "notes": null
+    },
+    {
+      "entry_id": "S-002",
+      "doc_id": "DOC-003",
+      "vendor_id": "VEN-03",
+      "date": null,
+      "item_name": "Open heads for 94mm cylinders",
+      "entry_type": "service",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-01",
+      "notes": "Machined head openings to accept 94mm big-bore cylinders."
+    },
+    {
+      "entry_id": "S-003",
+      "doc_id": "DOC-003",
+      "vendor_id": "VEN-03",
+      "date": null,
+      "item_name": "Spark plug inserts, 1 head standard + 1 second oversized",
+      "entry_type": "service",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-01",
+      "notes": "Thread repair. One head has a 2nd-oversize spark plug insert. Important for future plug service: confirm which head/cylinder before any plug work."
+    },
+    {
+      "entry_id": "S-004",
+      "doc_id": "DOC-003",
+      "vendor_id": "VEN-03",
+      "date": null,
+      "item_name": "CC heads and cut for compression, cut .050",
+      "entry_type": "service",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-01",
+      "notes": "Heads flycut .050 inch to achieve target compression ratio."
+    },
+    {
+      "entry_id": "S-005",
+      "doc_id": "DOC-003",
+      "vendor_id": "VEN-03",
+      "date": null,
+      "item_name": "Type 4 rocker spacer kit",
+      "entry_type": "part",
+      "qty": 1,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-01",
+      "notes": "Restores rocker geometry after the .050 head cut."
+    },
+    {
+      "entry_id": "S-006",
+      "doc_id": "DOC-003",
+      "vendor_id": "VEN-03",
+      "date": null,
+      "item_name": "Compression calculation (builder's worksheet)",
+      "entry_type": "specification",
+      "qty": null,
+      "unit_price": null,
+      "ext_price": null,
+      "system_id": "SYS-01",
+      "notes": "As written: .028 deckheight; piston cc's .015; head cc's .046; 94 x 71 with .028 deck and 61 cc's = 8.6 to one. The .015 and .046 figures are the builder's worksheet values; the governing summary line is 94mm bore x 71mm stroke, .028 deck, 61cc effective chamber volume, 8.6:1 static compression."
+    },
+    {
+      "entry_id": "P-032",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Deluxe Velour/Tweed Interior Kit, Ghia",
+      "vendor_sku": "122",
+      "qty": 1,
+      "unit_price": 849.95,
+      "discount_pct": 10,
+      "ext_price": 764.96,
+      "system_id": "SYS-09",
+      "notes": "Master interior kit. Several subsequent 0.00 lines are components bundled under this kit price."
+    },
+    {
+      "entry_id": "P-033",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Door Panel Clip Seal Set (56 pcs)",
+      "vendor_sku": "113857219A 54",
+      "qty": 1,
+      "unit_price": 0.0,
+      "ext_price": 0.0,
+      "system_id": "SYS-09",
+      "notes": "Bundled with interior kit."
+    },
+    {
+      "entry_id": "P-034",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Door Panel, Ghia, 12 inch Insert F/S, 56-61 style",
+      "vendor_sku": "14-1522-CUST",
+      "qty": 1,
+      "unit_price": 110.0,
+      "discount_pct": 10,
+      "ext_price": 0.0,
+      "system_id": "SYS-09",
+      "notes": "Backordered at invoice date (B/O 1). Custom door panels in 56-61 style with 12 inch inserts."
+    },
+    {
+      "entry_id": "P-035",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Headliner, Ghia Coupe 1956-74, Velour, #56 Grey Velour",
+      "vendor_sku": "20-1510-V 56",
+      "qty": 1,
+      "unit_price": 80.0,
+      "discount_pct": 10,
+      "ext_price": 0.0,
+      "system_id": "SYS-09",
+      "notes": "Backordered at invoice date. Color spec: #56 Grey Velour. Key matching detail for any future headliner repair."
+    },
+    {
+      "entry_id": "P-036",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Emergency Brake Boot, T1 65-79, Brazilian",
+      "vendor_sku": "311711461BR",
+      "qty": 1,
+      "unit_price": 8.95,
+      "discount_pct": 10,
+      "ext_price": 8.06,
+      "system_id": "SYS-09",
+      "notes": null
+    },
+    {
+      "entry_id": "P-037",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Carpet, Ghia 58-68, Charcoal, Flat, 19 pc",
+      "vendor_sku": "34-F1523-607",
+      "qty": 1,
+      "unit_price": 0.0,
+      "ext_price": 0.0,
+      "system_id": "SYS-09",
+      "notes": "Bundled with interior kit. Color spec: Charcoal (CHAR), flat weave, 19-piece set."
+    },
+    {
+      "entry_id": "P-038",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Seat Pads Front, Ghia 61-67, Top & Bottom",
+      "vendor_sku": "43-1515",
+      "qty": 2,
+      "unit_price": 0.0,
+      "ext_price": 0.0,
+      "system_id": "SYS-09",
+      "notes": "Bundled under SEATPADKIT-GH pricing."
+    },
+    {
+      "entry_id": "P-039",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Seat Pad Rear, Ghia 56-74, Back & Bottom",
+      "vendor_sku": "43-1518",
+      "qty": 1,
+      "unit_price": 0.0,
+      "ext_price": 0.0,
+      "system_id": "SYS-09",
+      "notes": "Bundled under SEATPADKIT-GH pricing."
+    },
+    {
+      "entry_id": "P-040",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Seat Upholstery, 66-67 Ghia Sedan, 12 inch Insert, 56-61 style",
+      "vendor_sku": "44-1523-****",
+      "qty": 1,
+      "unit_price": 30.0,
+      "discount_pct": 10,
+      "ext_price": 0.0,
+      "system_id": "SYS-09",
+      "notes": "Backordered at invoice date. Fulfilled 2016-03-26 on order 944952C (see P-044)."
+    },
+    {
+      "entry_id": "P-041",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Door Panel Install Kit (clips and seals, 56 pieces each)",
+      "vendor_sku": "DP-INSTALLKIT",
+      "qty": 1,
+      "unit_price": 18.0,
+      "discount_pct": 10,
+      "ext_price": 16.2,
+      "system_id": "SYS-09",
+      "notes": null
+    },
+    {
+      "entry_id": "P-042",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Interior Restoration DVD + Hogring Kit + Door Panel Clip Set (N 143 893/54) + Quart Can for Headliner Glue",
+      "vendor_sku": "DVD-INTERIOR / HOGRING KIT / N 143 893/54 / QUART CAN",
+      "qty": 1,
+      "unit_price": 0.0,
+      "ext_price": 0.0,
+      "system_id": "SYS-09",
+      "notes": "Consolidated entry: four no-charge accessory/install items shipped with the interior kit. DVD price refundable with kit purchase."
+    },
+    {
+      "entry_id": "P-043",
+      "doc_id": "DOC-005",
+      "vendor_id": "VEN-04",
+      "date": "2016-02-23",
+      "item_name": "Seat Pad Kit, Ghia, Front & Rear",
+      "vendor_sku": "SEATPADKIT-GH",
+      "qty": 1,
+      "unit_price": 219.95,
+      "discount_pct": 10,
+      "ext_price": 197.96,
+      "system_id": "SYS-09",
+      "notes": "Kit note: 'Add as needed: 2x 43-1514/15/16/17 & 1x 43-1518/1619.'"
+    },
+    {
+      "entry_id": "P-044",
+      "doc_id": "DOC-006",
+      "vendor_id": "VEN-04",
+      "date": "2016-03-26",
+      "item_name": "Seat Upholstery, 66-67 Ghia Sedan, 12 inch Insert, 56-61 style (backorder fulfillment)",
+      "vendor_sku": "44-1523-****",
+      "qty": 1,
+      "unit_price": 30.0,
+      "discount_pct": 10,
+      "ext_price": 27.0,
+      "system_id": "SYS-09",
+      "notes": "Fulfills backorder from P-040 / DOC-005."
+    },
+    {
+      "entry_id": "P-045",
+      "doc_id": "DOC-007",
+      "vendor_id": "VEN-05",
+      "date": "2015-03-07",
+      "item_name": "K&N Recharger Filter Care Service Kit",
+      "vendor_sku": "KAN 99-5000 KT",
+      "qty": 1,
+      "unit_price": 11.99,
+      "ext_price": 11.99,
+      "list_price": 20.32,
+      "system_id": "SYS-12",
+      "notes": "K&N filter cleaner and oil kit. Strongly implies the dual 44 Webers run K&N (or similar oiled-gauze) air filters. Verify against engine photos."
+    },
+    {
+      "entry_id": "P-046",
+      "doc_id": "DOC-008",
+      "vendor_id": "VEN-05",
+      "date": "2015-03-07",
+      "item_name": "Ignition Wire Set",
+      "vendor_sku": "IDW 4J276",
+      "qty": 1,
+      "unit_price": 37.99,
+      "ext_price": 37.99,
+      "system_id": "SYS-10",
+      "notes": "Import Direct ignition wire set, limited lifetime warranty. List 64.39.",
+      "list_price": 64.39
+    },
+    {
+      "entry_id": "P-047",
+      "doc_id": "DOC-009",
+      "vendor_id": "VEN-05",
+      "date": "2016-09-14",
+      "item_name": "Roll Pin",
+      "vendor_sku": "MTM 13850",
+      "qty": 1,
+      "unit_price": 4.29,
+      "ext_price": 4.29,
+      "system_id": "SYS-12",
+      "notes": "Dorman/Motormite roll pin. Latest dated purchase in archive.",
+      "list_price": 7.27
+    },
+    {
+      "entry_id": "P-048",
+      "doc_id": "DOC-010",
+      "vendor_id": "VEN-05",
+      "date": "2016-03-01",
+      "item_name": "Threadlocker, 10ml",
+      "vendor_sku": "PER 27200",
+      "qty": 1,
+      "unit_price": 12.99,
+      "ext_price": 12.99,
+      "system_id": "SYS-12",
+      "notes": "Permatex 27200 high-strength threadlocker.",
+      "list_price": 22.02
+    },
+    {
+      "entry_id": "P-049",
+      "doc_id": "DOC-010",
+      "vendor_id": "VEN-05",
+      "date": "2016-03-01",
+      "item_name": "Thread Repair Inserts",
+      "vendor_sku": "HEL 5326-14",
+      "qty": 1,
+      "unit_price": 2.99,
+      "ext_price": 2.99,
+      "system_id": "SYS-01",
+      "notes": "Heli-Coil inserts, 14mm thread family per part number. Plausibly related to ongoing spark plug thread management (see S-003: one head carries a 2nd-oversize plug insert). Unconfirmed; flag for inspection.",
+      "list_price": 5.07
+    },
+    {
+      "entry_id": "P-050",
+      "doc_id": "DOC-011",
+      "vendor_id": "VEN-05",
+      "date": "2015-01-25",
+      "item_name": "Disconnect Terminal Pack",
+      "vendor_sku": "CTI 84171",
+      "qty": 1,
+      "unit_price": 5.29,
+      "ext_price": 5.29,
+      "system_id": "SYS-10",
+      "notes": "Calterm electrical disconnect pack.",
+      "list_price": 8.97
+    },
+    {
+      "entry_id": "P-051",
+      "doc_id": "DOC-011",
+      "vendor_id": "VEN-05",
+      "date": "2015-01-25",
+      "item_name": "Mini Bulb 1156, Long Life",
+      "vendor_sku": "SYL 1156LLBP",
+      "qty": 1,
+      "unit_price": 4.99,
+      "ext_price": 4.99,
+      "system_id": "SYS-10",
+      "notes": "Sylvania long-life 1156 (single-filament signal/reverse bulb).",
+      "list_price": 8.46
+    },
+    {
+      "entry_id": "P-052",
+      "doc_id": "DOC-011",
+      "vendor_id": "VEN-05",
+      "date": "2015-01-25",
+      "item_name": "Mini Bulb 1155, Long Life",
+      "vendor_sku": "SYL 1155LLBP",
+      "qty": 1,
+      "unit_price": 5.99,
+      "ext_price": 5.99,
+      "system_id": "SYS-10",
+      "notes": "Sylvania long-life 1155 (license/parking bulb family).",
+      "list_price": 10.15
+    },
+    {
+      "entry_id": "P-053",
+      "doc_id": "DOC-011",
+      "vendor_id": "VEN-05",
+      "date": "2015-01-25",
+      "item_name": "Mini Bulb 1156, Long Life (second pack)",
+      "vendor_sku": "SYL 1156LLBP",
+      "qty": 1,
+      "unit_price": 4.99,
+      "ext_price": 4.99,
+      "system_id": "SYS-10",
+      "notes": "Second 1156 pack on same receipt; rung separately rather than qty 2.",
+      "list_price": 8.46
+    },
+    {
+      "entry_id": "P-054",
+      "doc_id": "DOC-011",
+      "vendor_id": "VEN-05",
+      "date": "2015-01-25",
+      "item_name": "Dielectric/Service Grease, 4g",
+      "vendor_sku": "VER 15320",
+      "qty": 1,
+      "unit_price": 1.39,
+      "ext_price": 1.39,
+      "system_id": "SYS-12",
+      "notes": "Versachem 4g grease packet.",
+      "list_price": 2.36
+    },
+    {
+      "entry_id": "P-055",
+      "doc_id": "DOC-012",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-11",
+      "item_name": "Battery Cable",
+      "vendor_sku": "SS SK943CR",
+      "qty": 1,
+      "unit_price": 7.49,
+      "ext_price": 7.49,
+      "system_id": "SYS-10",
+      "notes": null,
+      "list_price": 12.69
+    },
+    {
+      "entry_id": "P-056",
+      "doc_id": "DOC-012",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-11",
+      "item_name": "Battery Cable",
+      "vendor_sku": "SS SK942AC",
+      "qty": 1,
+      "unit_price": 7.49,
+      "ext_price": 7.49,
+      "system_id": "SYS-10",
+      "notes": null,
+      "list_price": 12.69
+    },
+    {
+      "entry_id": "P-057",
+      "doc_id": "DOC-012",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-11",
+      "item_name": "Copper Lug Pack",
+      "vendor_sku": "CTI 85635",
+      "qty": 1,
+      "unit_price": 4.99,
+      "ext_price": 4.99,
+      "system_id": "SYS-10",
+      "notes": null,
+      "list_price": 8.46
+    },
+    {
+      "entry_id": "P-058",
+      "doc_id": "DOC-013",
+      "vendor_id": "VEN-05",
+      "date": "2015-03-18",
+      "item_name": "Rubber Plugs",
+      "vendor_sku": "MTM 02607",
+      "qty": 2,
+      "unit_price": 3.99,
+      "ext_price": 7.98,
+      "system_id": "SYS-12",
+      "notes": "Dorman/Motormite rubber plugs (body/firewall hole plugs).",
+      "list_price": 6.76
+    },
+    {
+      "entry_id": "P-059",
+      "doc_id": "DOC-014",
+      "vendor_id": "VEN-05",
+      "date": "2015-03-17",
+      "item_name": "Gear Lube",
+      "vendor_sku": "WP 80038",
+      "qty": 1,
+      "unit_price": 5.99,
+      "ext_price": 5.99,
+      "system_id": "SYS-05",
+      "notes": "Transaxle gear oil purchase, consistent with transmission install/fill period.",
+      "list_price": 10.15
+    },
+    {
+      "entry_id": "P-060",
+      "doc_id": "DOC-015",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-05",
+      "item_name": "Primary Wire, Roll",
+      "vendor_sku": "CTI 85714",
+      "qty": 1,
+      "unit_price": 6.99,
+      "ext_price": 6.99,
+      "system_id": "SYS-10",
+      "notes": null,
+      "list_price": 11.85
+    },
+    {
+      "entry_id": "P-061",
+      "doc_id": "DOC-015",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-05",
+      "item_name": "Primary Wire, Roll",
+      "vendor_sku": "CTI 85708",
+      "qty": 1,
+      "unit_price": 6.99,
+      "ext_price": 6.99,
+      "system_id": "SYS-10",
+      "notes": null,
+      "list_price": 11.85
+    },
+    {
+      "entry_id": "P-062",
+      "doc_id": "DOC-015",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-05",
+      "item_name": "Electrical Tape",
+      "vendor_sku": "MMM 6138",
+      "qty": 1,
+      "unit_price": 3.89,
+      "ext_price": 3.89,
+      "system_id": "SYS-10",
+      "notes": "3M electrical tape.",
+      "list_price": 6.59
+    },
+    {
+      "entry_id": "P-063",
+      "doc_id": "DOC-017",
+      "vendor_id": "VEN-05",
+      "date": "2015-04-09",
+      "item_name": "Sealed Beam Headlamp H6024XV",
+      "vendor_sku": "SYL H6024XV",
+      "qty": 2,
+      "unit_price": 16.99,
+      "ext_price": 33.98,
+      "system_id": "SYS-10",
+      "notes": "Sylvania XtraVision 7-inch round sealed beams. Counter lookup used a 1967 Beetle; H6024 is the correct Ghia headlamp regardless.",
+      "list_price": 28.8
+    },
+    {
+      "entry_id": "P-064",
+      "doc_id": "DOC-018",
+      "vendor_id": "VEN-05",
+      "date": "2015-09-30",
+      "item_name": "LED Lights",
+      "vendor_sku": "CA 2371",
+      "qty": 1,
+      "unit_price": 21.99,
+      "ext_price": 21.99,
+      "system_id": "SYS-10",
+      "notes": "LED light unit, application not specified on receipt (possibly auxiliary/interior). Verify against car.",
+      "list_price": 37.27
+    },
+    {
+      "entry_id": "P-065",
+      "doc_id": "DOC-018",
+      "vendor_id": "VEN-05",
+      "date": "2015-09-30",
+      "item_name": "Copper Spray Sealant, 3oz",
+      "vendor_sku": "PER 81878",
+      "qty": 1,
+      "unit_price": 7.49,
+      "ext_price": 7.49,
+      "system_id": "SYS-01",
+      "notes": "Permatex Copper Spray-A-Gasket. Classic aircooled use: cylinder/head sealing surfaces. Timing (Sep 2015) may correlate with engine assembly.",
+      "list_price": 12.69
+    },
+    {
+      "entry_id": "P-066",
+      "doc_id": "DOC-019",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-05",
+      "item_name": "Disconnect Terminal Pack",
+      "vendor_sku": "CTI 85488",
+      "qty": 1,
+      "unit_price": 8.99,
+      "ext_price": 8.99,
+      "system_id": "SYS-10",
+      "notes": null,
+      "list_price": 15.24
+    },
+    {
+      "entry_id": "P-067",
+      "doc_id": "DOC-019",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-05",
+      "item_name": "Disconnect Pack",
+      "vendor_sku": "CTI 85496",
+      "qty": 1,
+      "unit_price": 8.99,
+      "ext_price": 8.99,
+      "system_id": "SYS-10",
+      "notes": null,
+      "list_price": 15.24
+    },
+    {
+      "entry_id": "P-068",
+      "doc_id": "DOC-020",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-18",
+      "item_name": "'45 STREET' (identity unconfirmed)",
+      "vendor_sku": "EDE 224600",
+      "qty": 2,
+      "unit_price": 5.99,
+      "ext_price": 11.98,
+      "system_id": "SYS-03",
+      "notes": "UNCONFIRMED: purchased alongside fuel filters; plausibly carburetor jets (size 45) or similar small fuel/carb components. Verify part number 224600 against physical parts or O'Reilly records (GAP-15).",
+      "list_price": 10.15
+    },
+    {
+      "entry_id": "P-069",
+      "doc_id": "DOC-020",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-18",
+      "item_name": "'45 STREET' (identity unconfirmed, second line)",
+      "vendor_sku": "EDE 224600",
+      "qty": 2,
+      "unit_price": 5.99,
+      "ext_price": 11.98,
+      "system_id": "SYS-03",
+      "notes": "Second identical line on same receipt (4 units total across both lines).",
+      "list_price": 10.15
+    },
+    {
+      "entry_id": "P-070",
+      "doc_id": "DOC-020",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-18",
+      "item_name": "Fuel Filter, Inline",
+      "vendor_sku": "WIX 33001",
+      "qty": 1,
+      "unit_price": 3.99,
+      "ext_price": 3.99,
+      "system_id": "SYS-03",
+      "notes": "WIX small inline fuel filter. Two different inline filters purchased together, consistent with dual-carb fuel plumbing.",
+      "list_price": 6.76
+    },
+    {
+      "entry_id": "P-071",
+      "doc_id": "DOC-020",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-18",
+      "item_name": "Fuel Filter, Inline",
+      "vendor_sku": "WIX 33002",
+      "qty": 1,
+      "unit_price": 3.99,
+      "ext_price": 3.99,
+      "system_id": "SYS-03",
+      "notes": null,
+      "list_price": 6.76
+    },
+    {
+      "entry_id": "P-072",
+      "doc_id": "DOC-020",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-18",
+      "item_name": "Brake Fluid, 12oz",
+      "vendor_sku": "ORC 72126",
+      "qty": 1,
+      "unit_price": 3.29,
+      "ext_price": 3.29,
+      "system_id": "SYS-07",
+      "notes": "Brake fluid for the new disc brake system fill/bleed.",
+      "list_price": 5.58
+    },
+    {
+      "entry_id": "P-073",
+      "doc_id": "DOC-020",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-18",
+      "item_name": "V-Belt, Gates 7370",
+      "vendor_sku": "GAT 7370",
+      "qty": 1,
+      "unit_price": 19.99,
+      "ext_price": 19.99,
+      "system_id": "SYS-02",
+      "notes": "Returned 2015-02-21 and exchanged for Gates 7365 (see P-074/P-075). Belt length trial during fan/alternator setup.",
+      "list_price": 33.88
+    },
+    {
+      "entry_id": "P-074",
+      "doc_id": "DOC-021",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-21",
+      "item_name": "V-Belt, Gates 7370 (RETURN)",
+      "vendor_sku": "GAT 7370",
+      "qty": -1,
+      "unit_price": 19.99,
+      "ext_price": -19.99,
+      "system_id": "SYS-02",
+      "notes": "Return with authorization referencing original 2015-02-18 sale.",
+      "entry_type": "return"
+    },
+    {
+      "entry_id": "P-075",
+      "doc_id": "DOC-021",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-21",
+      "item_name": "V-Belt, Gates 7365",
+      "vendor_sku": "GAT 7365",
+      "qty": 1,
+      "unit_price": 19.99,
+      "ext_price": 19.99,
+      "system_id": "SYS-02",
+      "notes": "Replacement belt, one size different from 7370. Final belt fitment from this exchange: Gates 7365. Note the Raby DTM kit also includes its own DTM fan belt (P-007); reconcile which belt serves which drive on the car.",
+      "list_price": 33.88
+    },
+    {
+      "entry_id": "P-076",
+      "doc_id": "DOC-022",
+      "vendor_id": "VEN-05",
+      "date": "2015-02-21",
+      "item_name": "Fuel Hose, per foot",
+      "vendor_sku": "GAT 27006",
+      "qty": 6,
+      "unit_price": 1.79,
+      "ext_price": 10.74,
+      "system_id": "SYS-03",
+      "notes": "Gates fuel hose, 6 feet.",
+      "list_price": 3.03,
+      "unit_measure": "FT"
+    },
+    {
+      "entry_id": "P-077",
+      "doc_id": "DOC-023",
+      "vendor_id": "VEN-07",
+      "date": "2015-01-22",
+      "item_name": "Nason Select Clearcoat Activator",
+      "vendor_sku": "NAS 483-79-4",
+      "qty": 1,
+      "unit_price": 39.49,
+      "ext_price": 39.49,
+      "system_id": "SYS-08",
+      "notes": "DuPont Nason SelectClear activator (483-79), paint department cash sale. First documented paint material: indicates a DuPont Nason clearcoat system on the body. Hunt for matching basecoat/color receipts in folder (GAP-13).",
+      "list_price": 59.235
+    },
+    {
+      "entry_id": "P-078",
+      "doc_id": "DOC-024",
+      "vendor_id": "VEN-08",
+      "date": "2016-02-29",
+      "item_name": "Type 1 Carburetor Kit",
+      "vendor_sku": "KT 100",
+      "qty": 1,
+      "unit_price": 24.95,
+      "ext_price": 24.95,
+      "system_id": "SYS-03",
+      "notes": "ATTRIBUTION UNCERTAIN: Type 1 (stock Solex) carb rebuild kit conflicts with the documented dual Weber 44 setup. See DOC-024 note and GAP-16.",
+      "list_price": 34.51,
+      "attribution": "uncertain"
+    }
+  ],
+  "build_spec_cards": {
+    "engine": {
+      "card_id": "SPEC-ENGINE",
+      "platform": "VW Type 4 conversion (upright, in Type 1 chassis)",
+      "displacement_cc": 1971,
+      "displacement_note": "94mm bore x 71mm stroke = 1,971cc, referred to as '2000cc' in build notes",
+      "bore_mm": 94,
+      "stroke_mm": 71,
+      "compression_ratio": "8.6:1 static",
+      "deck_height_in": 0.028,
+      "chamber_volume_cc": 61,
+      "head_work": "Valve job, opened for 94mm, flycut .050, spark plug inserts (one head has 2nd-oversize insert), Type 4 rocker spacer kit",
+      "camshaft": "Engle (grind number unknown, data gap)",
+      "carburetion": "Dual 44mm Webers (exact model unknown, presumed IDF, data gap)",
+      "air_filtration": "K&N oiled gauze implied by recharge kit purchase (verify)",
+      "fuel_pump": "Mechanical pump blocked off (blockoff plate in Raby kit); electric pump presumed (verify)",
+      "oil_filtration": "Type 4 stock spin-on filter",
+      "charging": "Alternator on Raby billet stand with integrated oil filler",
+      "sources": [
+        "DOC-001",
+        "DOC-003",
+        "DOC-004",
+        "DOC-007"
+      ]
+    },
+    "cooling": {
+      "card_id": "SPEC-COOLING",
+      "system": "Jake Raby DTM (Down The Middle) Stage III",
+      "description": "Upright fiberglass shroud system routing cooling air evenly to all four cylinders, allowing Type 4 installation in a Type 1 vehicle without cutting the engine bay",
+      "components": "Stage III shroud, oil cooler adaptor kit, 6 pc waterjet surround tin, air sealing kit, billet conversion pulley, DTM fan belt, right air hose, alt/gen stand mount bar",
+      "sources": [
+        "DOC-001",
+        "DOC-004"
+      ]
+    },
+    "exhaust": {
+      "card_id": "SPEC-EXHAUST",
+      "system": "Ceramic coated exhaust (manufacturer unknown, data gap)",
+      "sources": [
+        "DOC-004"
+      ]
+    },
+    "transmission": {
+      "card_id": "SPEC-TRANSMISSION",
+      "builder": "Steve Hansen",
+      "type": "Freeway Flyer (taller cruising gear ratios)",
+      "ratios": "Unknown, data gap",
+      "sources": [
+        "DOC-004"
+      ]
+    },
+    "front_suspension_steering": {
+      "card_id": "SPEC-FRONTEND",
+      "spindles": "2.5 inch drop spindles",
+      "beam": "Front beam with adjusters",
+      "shocks": "KYB",
+      "sources": [
+        "DOC-004"
+      ]
+    },
+    "brakes": {
+      "card_id": "SPEC-BRAKES",
+      "front": "Disc brake conversion. Calipers w/pads (KGPR 615-107, 67-74 fitment adapted), TRW master cylinder (KGPR 611-015, 67-74 fitment adapted)",
+      "lines": "7mm blue hydraulic hose, 2m length",
+      "sources": [
+        "DOC-002",
+        "DOC-004"
+      ]
+    },
+    "interior": {
+      "card_id": "SPEC-INTERIOR",
+      "kit": "JBugs Deluxe Velour/Tweed Interior Kit (SKU 122)",
+      "headliner": "Grey Velour #56 (JBugs 20-1510-V 56)",
+      "carpet": "Charcoal flat weave, 19 pc (JBugs 34-F1523-607)",
+      "door_panels": "Custom 56-61 style with 12 inch inserts (14-1522-CUST)",
+      "seats": "Front pads 43-1515 x2, rear pad 43-1518, upholstery 44-1523 (66-67 sedan, 12 inch insert, 56-61 style)",
+      "sources": [
+        "DOC-005",
+        "DOC-006"
+      ]
+    }
+  },
+  "restoration_timeline": [
+    {
+      "date": "2015-01-22",
+      "event": "Paint phase evidence: Nason clearcoat activator purchased at Boulder Auto Parts paint dept. Body/paint work active by late Jan 2015",
+      "doc_id": "DOC-023"
+    },
+    {
+      "date": "2015-01-25",
+      "event": "Lighting bulbs, electrical disconnects, grease (O'Reilly)",
+      "doc_id": "DOC-011"
+    },
+    {
+      "date": "2015-01-28",
+      "event": "KGPR order placed: fuel system, brake conversion parts, body and electrical items",
+      "doc_id": "DOC-002"
+    },
+    {
+      "date": "2015-01-29",
+      "event": "KGPR invoice #441346 issued and shipped to Henderson NV",
+      "doc_id": "DOC-002"
+    },
+    {
+      "date": "2015-02-05",
+      "event": "Two O'Reilly trips same day: primary wire and tape (morning), disconnect terminals (evening). Rewiring phase underway",
+      "doc_id": "DOC-015, DOC-019"
+    },
+    {
+      "date": "2015-02-11",
+      "event": "Battery cables and copper lug",
+      "doc_id": "DOC-012"
+    },
+    {
+      "date": "2015-02-18",
+      "event": "Fuel system and belt run: inline fuel filters, possible carb jets, brake fluid, Gates 7370 V-belt",
+      "doc_id": "DOC-020"
+    },
+    {
+      "date": "2015-02-21",
+      "event": "V-belt exchanged 7370 to 7365 (final fitment); 6 ft fuel hose purchased minutes later",
+      "doc_id": "DOC-021, DOC-022"
+    },
+    {
+      "date": "2015-03-07",
+      "event": "K&N filter recharge kit purchased at O'Reilly, Henderson NV. Suggests engine running or being serviced with oiled-gauze filters by this date",
+      "doc_id": "DOC-007"
+    },
+    {
+      "date": "2015-03-07",
+      "event": "Ignition wire set (13:20), then K&N recharge kit (13:22), same visit",
+      "doc_id": "DOC-008, DOC-007"
+    },
+    {
+      "date": "2015-03-17",
+      "event": "Transaxle gear lube purchased",
+      "doc_id": "DOC-014"
+    },
+    {
+      "date": "2015-03-18",
+      "event": "Rubber plugs",
+      "doc_id": "DOC-013"
+    },
+    {
+      "date": "2015-03-28",
+      "event": "O'Reilly purchase ~$48 net, line items illegible in photo (re-shoot)",
+      "doc_id": "DOC-016"
+    },
+    {
+      "date": "2015-04-09",
+      "event": "Sylvania H6024XV sealed beam headlamps, pair",
+      "doc_id": "DOC-017"
+    },
+    {
+      "date": "2015-09-30",
+      "event": "LED lights and Permatex copper spray sealant (possible engine assembly window)",
+      "doc_id": "DOC-018"
+    },
+    {
+      "date": "2016-02-23",
+      "event": "JBugs interior kit order #944952A: deluxe velour/tweed kit, grey velour headliner, charcoal carpet, seat pads",
+      "doc_id": "DOC-005"
+    },
+    {
+      "date": "2016-02-29",
+      "event": "Type 1 carburetor kit purchased at Meyers Auto Parts (attribution uncertain)",
+      "doc_id": "DOC-024"
+    },
+    {
+      "date": "2016-03-01",
+      "event": "Threadlocker and 14mm thread-family Heli-Coil inserts",
+      "doc_id": "DOC-010"
+    },
+    {
+      "date": "2016-03-26",
+      "event": "JBugs backorder #944952C ships: seat upholstery",
+      "doc_id": "DOC-006"
+    },
+    {
+      "date": "2016-09-14",
+      "event": "Roll pin purchase. New latest-dated document; restoration activity documented into Sep 2016",
+      "doc_id": "DOC-009"
+    },
+    {
+      "date": null,
+      "event": "Type 4 head machine work: valve job, 94mm openings, .050 cut, 8.6:1 compression calculated (date unknown, Las Vegas area shop)",
+      "doc_id": "DOC-003"
+    },
+    {
+      "date": null,
+      "event": "Raby DTM Stage III kit ordered, shipped to Hurricane UT (date unknown; UT address suggests this may follow the Henderson-era purchases, or reflects a move during the build)",
+      "doc_id": "DOC-001"
+    }
+  ],
+  "data_gaps": [
+    {
+      "gap_id": "GAP-01",
+      "priority": "high",
+      "item": "VIN / chassis number, paint code, M-codes for the Vehicle Master Record"
+    },
+    {
+      "gap_id": "GAP-02",
+      "priority": "high",
+      "item": "Raby packing list date (cropped). Re-photograph top of DOC-001."
+    },
+    {
+      "gap_id": "GAP-03",
+      "priority": "high",
+      "item": "Machine shop name and full contact (cropped letterhead on DOC-003). Re-photograph."
+    },
+    {
+      "gap_id": "GAP-04",
+      "priority": "high",
+      "item": "Engle cam grind number (e.g., W-100, W-110). May appear on an engine parts receipt elsewhere in the folder, or on the cam card if retained."
+    },
+    {
+      "gap_id": "GAP-05",
+      "priority": "medium",
+      "item": "Exact Weber carb model (44 IDF presumed) and jetting if documented"
+    },
+    {
+      "gap_id": "GAP-06",
+      "priority": "medium",
+      "item": "Steve Hansen transmission invoice, gear ratios, ring and pinion spec"
+    },
+    {
+      "gap_id": "GAP-07",
+      "priority": "medium",
+      "item": "Exhaust system manufacturer and ceramic coating vendor"
+    },
+    {
+      "gap_id": "GAP-08",
+      "priority": "medium",
+      "item": "Which cylinder head carries the 2nd-oversize spark plug insert (matters for future plug service)"
+    },
+    {
+      "gap_id": "GAP-09",
+      "priority": "medium",
+      "item": "Engine long block source: were case, crank, rods, pistons purchased as a Raby kit or assembled from other vendors? Folder should clarify."
+    },
+    {
+      "gap_id": "GAP-10",
+      "priority": "low",
+      "item": "KGPR invoice page 2+ if it exists (page 1 of #441346 shown)"
+    },
+    {
+      "gap_id": "GAP-11",
+      "priority": "low",
+      "item": "Fresh air inlet grille seal backorder fulfillment (P-027)"
+    },
+    {
+      "gap_id": "GAP-12",
+      "priority": "low",
+      "item": "Body and paint receipts, electrical/wiring harness receipts, wheels and tires. None in seed set; presumed in full folder."
+    },
+    {
+      "gap_id": "GAP-13",
+      "priority": "high",
+      "item": "Paint system: Nason clearcoat activator confirmed (DOC-023). Locate basecoat/color and primer receipts to recover the exact paint color formula and product line. Boulder Auto Parts paint dept may retain the mix formula under customer B4925."
+    },
+    {
+      "gap_id": "GAP-14",
+      "priority": "high",
+      "item": "DOC-016 (O'Reilly 2655-492277, 2015-03-28, ~$48.47 net): line items cut off in photo. Re-photograph flat and complete."
+    },
+    {
+      "gap_id": "GAP-15",
+      "priority": "medium",
+      "item": "Identify 'EDE 224600 45 STREET' (4 units, DOC-020). Possibly carburetor jets. Verify against physical parts or O'Reilly part lookup."
+    },
+    {
+      "gap_id": "GAP-16",
+      "priority": "medium",
+      "item": "Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded."
+    }
+  ]
+}
