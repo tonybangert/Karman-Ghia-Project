@@ -37,7 +37,7 @@ export function Nav({ onAbout }: { onAbout: () => void }) {
     <header className={cx('sticky top-0 z-40 border-b transition-colors', solid ? 'border-line bg-surface/85 backdrop-blur-md' : 'border-transparent bg-transparent')}>
       <nav className="mx-auto flex max-w-content items-center gap-4 px-4 py-3 sm:px-6">
         <a href="#overview" onClick={() => setOpen(false)} className="group flex items-center gap-2 font-display text-sm font-extrabold tracking-tight">
-          <span className="grid h-6 w-6 place-items-center rounded bg-brand-primary text-[11px] font-black text-surface">$</span>
+          <img src={`${import.meta.env.BASE_URL}vw-logo.png`} alt="" width={24} height={24} className="h-6 w-6 rounded-full object-cover ring-1 ring-line" />
           <span className="hidden sm:inline">The $500 Ghia</span>
         </a>
 
