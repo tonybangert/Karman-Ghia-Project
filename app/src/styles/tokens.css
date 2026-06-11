@@ -1,0 +1,22 @@
+/*
+  Design tokens. Every themeable color is an RGB triplet (space-separated) so
+  Tailwind can apply alpha via rgb(var(--token) / <alpha-value>).
+  PLACEHOLDER PALETTE: garage-archive (deep charcoal, warm paper, single amber
+  accent). Replace the values below when final brand hex values arrive; nothing
+  else in the app hardcodes color.
+*/
+:root {
+  --brand-primary: 216 142 71;    /* warm amber, the one saturated accent */
+  --brand-secondary: 124 158 178; /* muted steel blue, nods to the paint */
+  --brand-accent: 233 165 92;     /* brighter amber for hover/active */
+
+  --surface: 20 21 26;            /* page background, deep charcoal */
+  --surface-elevated: 28 30 38;   /* cards, panels */
+  --surface-sunken: 13 14 18;     /* wells, table stripes */
+  --paper: 244 239 227;           /* warm off-white receipt stock */
+
+  --text-primary: 236 231 218;
+  --text-muted: 158 153 142;
+  --text-faint: 108 104 95;
+  --border: 44 46 56;
+}
