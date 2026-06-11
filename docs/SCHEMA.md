@@ -14,8 +14,10 @@ Identity and provenance of the car itself.
 |---|---|
 | year, make, model, body_style | 1965 Volkswagen Karmann Ghia coupe (Type 14) |
 | vin, chassis_number, m_codes | Open (GAP-01) until the plates are photographed |
-| ownership_chain | Array; entry 0 is the restorer James O. Mahan with documented period and address chronology |
+| ownership_chain | Array; entry 0 is the restorer James O. Mahan with documented period and address chronology; entry 1 is the current owner (Wisconsin registration recorded from DOC-062) |
 | acquisition_by_restorer | Purchase price ($500) and source document |
+| pre_restoration_condition / as_acquired_photo_record | Added v11: condition summary from the pre-restoration prints (DOC-063) |
+| odometer_observed / as_completed_photo_record | Added v10: odometer reading and pointer to the finished-car photo set (DOC-062) |
 
 ## Layer 2: systems_taxonomy
 
@@ -63,7 +65,8 @@ Conventions: small-hardware lines may be consolidated into one entry with all SK
 
 | Field | Notes |
 |---|---|
-| doc_id, type, vendor_id, title, date | Type examples: invoice (counter), mail order invoice, packing list, credit memo, handwritten cost ledger |
+| doc_id, type, vendor_id, title, date | Type examples: invoice (counter), mail order invoice, packing list, credit memo, handwritten cost ledger, product literature, photographic record |
+| photos | Photographic-record documents only (DOC-062, DOC-063): lettered captions per frame, cited as e.g. DOC-062d. vendor_id is null, date is null unless known, no ledger entries are generated, and the image files are retained by the owner rather than stored in the repository |
 | reference_numbers | Invoice, order, tracking, customer numbers verbatim |
 | totals | subtotal / tax / freight / total as printed |
 | extraction_note | Anything noteworthy: cropped areas, handwriting, attribution flags, story context |
