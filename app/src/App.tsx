@@ -1,25 +1,38 @@
-import { ArchiveProvider, useArchive } from '@/lib/useArchive'
-import { money } from '@/lib/format'
+import { useState } from 'react'
+import { ArchiveProvider } from '@/lib/useArchive'
+import { DocViewerProvider } from '@/components/DocViewer'
+import { Nav } from '@/components/Nav'
+import { ProvenanceFooter } from '@/components/Footer'
+import { AboutModal } from '@/components/AboutModal'
+import { Hero } from '@/views/Hero'
 
-function Smoke() {
-  const a = useArchive()
-  const t = a.totals
+function Placeholder({ id, title }: { id: string; title: string }) {
   return (
-    <main className="mx-auto max-w-content px-6 py-16">
-      <p className="doc-chip">scaffold OK</p>
-      <h1 className="mt-4 text-4xl">The $500 Ghia</h1>
-      <p className="mono mt-4 text-ink-muted">
-        {t.documents} docs / {t.entries} entries / {t.vendors} vendors /{' '}
-        <span className="text-brand-primary">{money(t.totalSpend)}</span> / {t.firstDate} to {t.lastDate}
-      </p>
-    </main>
+    <section id={id} className="mx-auto max-w-content scroll-mt-24 px-6 py-20">
+      <h2 className="text-2xl font-bold text-ink-muted">{title}</h2>
+      <p className="mono mt-2 text-sm text-ink-faint">In progress.</p>
+    </section>
   )
 }
 
 export default function App() {
+  const [about, setAbout] = useState(false)
   return (
     <ArchiveProvider>
-      <Smoke />
+      <DocViewerProvider>
+        <Nav onAbout={() => setAbout(true)} />
+        <main>
+          <Hero />
+          <Placeholder id="explorer" title="Car Explorer" />
+          <Placeholder id="timeline" title="Timeline" />
+          <Placeholder id="ledger" title="Parts Ledger" />
+          <Placeholder id="vendors" title="Vendors" />
+          <Placeholder id="gallery" title="Gallery" />
+          <Placeholder id="mysteries" title="Open Mysteries" />
+        </main>
+        <ProvenanceFooter onAbout={() => setAbout(true)} />
+        <AboutModal open={about} onClose={() => setAbout(false)} />
+      </DocViewerProvider>
     </ArchiveProvider>
   )
 }
