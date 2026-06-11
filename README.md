@@ -7,7 +7,7 @@ The long-term goal of this project is a bespoke application that understands eve
 
 ## The car in one paragraph
 
-Restored 2013-2018 by James O. Mahan, who bought the car as a $500 project. The drivetrain is the centerpiece: a 1,971cc Type 4 conversion (94mm x 71mm, 8.6:1 compression) running a Jake Raby DTM Stage III cooling system, dual Weber carburetors, an Engle cam, a lightened flywheel, and head work by NV Automotive (Bill Shapley) in Las Vegas, backed by a Freeway Flyer transaxle built by Steve Hansen. The chassis carries 2.5 inch drop spindles, an adjustable front beam, KYB shocks, and a front disc brake conversion. Body and paint were done in 2014 through Washington County Collision in Hurricane, Utah. The interior is the JBugs Deluxe Velour/Tweed kit with grey velour headliner, charcoal carpet, custom door panels, and grey 2-point Wolfsburg belts. Documented activity runs from June 29, 2013 (the NV Automotive engine bottom-end parts) to May 31, 2018 (Weber rebuild kits). The car now lives with its current owner in Wisconsin (plate ZZ65KG), photographed with 877 miles on the speedometer installed during restoration.
+Restored 2013-2018 by James O. Mahan, who bought the car as a $500 project. The drivetrain is the centerpiece: a 1,971cc Type 4 conversion (94mm x 71mm, 8.6:1 compression) running a Jake Raby DTM Stage III cooling system, dual Weber carburetors, an Engle cam, a lightened flywheel, and head work by NV Automotive (Bill Shapley) in Las Vegas, backed by a Freeway Flyer transaxle built by Steve Hansen. The chassis carries 2.5 inch drop spindles, an adjustable front beam, KYB shocks, and a front disc brake conversion. Body and paint were done in 2014 through Washington County Collision in Hurricane, Utah. The interior is the JBugs Deluxe Velour/Tweed kit with grey velour headliner, charcoal carpet, custom door panels, and grey 2-point Wolfsburg belts. Documented activity runs from June 29, 2013 (the NV Automotive engine bottom-end parts) to May 31, 2018 (Weber rebuild kits), and the record now continues into the new-owner era: the car moved to Wisconsin and was first serviced there on June 10, 2026. The car now lives with its current owner in Wisconsin (plate ZZ65KG), photographed with 877 miles on the speedometer installed during restoration.
 
 ## Repository layout
 
@@ -21,7 +21,7 @@ Karman-Ghia-Project/
 │   ├── SCHEMA.md              <- the seven-layer data model, conventions, and ID scheme
 │   ├── TIMELINE.md            <- generated narrative and event log, 2013-2018
 │   ├── SPEC-SHEET.md          <- generated build spec cards (engine, brakes, paint, interior...)
-│   ├── VENDORS.md             <- generated registry of all 19 vendors
+│   ├── VENDORS.md             <- generated registry of all 20 vendors
 │   └── GAPS-AND-ACTIONS.md    <- generated open questions and the call list to close them
 ├── summaries/
 │   └── batch-1 ... batch-11   <- human-readable narrative of what each extraction batch found
@@ -47,7 +47,7 @@ Stack: React, Vite, TypeScript, Tailwind, Framer Motion, Recharts; fonts self-ho
 
 ## Project status (start here)
 
-**Current version: v11** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v11.json`). Working tree clean, all batches committed and pushed. **The restorer's paper folder is fully ingested**: the owner confirmed the Batch 9 photos were the last documents in the folder. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
+**Current version: v12** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v12.json`). Working tree clean, all batches committed and pushed. **The restorer's paper folder is fully ingested** (Batch 9 was the last folder document), and **Batch 12 opens the new-owner service era**: the first maintenance invoice since the car moved to Wisconsin. New service and ownership records are now an ongoing source. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
 
 ### Batch history
 
@@ -64,15 +64,20 @@ Stack: React, Vite, TypeScript, Tailwind, Framer Motion, Recharts; fonts self-ho
 | 9 | v9 | DOC-060, DOC-061 | Folder complete: A-1 Performance identified as the exhaust manufacturer (GAP-07); JBugs grey armrests and headlight switch, the latest 2016 document; 1 new vendor |
 | 10 | v10 | DOC-062 | Owner photo set of the finished car: installed wheels CORRECTED to 911/Fuchs-style (not Sprintstars), engine bay / exhaust / interior / instruments photo-verified, odometer 877, Wisconsin registration |
 | 11 | v11 | DOC-063 | Pre-restoration prints: the $500 car was oxidized green with lower-body rust and nose damage, on steel wheels with hubcaps, explaining the 'for iron' caps order (GAP-23) and corroborating the handwritten prep ledger |
+| 12 | v12 | DOC-064 | New-owner era begins: Riverwest Automotive (Milwaukee WI) service invoice, 2026-06-10, 1,650 mi. No-start repair (hard start relay, points and condenser for the 009 distributor) and a 20W-50 oil change; the newest document by eight years; 1 new vendor |
 
-### Latest session (Batches 6 through 11, 2026-06-11)
+### Latest session (Batch 12, 2026-06-11)
+
+One new document, the first of the new-owner era. Riverwest Automotive Service (Milwaukee WI) invoice #9697, dated 2026-06-10, is the newest document in the archive by eight years. It documents the car under current owner Tony Bangert (co-name Zara Pakroo) in Whitefish Bay WI at 1,650 miles, confirming the Nevada-to-Wisconsin move that the garage photo (DOC-062c, plate ZZ65KG) implied. The visit was a no-start repair: a trigger wire to the starter had resistance at the connection (a hard start relay was added), then a no-spark was cured with new points and a condenser, which establishes a points-type Bosch 009 distributor (not electronic ignition); a 20W-50 Castrol GTX Classic oil and filter change was also done. $629.31 total ($583.23 in line items plus $46.08 tax). Five ledger entries (S-009, P-212 to P-214, S-010), one new vendor (VEN-20), and the engine, electrical, and ownership records updated. The VIN field was blank again, so GAP-01 stays open.
+
+### Prior session (Batches 6 through 11, 2026-06-11)
 
 Sixteen documents (DOC-048 to DOC-063: fourteen from the paper folder plus two photographic records) extracted across six batches. Resolutions: GAP-07, GAP-17, and GAP-20 substantially resolved (Sprintstar wheels; Mid America 2-1/16in gauges, with the gauge identities later confirmed by their connection diagrams and the speedometer head identified as an ISP West unit), GAP-09 substantially resolved (NV Automotive supplied the bottom end), GAP-22 opened and fully resolved within the session (Mid America order 04682256 reconstructed across all three shipments). New gap GAP-23 opened: the lug-bolt evidence does not reconcile (14mm vs 12mm). Data housekeeping done in the same session: vendor document arrays re-synced, spec cards backfilled into the JSON, a dedupe exception documented after NV Automotive turned out to have reused invoice number 125 on two distinct transactions, and two stale undated timeline duplicates (DOC-001, DOC-003) removed now that both carry firm dates. Batch 8 added only product literature (no spend). Batch 9, the final batch, identified the exhaust manufacturer as A-1 Performance Exhaust Systems (GAP-07 substantially resolved) and added the JBugs armrest/headlight-switch order of 2016-09-28, the latest 2016 document; with it, every document in the restorer's folder has been ingested. Batch 10 added the first photographs of the finished car (DOC-062), which verified the engine bay, exhaust, interior, and instruments against the paper record and CORRECTED the wheel identification: the installed wheels are 911/Fuchs-style alloys, not the Sprintstars the 2015 center cap order implied; the Sprintstar caps evidently belong to a set that never went on the car (GAP-23). The photos also surfaced two undocumented items, the banjo steering wheel and coco mats (new GAP-24). Batch 11 closed the session with three pre-restoration prints (DOC-063): the $500 car was oxidized green with lower-body rust-through and nose damage, on steel wheels with hubcaps, which corroborates the handwritten prep ledger line by line and explains the 'for iron' chrome caps order as abandoned dress-up for the original steel wheels.
 
 ### Where to pick up next
 
 1. **Close-up photographs are the highest-value input.** Overview photos arrived in Batch 10; the remaining targets are close-ups: the VIN plate (GAP-01), the gauge faces and speedometer branding (GAP-20), a wheel with its brand stamp and lug count plus tire sidewalls (GAP-17/GAP-23/GAP-12), and a re-shoot of O'Reilly invoice 2655-492277 laid flat (GAP-14). The full list is `docs/GAPS-AND-ACTIONS.md`.
-2. **The paper folder is fully ingested.** If new documents ever surface (the exhaust and speedometer purchase invoices are the known absences), follow the workflow below; the next batch would be 12, producing v12 via `scripts/extend_v12.py`.
+2. **The paper folder is fully ingested, and the service era has begun.** New maintenance and ownership records now arrive from the current owner; ingest each with the workflow below. The next batch would be 13, producing v13 via `scripts/extend_v13.py`. Known absences from the restoration folder remain the exhaust and speedometer purchase invoices.
 
 ### Batch workflow (how every version is produced)
 
@@ -83,16 +88,16 @@ Sixteen documents (DOC-048 to DOC-063: fourteen from the paper folder plus two p
 5. Regenerate the affected files in `docs/`, update the statistics in this README, and write `summaries/batch-N-extraction-summary.md`.
 6. Commit and push.
 
-## Archive statistics (v11)
+## Archive statistics (v12)
 
 | Metric | Value |
 |---|---|
-| Documents extracted | 63 (61 paper + 2 photographic records) |
-| Parts and services ledger entries | 219 |
-| Vendors | 19 |
-| Timeline events | 59 |
-| Documented date range | 2013-06-29 to 2018-05-31 |
-| Documented spend (priced ledger entries) | $5,956.42 |
+| Documents extracted | 64 (61 paper, 2 photographic records, 1 service invoice) |
+| Parts and services ledger entries | 224 |
+| Vendors | 20 |
+| Timeline events | 60 |
+| Documented date range | 2013-06-29 to 2026-06-10 |
+| Documented spend (priced ledger entries) | $6,539.65 |
 | Restorer's own handwritten cost ledger | ~$2,994 including the $500 car |
 | Data gaps | 24 tracked: 14 open, 7 partially resolved, 3 fully resolved |
 

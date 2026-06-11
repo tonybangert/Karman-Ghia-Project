@@ -1,6 +1,6 @@
 # Data Gaps and Action List
 
-Status as of v11: 14 open, 7 partially or substantially resolved, 3 fully resolved.
+Status as of v12: 14 open, 7 partially or substantially resolved, 3 fully resolved.
 
 ## Recommended next actions (the call list)
 
@@ -17,7 +17,7 @@ Status as of v11: 14 open, 7 partially or substantially resolved, 3 fully resolv
 
 | ID | Priority | Item |
 |---|---|---|
-| GAP-01 | high | VIN / chassis number, paint code, M-codes for the Vehicle Master Record |
+| GAP-01 | high | VIN / chassis number, paint code, M-codes for the Vehicle Master Record. The 2026-06-10 Riverwest service invoice (DOC-064) also left the VIN field blank, so the VIN remains undocumented; photograph the chassis VIN plate. |
 | GAP-04 | high | Engle cam grind number (e.g., W-100, W-110). May appear on an engine parts receipt elsewhere in the folder, or on the cam card if retained. |
 | GAP-05 | medium | Exact Weber carb model (44 IDF presumed) and jetting if documented |
 | GAP-06 | medium | Steve Hansen transmission invoice, gear ratios, ring and pinion spec |

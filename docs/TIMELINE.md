@@ -1,6 +1,6 @@
 # Restoration Timeline: 1965 VW Karmann Ghia
 
-The documented restoration spans June 29, 2013 to May 31, 2018. The arc in one paragraph: James O. Mahan bought the car as a $500 project and launched the build through NV Automotive in Las Vegas, who supplied the 2.0L Type 4 bottom-end parts (June 2013) and did the cylinder head machine work (August 2013), bracketing the Jake Raby DTM Stage III cooling kit shipped to Hurricane, Utah in between (July 2013). He ran the body and paint phase through Washington County Collision in Hurricane during 2014, relocated to Henderson, Nevada and executed the assembly phase across 2015 and 2016 (reseal, brakes, fuel, interior, glass, brightwork, bumper re-chrome), and maintained the running car at least through mid 2018.
+The documented record spans June 29, 2013 to June 10, 2026. The arc in one paragraph: James O. Mahan bought the car as a $500 project and launched the build through NV Automotive in Las Vegas, who supplied the 2.0L Type 4 bottom-end parts (June 2013) and did the cylinder head machine work (August 2013), bracketing the Jake Raby DTM Stage III cooling kit shipped to Hurricane, Utah in between (July 2013). He ran the body and paint phase through Washington County Collision in Hurricane during 2014, relocated to Henderson, Nevada and executed the assembly phase across 2015 and 2016 (reseal, brakes, fuel, interior, glass, brightwork, bumper re-chrome), and maintained the running car at least through mid 2018. The car later moved to Wisconsin under a new owner (Tony Bangert), where it was first serviced in June 2026 at 1,650 miles.
 
 ## Phases
 
@@ -10,6 +10,7 @@ The documented restoration spans June 29, 2013 to May 31, 2018. The arc in one p
 | Body and paint | 2014 | Hurricane UT | Seals and grills ordered; full paint system bought under Washington County Collision in June |
 | Assembly | Jan 2015 - Sep 2016 | Henderson NV | Reseal, brakes, fuel system, wiring, interior, glass, exterior trim, bumper re-chrome |
 | Running and maintenance | 2016 - May 2018 | Henderson NV | Consumables, senders, Weber rebuild kits |
+| New-owner service | 2026 | Whitefish Bay / Milwaukee WI | First service under owner Tony Bangert: no-start repair, ignition points/condenser, oil change, at 1,650 mi |
 
 ## Event log
 
@@ -68,7 +69,8 @@ The documented restoration spans June 29, 2013 to May 31, 2018. The arc in one p
 | 2016-09-14 | Roll pin purchase; restoration activity documented into Sep 2016 | DOC-009 |
 | 2016-09-26 | Small hardware cash run at McFadden-Dale: nickel cap nuts, stainless socket caps, carriage bolts | DOC-053 |
 | 2016-09-28 | JBugs order: grey armrest pair and headlight switch, $124.90, shipped same day. Latest 2016 date; documented activity now continuous Jan 2015 to Sep 2016 | DOC-061 |
-| 2018-05-31 | Two Weber carb rebuild kits from NV Automotive. NEW LATEST DATE: documented activity now spans Aug 2013 to May 2018 | DOC-034 |
+| 2018-05-31 | Two Weber carb rebuild kits from NV Automotive, the last restoration-era document | DOC-034 |
+| 2026-06-10 | NEW-OWNER ERA, FIRST SERVICE: Riverwest Automotive (Milwaukee WI) services the car for owner Tony Bangert at 1,650 mi. No-start repair (hard start relay; new points and condenser for the 009 distributor) and a 20W-50 Castrol GTX Classic oil and filter change, $629.31. Newest document in the archive, eight years on | DOC-064 |
 | undated | ISP West 110mm programmable VW speedometer documented via its instruction manual (speedometer head identified; no purchase invoice in archive) | DOC-058 |
 | undated | A-1 Performance exhaust installation/maintenance literature (exhaust manufacturer identified; no purchase invoice in archive) | DOC-060 |
 | undated | Owner photo set of the finished car verifies the archive against the machine: Fuchs-style wheels installed (not Sprintstars), DTM/Weber engine bay, A-1 style exhaust, JBugs interior, odometer 877, Wisconsin registration | DOC-062 |

@@ -19,6 +19,8 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 - Oil Filtration: Type 4 stock spin-on filter
 - Charging: Alternator on Raby billet stand with integrated oil filler
 - Spark Plugs: Bosch W8DC (4 purchased 2015-05-21, Butch's Speed Shop)
+- Ignition: Points-type distributor, the common Bosch 009 centrifugal-advance unit (the '009' on the 2026 service invoice); new points and condenser fitted 2026-06-10 to cure a no-spark (DOC-064). Not electronic ignition.
+- Engine Oil: 20W-50 Castrol GTX Classic, with filter, per the 2026-06-10 service (DOC-064)
 - Head Work Date: 2013-08-13, NV Automotive (Bill Shapley), Las Vegas, invoice 125, $379.67
 - Flywheel: Lightened flywheel, 210mm, supplied no-charge by NV Automotive 2013-06-29 (DOC-054); also noted in DOC-043
 - Bottom End Sourcing: NV Automotive invoice 125 dated 2013-06-29, $464.76 paid cash (DOC-054): 2.0L crank, rods, gasket set, main/rod/cam bearings, front and rear seals, Melling oil pump, 210mm lightened flywheel (no charge), pilot bearing. The 94mm pistons/cylinders, lifters, and rockers (handwritten ledger DOC-043) are not on this invoice and came from elsewhere.
@@ -26,7 +28,7 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 - Head Work Note: NV Automotive issued two invoices both numbered 125 (customer 123): the bottom-end parts (2013-06-29, DOC-054) and the head machine work (2013-08-13, DOC-003); they are kept as distinct documents.
 - Dtm Kit Purchase: 2013-07-29, Raby Enterprises receipt #1878 (sales order #94), shipped to Hurricane UT
 - As Installed Verification: Photo-verified (DOC-062b): DTM Stage III black upright shroud with flexible intake duct, dual Webers with chrome oval gauze air filters and hex-bar cross linkage, alternator on Raby billet stand with integrated oil filler, body-color engine bay with black tins.
-- Sources: DOC-001, DOC-003, DOC-004, DOC-007, DOC-030, DOC-043, DOC-054, DOC-062
+- Sources: DOC-001, DOC-003, DOC-004, DOC-007, DOC-030, DOC-043, DOC-054, DOC-062, DOC-064
 
 ## Cooling
 - System: Jake Raby DTM (Down The Middle) Stage III
@@ -104,5 +106,6 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 - Fuse Box: 8-fuse box with cover, correct for Bug/Ghia 1961-66 (WCM 111-037 + 181-555A, Jan 2015)
 - Wiring: Hand-wiring work Feb 2015: 12ga and 16ga primary wire in four colors, cable tie mounts, grommets. No complete harness purchase documented.
 - Headlight Switch: Bug/Ghia 58-67 pattern (311941531A, JBugs 2016-09-28), fitted with 10mm dash escutcheon per invoice note
-- Sources: DOC-046, DOC-047, DOC-061
+- Starting: A hard start relay was added 2026-06-10 after the trigger wire from the switch to the starter showed resistance at the connection (DOC-064)
+- Sources: DOC-046, DOC-047, DOC-061, DOC-064
 

@@ -1,6 +1,6 @@
 # Vendor Registry
 
-Nineteen vendors documented across the build.
+Twenty vendors documented across the build and the new-owner service era.
 
 ## VEN-01: Raby Enterprises Inc (Aircooled Technology / Type 4 Store)
 - Address: 47 Raby Drive, Cleveland, GA 30528
@@ -124,4 +124,11 @@ Nineteen vendors documented across the build.
 - Specialty: Performance exhaust systems for aircooled VWs ('As seen on the fastest street and drag cars in the world'); ships ceramic coated and stainless systems. Identified the exhaust manufacturer (GAP-07).
 - Documents: DOC-060
 - Note: Referenced only via the installation/maintenance literature that shipped with the exhaust; no purchase invoice for the exhaust is in the archive.
+
+## VEN-20: Riverwest Automotive Service
+- Address: 801 E. Keefe, Milwaukee, WI 53211
+- Phones: main 414-534-0080
+- Specialty: Independent automotive repair (Milwaukee WI); services the car in the current-owner Wisconsin era
+- Documents: DOC-064
+- Note: First shop to service the car under current owner Tony Bangert (invoice 9697, 2026-06-10): no-start repair, ignition points/condenser for the 009 distributor, and a 20W-50 oil change, at 1,650 miles.
 
