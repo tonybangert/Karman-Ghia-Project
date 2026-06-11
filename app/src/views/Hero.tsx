@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { useArchive } from '@/lib/useArchive'
 import { useCountUp } from '@/lib/useCountUp'
 import { moneyCompact } from '@/lib/format'
+import { HeroCarousel } from '@/components/HeroCarousel'
 
 function Stat({ value, label, prefix = '', display }: { value: number; label: string; prefix?: string; display?: (n: number) => string }) {
   const { n, ref } = useCountUp(value)
@@ -20,7 +21,6 @@ export function Hero() {
   const t = a.totals
   const y0 = t.firstDate?.slice(0, 4) ?? '2013'
   const y1 = t.lastDate?.slice(0, 4) ?? '2018'
-  const base = import.meta.env.BASE_URL
 
   return (
     <section id="overview" className="relative overflow-hidden scroll-mt-16">
@@ -43,25 +43,14 @@ export function Hero() {
             </p>
           </motion.div>
 
-          <motion.figure
-            className="relative lg:justify-self-end"
+          <motion.div
+            className="w-full"
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
           >
-            <div className="overflow-hidden rounded-xl border border-line shadow-card ring-1 ring-black/5">
-              <img
-                src={`${base}hero-ghia.jpg`}
-                alt="The finished 1965 Karmann Ghia in silver-blue metallic, three-quarter front view on a desert road"
-                className="aspect-[3/2] w-full object-cover"
-                width={1418}
-                height={945}
-              />
-            </div>
-            <figcaption className="mono mt-2 text-right text-xs text-ink-faint">
-              The finished car, silver-blue metallic on Fuchs-style alloys
-            </figcaption>
-          </motion.figure>
+            <HeroCarousel />
+          </motion.div>
         </div>
 
         <motion.div
