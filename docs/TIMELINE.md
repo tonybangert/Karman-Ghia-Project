@@ -71,4 +71,5 @@ The documented restoration spans June 29, 2013 to May 31, 2018. The arc in one p
 | 2018-05-31 | Two Weber carb rebuild kits from NV Automotive. NEW LATEST DATE: documented activity now spans Aug 2013 to May 2018 | DOC-034 |
 | undated | ISP West 110mm programmable VW speedometer documented via its instruction manual (speedometer head identified; no purchase invoice in archive) | DOC-058 |
 | undated | A-1 Performance exhaust installation/maintenance literature (exhaust manufacturer identified; no purchase invoice in archive) | DOC-060 |
+| undated | Owner photo set of the finished car verifies the archive against the machine: Fuchs-style wheels installed (not Sprintstars), DTM/Weber engine bay, A-1 style exhaust, JBugs interior, odometer 877, Wisconsin registration | DOC-062 |
 | undated | Handwritten build cost ledger records $500 car acquisition and itemized body/engine component costs | DOC-043 |
