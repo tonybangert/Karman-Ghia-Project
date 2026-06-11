@@ -8,6 +8,7 @@ import { Hero } from '@/views/Hero'
 import { CarExplorer } from '@/views/CarExplorer'
 import { Timeline } from '@/views/Timeline'
 import { Ledger } from '@/views/Ledger'
+import { Vendors } from '@/views/Vendors'
 
 function Placeholder({ id, title }: { id: string; title: string }) {
   return (
@@ -29,7 +30,7 @@ export default function App() {
           <CarExplorer />
           <Timeline />
           <Ledger />
-          <Placeholder id="vendors" title="Vendors" />
+          <Vendors />
           <Placeholder id="gallery" title="Gallery" />
           <Placeholder id="mysteries" title="Open Mysteries" />
         </main>
