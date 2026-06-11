@@ -16,7 +16,7 @@ Karman-Ghia-Project/
 ├── README.md                  <- you are here
 ├── data/
 │   ├── master-record.json     <- THE canonical dataset (always current)
-│   └── versions/              <- frozen snapshots, v1 through v10, one per extraction batch
+│   └── versions/              <- frozen snapshots, v1 through v11, one per extraction batch
 ├── docs/
 │   ├── SCHEMA.md              <- the seven-layer data model, conventions, and ID scheme
 │   ├── TIMELINE.md            <- generated narrative and event log, 2013-2018
@@ -24,16 +24,16 @@ Karman-Ghia-Project/
 │   ├── VENDORS.md             <- generated registry of all 19 vendors
 │   └── GAPS-AND-ACTIONS.md    <- generated open questions and the call list to close them
 ├── summaries/
-│   └── batch-1 ... batch-10   <- human-readable narrative of what each extraction batch found
+│   └── batch-1 ... batch-11   <- human-readable narrative of what each extraction batch found
 └── scripts/
-    └── extend_v2 ... v10.py   <- the append scripts that produced each version (provenance)
+    └── extend_v2 ... v11.py   <- the append scripts that produced each version (provenance)
 ```
 
 `data/master-record.json` is the single source of truth. Everything in `docs/` is generated from it and should be regenerated, never hand-edited, when the data changes.
 
 ## Project status (start here)
 
-**Current version: v10** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v10.json`). Working tree clean, all batches committed and pushed. **The restorer's paper folder is fully ingested**: the owner confirmed the Batch 9 photos were the last documents in the folder. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
+**Current version: v11** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v11.json`). Working tree clean, all batches committed and pushed. **The restorer's paper folder is fully ingested**: the owner confirmed the Batch 9 photos were the last documents in the folder. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
 
 ### Batch history
 
@@ -49,15 +49,16 @@ Karman-Ghia-Project/
 | 8 | v8 | DOC-058, DOC-059 | Product literature: ISP West speedometer manual (speedometer head identified) and Mid America gauge connection diagrams (confirm the three gauges); 1 new vendor |
 | 9 | v9 | DOC-060, DOC-061 | Folder complete: A-1 Performance identified as the exhaust manufacturer (GAP-07); JBugs grey armrests and headlight switch, the latest 2016 document; 1 new vendor |
 | 10 | v10 | DOC-062 | Owner photo set of the finished car: installed wheels CORRECTED to 911/Fuchs-style (not Sprintstars), engine bay / exhaust / interior / instruments photo-verified, odometer 877, Wisconsin registration |
+| 11 | v11 | DOC-063 | Pre-restoration prints: the $500 car was oxidized green with lower-body rust and nose damage, on steel wheels with hubcaps, explaining the 'for iron' caps order (GAP-23) and corroborating the handwritten prep ledger |
 
-### Latest session (Batches 6 through 10, 2026-06-11)
+### Latest session (Batches 6 through 11, 2026-06-11)
 
-Fourteen documents (DOC-048 to DOC-061) extracted across four batches. Resolutions: GAP-07, GAP-17, and GAP-20 substantially resolved (Sprintstar wheels; Mid America 2-1/16in gauges, with the gauge identities later confirmed by their connection diagrams and the speedometer head identified as an ISP West unit), GAP-09 substantially resolved (NV Automotive supplied the bottom end), GAP-22 opened and fully resolved within the session (Mid America order 04682256 reconstructed across all three shipments). New gap GAP-23 opened: the lug-bolt evidence does not reconcile (14mm vs 12mm). Data housekeeping done in the same session: vendor document arrays re-synced, spec cards backfilled into the JSON, a dedupe exception documented after NV Automotive turned out to have reused invoice number 125 on two distinct transactions, and two stale undated timeline duplicates (DOC-001, DOC-003) removed now that both carry firm dates. Batch 8 added only product literature (no spend). Batch 9, the final batch, identified the exhaust manufacturer as A-1 Performance Exhaust Systems (GAP-07 substantially resolved) and added the JBugs armrest/headlight-switch order of 2016-09-28, the latest 2016 document; with it, every document in the restorer's folder has been ingested. Batch 10 added the first photographs of the finished car (DOC-062), which verified the engine bay, exhaust, interior, and instruments against the paper record and CORRECTED the wheel identification: the installed wheels are 911/Fuchs-style alloys, not the Sprintstars the 2015 center cap order implied; the Sprintstar caps evidently belong to a set that never went on the car (GAP-23). The photos also surfaced two undocumented items, the banjo steering wheel and coco mats (new GAP-24).
+Fourteen documents (DOC-048 to DOC-061) extracted across four batches. Resolutions: GAP-07, GAP-17, and GAP-20 substantially resolved (Sprintstar wheels; Mid America 2-1/16in gauges, with the gauge identities later confirmed by their connection diagrams and the speedometer head identified as an ISP West unit), GAP-09 substantially resolved (NV Automotive supplied the bottom end), GAP-22 opened and fully resolved within the session (Mid America order 04682256 reconstructed across all three shipments). New gap GAP-23 opened: the lug-bolt evidence does not reconcile (14mm vs 12mm). Data housekeeping done in the same session: vendor document arrays re-synced, spec cards backfilled into the JSON, a dedupe exception documented after NV Automotive turned out to have reused invoice number 125 on two distinct transactions, and two stale undated timeline duplicates (DOC-001, DOC-003) removed now that both carry firm dates. Batch 8 added only product literature (no spend). Batch 9, the final batch, identified the exhaust manufacturer as A-1 Performance Exhaust Systems (GAP-07 substantially resolved) and added the JBugs armrest/headlight-switch order of 2016-09-28, the latest 2016 document; with it, every document in the restorer's folder has been ingested. Batch 10 added the first photographs of the finished car (DOC-062), which verified the engine bay, exhaust, interior, and instruments against the paper record and CORRECTED the wheel identification: the installed wheels are 911/Fuchs-style alloys, not the Sprintstars the 2015 center cap order implied; the Sprintstar caps evidently belong to a set that never went on the car (GAP-23). The photos also surfaced two undocumented items, the banjo steering wheel and coco mats (new GAP-24). Batch 11 closed the session with three pre-restoration prints (DOC-063): the $500 car was oxidized green with lower-body rust-through and nose damage, on steel wheels with hubcaps, which corroborates the handwritten prep ledger line by line and explains the 'for iron' chrome caps order as abandoned dress-up for the original steel wheels.
 
 ### Where to pick up next
 
 1. **Close-up photographs are the highest-value input.** Overview photos arrived in Batch 10; the remaining targets are close-ups: the VIN plate (GAP-01), the gauge faces and speedometer branding (GAP-20), a wheel with its brand stamp and lug count plus tire sidewalls (GAP-17/GAP-23/GAP-12), and a re-shoot of O'Reilly invoice 2655-492277 laid flat (GAP-14). The full list is `docs/GAPS-AND-ACTIONS.md`.
-2. **The paper folder is fully ingested.** If new documents ever surface (the exhaust and speedometer purchase invoices are the known absences), follow the workflow below; the next batch would be 11, producing v11 via `scripts/extend_v11.py`.
+2. **The paper folder is fully ingested.** If new documents ever surface (the exhaust and speedometer purchase invoices are the known absences), follow the workflow below; the next batch would be 12, producing v12 via `scripts/extend_v12.py`.
 
 ### Batch workflow (how every version is produced)
 
@@ -68,14 +69,14 @@ Fourteen documents (DOC-048 to DOC-061) extracted across four batches. Resolutio
 5. Regenerate the affected files in `docs/`, update the statistics in this README, and write `summaries/batch-N-extraction-summary.md`.
 6. Commit and push.
 
-## Archive statistics (v10)
+## Archive statistics (v11)
 
 | Metric | Value |
 |---|---|
-| Documents extracted | 62 |
+| Documents extracted | 63 |
 | Parts and services ledger entries | 219 |
 | Vendors | 19 |
-| Timeline events | 58 |
+| Timeline events | 59 |
 | Documented date range | 2013-06-29 to 2018-05-31 |
 | Documented spend (priced ledger entries) | $5,956.42 |
 | Restorer's own handwritten cost ledger | ~$2,994 including the $500 car |
@@ -109,6 +110,7 @@ Seven layers, fully described in `docs/SCHEMA.md`:
 - The paint trail is recoverable: Washington County Collision (Hurricane UT), a 2014 Auto Paints Plus system purchase referencing mix "wa208v," and a 2015 Nason Ful-Thane mix to GM formula 3295. Translating those references into a color name is action item 2 in `docs/GAPS-AND-ACTIONS.md`.
 - The three-part JBugs interior order (944952A/B/C) reconciles to the penny, including a refund cycle.
 - A warranty replacement, a returned-then-recharged backorder, and two same-day cross-town supply runs are all preserved in the record.
+- The car's whole arc is now photographed: oxidized green and rusted on a trailer at acquisition, then silver-blue metallic and finished in the desert, with the engine bay matching its receipts.
 - The wheel story is a lesson in evidence: a 2015 Sprintstar center cap order pointed one way, but photos of the finished car show 911/Fuchs-style alloys installed; the caps evidently belong to a set that never went on. The gauge heads are Mid America 2-1/16in units (confirmed by their own connection diagrams), the speedometer is an ISP West 110mm programmable VW unit, and the exhaust is an A-1 Performance system, photo-verified on the car.
 - The bumper chrome story is complete: both 3-piece bumpers re-plated in summer 2016, two pieces redone at no charge, and the chrome mounting hardware bought the day after the redo pickup.
 

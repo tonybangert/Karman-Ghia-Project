@@ -80,8 +80,9 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 - Wheels: INSTALLED (photo-verified, DOC-062d): flat-five-spoke 911/Fuchs-style alloys, black spoke recesses, polished lips, small chrome center caps; brand and size not yet read from the wheel. This CORRECTS the earlier Sprintstar inference: the 319-655 Sprintstar center caps bought in 2015 do not match the installed wheels and likely belong to an uninstalled or returned set (GAP-23).
 - Lug Hardware: The 16pc chrome 14mm set (319-994, DOC-028) matches the installed 4-lug Fuchs-style wheels. The four 5-bolt sets of chrome 12mm (319-991, DOC-056) imply a 5-lug set that is not on the car.
 - Center Caps: Installed wheels wear small chrome caps (DOC-062d), not obviously the 319-655 Sprintstar caps; the Sprintstar caps and 'for iron' caps from order 04682256 are unaccounted for on the car (GAP-23).
+- Pre Restoration Wheels: Steel wheels with hubcaps (DOC-063). This explains the 'center cap, chrome, for iron' parts and chrome decals backordered on Mid America order 04682256-00001 (DOC-056): dress-up for the original steel wheels, evidently abandoned in favor of the alloy direction (GAP-23)
 - Tires: Undocumented (GAP-12); record brand/size from the car
-- Sources: DOC-028, DOC-049, DOC-056, DOC-057, DOC-062
+- Sources: DOC-028, DOC-049, DOC-056, DOC-057, DOC-062, DOC-063
 
 ## Body Paint
 - Body Prep: Per restorer's cost ledger (DOC-043): media blast, Bondo and Dolphin Glaze finishing, fiberglass repair, replacement nose/fender/hood panels, multiple primer stages.
@@ -94,9 +95,10 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 - Bumpers: Front and rear 3-piece bumpers re-chromed Jun-Sep 2016 by American Polishing & Plating (Shine Shop), Henderson NV, $350 flat; two pieces redone at no charge Sep 2016. Remounted with chrome 5/16-18 carriage bolt hardware, 8 positions (McFadden-Dale, 2016-09-07). Bumper bracket seals, cover seals, rubber mounts, and a rear left bracket sourced from KGPR Apr 2015.
 - Rear Deck Emblems: Rear hood 'Volkswagen' script (853-687) and 'Karmann Ghia' script (853-905) with VW 3-piece and KG 4-piece clamping plates; door striker repair kit (KGPR invoice 445363, 2015-03-18). Photo-verified installed (DOC-062e)
 - Color Visual: Light silver-blue metallic over black rocker panels (owner photos, DOC-062d/e). Formula name still open under GAP-13 (wa208v / GM 3295 references)
+- Pre Restoration: Photographed before restoration (DOC-063): oxidized green over rust-through and primer patches, damaged nose/front valance, rear quarters in primer, taillight lens missing, rear bumper absent. Explains the DOC-043 prep spend (media blast, Bondo, Dolphin Glaze, fiberglass, replacement nose/fender/hood panels, multiple primer stages). Factory paint code still unknown (GAP-01)
 - As Installed Verification: Photo-verified (DOC-062): chrome sharp-edge side molding, euro tail lights, chrome bumpers, LED strips at license plate and below decklid (consistent with DOC-018), lowered stance consistent with the 2.5in drop spindles
 - Exterior Trim: Sharp-edge complete side molding set w/52 clips (KGPR, Aug 2016); CAL trimless windshield and rear glass seals (JBugs, May 2016); Karmann side body badge emblem (West Coast Metric, Jan 2015); verify trim configuration on car
-- Sources: DOC-023, DOC-026, DOC-027, DOC-036, DOC-037, DOC-041, DOC-042, DOC-043, DOC-044, DOC-046, DOC-050, DOC-051, DOC-052, DOC-055, DOC-062
+- Sources: DOC-023, DOC-026, DOC-027, DOC-036, DOC-037, DOC-041, DOC-042, DOC-043, DOC-044, DOC-046, DOC-050, DOC-051, DOC-052, DOC-055, DOC-062, DOC-063
 
 ## Electrical
 - Fuse Box: 8-fuse box with cover, correct for Bug/Ghia 1961-66 (WCM 111-037 + 181-555A, Jan 2015)

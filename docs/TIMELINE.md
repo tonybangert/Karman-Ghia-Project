@@ -72,4 +72,5 @@ The documented restoration spans June 29, 2013 to May 31, 2018. The arc in one p
 | undated | ISP West 110mm programmable VW speedometer documented via its instruction manual (speedometer head identified; no purchase invoice in archive) | DOC-058 |
 | undated | A-1 Performance exhaust installation/maintenance literature (exhaust manufacturer identified; no purchase invoice in archive) | DOC-060 |
 | undated | Owner photo set of the finished car verifies the archive against the machine: Fuchs-style wheels installed (not Sprintstars), DTM/Weber engine bay, A-1 style exhaust, JBugs interior, odometer 877, Wisconsin registration | DOC-062 |
+| undated | Pre-2014: three surviving prints show the car as acquired: oxidized green, lower-body rust-through, nose damage, on steel wheels with hubcaps, riding a trailer | DOC-063 |
 | undated | Handwritten build cost ledger records $500 car acquisition and itemized body/engine component costs | DOC-043 |

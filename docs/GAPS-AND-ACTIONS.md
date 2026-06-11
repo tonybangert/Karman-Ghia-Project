@@ -1,6 +1,6 @@
 # Data Gaps and Action List
 
-Status as of v10: 14 open, 7 partially or substantially resolved, 3 fully resolved.
+Status as of v11: 14 open, 7 partially or substantially resolved, 3 fully resolved.
 
 ## Recommended next actions (the call list)
 
@@ -26,7 +26,7 @@ Status as of v10: 14 open, 7 partially or substantially resolved, 3 fully resolv
 | GAP-11 | low | Fresh air inlet grille seal backorder fulfillment (P-027) |
 | GAP-14 | high | DOC-016 (O'Reilly 2655-492277, 2015-03-28, ~$48.47 net): line items cut off in photo. Re-photograph flat and complete. |
 | GAP-15 | medium | Identify 'EDE 224600 45 STREET' (4 units, DOC-020). Possibly carburetor jets. Verify against physical parts or O'Reilly part lookup. |
-| GAP-16 | medium | Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded. |
+| GAP-16 | medium | Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded. Batch 11 note: the pre-restoration photos (DOC-063) confirm the project car itself, a green Ghia coupe. |
 | GAP-18 | medium | Attribution: Drake insulating sheets invoice (DOC-031) billed to 'Bill Wilson, NV'. Determine whether Wilson was a helper/friend purchasing for the Ghia or this document belongs to another project. |
 | GAP-19 | medium | Two master cylinders documented (TRW Jan 2015, EMPI buggy m/c Apr 2016). Determine which is installed and why the second was purchased. |
 | GAP-21 | medium | Contact/lookup Washington County Collision (Hurricane UT): possible body work records or photos; also translate paint formulas 'wa208v' and 'GM 3295' to a color name via a paint supplier. |
@@ -42,7 +42,7 @@ Status as of v10: 14 open, 7 partially or substantially resolved, 3 fully resolv
 | GAP-13 | SUBSTANTIALLY RESOLVED (Batch 4) | Paint trail recovered: body shop = Washington County Collision (Hurricane UT); June 2014 full system from Auto Paints Plus with mixed color 'Dimentions Mixwa208v'; Jan 2015 Nason Ful-Thane BC/CC mixed to GM formula 3295 + SelectClear activator (Boulder Auto Parts). Batch 10: owner photos show the color as a light silver-blue metallic over black rockers. Remaining: translate formula references (wa208v / GM 3295) into the color name, and confirm which system is the final topcoat. |
 | GAP-17 | SUBSTANTIALLY RESOLVED (corrected Batch 10) | Batch 6 inferred Sprintstar wheels from the center cap order (DOC-049). Owner photos (DOC-062d) CORRECTED this: the installed wheels are flat-five-spoke 911/Fuchs-style alloys with small chrome caps, matched by the 16pc 14mm chrome lug bolts (DOC-028). Remaining: wheel brand/size from a stamp or close-up, and the tire spec (GAP-12). |
 | GAP-20 | SUBSTANTIALLY RESOLVED (Batch 7, extended Batch 8) | Gauge heads identified as Mid America 2-1/16in units (DOC-056) and confirmed by their connection diagrams (DOC-059): oil pressure 12V (111-150), electric temperature used for oil temp (111-155), 8-16V voltmeter (111-152). Speedometer head identified as an ISP West 110mm programmable VW unit via its instruction manual (DOC-058). Batch 10: dash photographed (DOC-062a): 110mm speedometer consistent with the ISP West unit, odometer 000877, three small gauges placed as expected. Remaining: read the gauge faces from close-ups; locate the oil pressure sender (undocumented); the speedometer purchase invoice is not in the archive; and which temp sender feeds the temperature gauge is unresolved. |
-| GAP-23 | PARTIALLY RESOLVED (Batch 10) | Owner photos (DOC-062d) show the installed wheels are 911/Fuchs-style (consistent with 4-lug 14mm, the DOC-028 bolt set), so the 12mm 5-bolt sets and the Sprintstar caps from order 04682256 evidently belong to a set that is not on the car (returned, planned, or spare). Remaining: physically confirm lug size/pattern, read the wheel brand stamp, and account for the Sprintstar caps and 12mm bolts. |
+| GAP-23 | PARTIALLY RESOLVED (Batch 10) | Owner photos (DOC-062d) show the installed wheels are 911/Fuchs-style (consistent with 4-lug 14mm, the DOC-028 bolt set), so the 12mm 5-bolt sets and the Sprintstar caps from order 04682256 evidently belong to a set that is not on the car (returned, planned, or spare). Batch 11: the pre-restoration photos (DOC-063) show the car arrived on steel wheels with hubcaps, so the 'for iron' chrome caps and decals were evidently dress-up for the original steel wheels, abandoned when the disc-conversion/alloy direction won out. Remaining: physical lug confirmation on the installed alloys and the fate of the Sprintstar caps and 12mm bolts. |
 
 ## Fully resolved
 
