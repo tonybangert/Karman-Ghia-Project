@@ -12,7 +12,7 @@ Restored 2013-2018 by James O. Mahan, who bought the car as a $500 project. The 
 ## Repository layout
 
 ```
-ghia-restoration-archive/
+Karman-Ghia-Project/
 ├── README.md                  <- you are here
 ├── data/
 │   ├── master-record.json     <- THE canonical dataset (always current)
@@ -21,7 +21,7 @@ ghia-restoration-archive/
 │   ├── SCHEMA.md              <- the seven-layer data model, conventions, and ID scheme
 │   ├── TIMELINE.md            <- generated narrative and event log, 2013-2018
 │   ├── SPEC-SHEET.md          <- generated build spec cards (engine, brakes, paint, interior...)
-│   ├── VENDORS.md             <- generated registry of all 15 vendors
+│   ├── VENDORS.md             <- generated registry of all 17 vendors
 │   └── GAPS-AND-ACTIONS.md    <- generated open questions and the call list to close them
 ├── summaries/
 │   └── batch-1 ... batch-7    <- human-readable narrative of what each extraction batch found
@@ -30,6 +30,40 @@ ghia-restoration-archive/
 ```
 
 `data/master-record.json` is the single source of truth. Everything in `docs/` is generated from it and should be regenerated, never hand-edited, when the data changes.
+
+## Project status (start here)
+
+**Current version: v7** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v7.json`). Working tree clean, all batches committed and pushed. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
+
+### Batch history
+
+| Batch | Version | Documents | Headline |
+|---|---|---|---|
+| 1 | v1 | DOC-001 to DOC-007 | Seed: Raby DTM kit, KGPR order, NV Automotive head work, JBugs interior |
+| 2 | v2 | DOC-008 to DOC-024 | 17 documents: the O'Reilly receipt cluster, paint activator, Meyers |
+| 3 | v3 | DOC-025 to DOC-035 | Machine shop identified as NV Automotive (GAP-03); JBugs backorders |
+| 4 | v4 | DOC-036 to DOC-045 | Handwritten cost ledger ($500 car); paint trail recovered (GAP-13) |
+| 5 | v5 | DOC-046, DOC-047 | Complete Raby receipt dated 2013-07-29 (GAP-02); body reseal order; wiring |
+| 6 | v6 | DOC-048 to DOC-053 | Wheels identified as Sprintstars (GAP-17); bumper re-chrome story; 2 new vendors |
+| 7 | v7 | DOC-054 to DOC-057 | Engine bottom-end invoice, new earliest date 2013-06-29 (GAP-09); gauge heads identified (GAP-20); Mid America order reconstructed (GAP-22) |
+
+### Latest session (Batches 6 and 7, 2026-06-11)
+
+Ten photographed documents extracted across two batches. Resolutions: GAP-17 and GAP-20 substantially resolved (Sprintstar wheels, Mid America 2-1/16in gauges), GAP-09 substantially resolved (NV Automotive supplied the bottom end), GAP-22 opened and fully resolved within the session (Mid America order 04682256 reconstructed across all three shipments). New gap GAP-23 opened: the lug-bolt evidence does not reconcile (14mm vs 12mm). Data housekeeping done in the same session: vendor document arrays re-synced, spec cards backfilled into the JSON, and a dedupe exception documented after NV Automotive turned out to have reused invoice number 125 on two distinct transactions.
+
+### Where to pick up next
+
+1. **More photographs are the highest-value input.** The top targets, in order: the VIN plate (GAP-01), the dash cluster (closes GAP-20), the wheels with a lug count (closes GAP-17 and GAP-23), and a re-shoot of O'Reilly invoice 2655-492277 laid flat (GAP-14). The full list is `docs/GAPS-AND-ACTIONS.md`.
+2. **To ingest a new batch of document photos**, follow the established workflow below; the next batch is 8, producing v8 via `scripts/extend_v8.py`.
+
+### Batch workflow (how every version is produced)
+
+1. Read each photographed document; verify line-item arithmetic against printed subtotals/tax/totals before entering anything.
+2. Check for dedupe (invoice/order number) against the document archive, and for vendor matches against the registry. Mind the documented exception: identical invoice numbers with different dates/totals/contents are distinct documents (see `docs/SCHEMA.md`).
+3. Write `scripts/extend_vN.py` reading the frozen `data/versions/...v(N-1).json` and writing both v(N) and `data/master-record.json`. Continue IDs from the current high-water marks, never reuse. Backorders at 0.00 with cross-references; uncertainty flagged, not asserted; no em dashes.
+4. Run it, then validate: unique IDs, valid doc/vendor references, timeline sorted with undated entries last, vendor document arrays in sync, canonical file equals the new snapshot, script is deterministic.
+5. Regenerate the affected files in `docs/`, update the statistics in this README, and write `summaries/batch-N-extraction-summary.md`.
+6. Commit and push.
 
 ## Archive statistics (v7)
 
