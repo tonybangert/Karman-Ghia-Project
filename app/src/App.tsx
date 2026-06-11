@@ -9,6 +9,7 @@ import { CarExplorer } from '@/views/CarExplorer'
 import { Timeline } from '@/views/Timeline'
 import { Ledger } from '@/views/Ledger'
 import { Vendors } from '@/views/Vendors'
+import { Gallery } from '@/views/Gallery'
 
 function Placeholder({ id, title }: { id: string; title: string }) {
   return (
@@ -31,7 +32,7 @@ export default function App() {
           <Timeline />
           <Ledger />
           <Vendors />
-          <Placeholder id="gallery" title="Gallery" />
+          <Gallery />
           <Placeholder id="mysteries" title="Open Mysteries" />
         </main>
         <ProvenanceFooter onAbout={() => setAbout(true)} />

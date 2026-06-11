@@ -1,0 +1,8 @@
+{
+  "note": "Before/after pairs. Replace the .svg placeholders with real photo files (jpg/png/webp) and update the paths. before and after are relative to the site base. system and docs are optional.",
+  "pairs": [
+    { "id": "body", "caption": "The body: oxidized green and rusted at acquisition, silver-blue metallic when finished.", "system": "SYS-08", "before": "gallery/body-before.svg", "after": "gallery/body-after.svg", "docs": ["DOC-063", "DOC-062"] },
+    { "id": "wheels", "caption": "Wheels: original steel with hubcaps, then 911 / Fuchs-style alloys.", "system": "SYS-11", "before": "gallery/wheels-before.svg", "after": "gallery/wheels-after.svg", "docs": ["DOC-063", "DOC-028"] },
+    { "id": "rear", "caption": "The tail: primer and a missing lens, then scripts, chrome, and LED strips.", "system": "SYS-08", "before": "gallery/rear-before.svg", "after": "gallery/rear-after.svg", "docs": ["DOC-055", "DOC-062"] }
+  ]
+}
