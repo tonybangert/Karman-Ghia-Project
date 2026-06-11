@@ -92,3 +92,12 @@ export function SpendByVendorDonut() {
     </div>
   )
 }
+
+export default function SpendSummary() {
+  return (
+    <div className="grid gap-6 rounded-xl border border-line bg-surface-elevated p-5 lg:grid-cols-2">
+      <SpendBySystemBar />
+      <SpendByVendorDonut />
+    </div>
+  )
+}

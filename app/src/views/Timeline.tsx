@@ -1,12 +1,12 @@
-import { useMemo, useState } from 'react'
+import { lazy, Suspense, useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
-import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from 'recharts'
 import { useArchive } from '@/lib/useArchive'
 import { PHASES, phaseForDate } from '@/lib/archive'
 import { fmtDate, money, moneyCompact } from '@/lib/format'
 import { SectionHeader } from '@/components/primitives'
 import { DocChip } from '@/components/DocChip'
 import { cx } from '@/lib/cx'
+const Sparkline = lazy(() => import('@/components/Sparkline'))
 
 export function Timeline() {
   const a = useArchive()
@@ -61,20 +61,7 @@ export function Timeline() {
           </div>
           <div className="flex flex-1 items-center gap-3 sm:justify-end">
             <div className="h-10 w-full max-w-[260px]">
-              <ResponsiveContainer width="100%" height="100%">
-                <AreaChart data={spark} margin={{ top: 4, right: 2, bottom: 0, left: 2 }}>
-                  <defs>
-                    <linearGradient id="fillGrad" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0%" stopColor="rgb(var(--brand-primary))" stopOpacity={0.5} />
-                      <stop offset="100%" stopColor="rgb(var(--brand-primary))" stopOpacity={0} />
-                    </linearGradient>
-                  </defs>
-                  <XAxis dataKey="i" hide />
-                  <YAxis hide domain={[0, 'dataMax']} />
-                  <Area type="monotone" dataKey="c" stroke="rgb(var(--text-faint))" strokeWidth={1} fill="none" isAnimationActive={false} dot={false} />
-                  <Area type="monotone" dataKey="fill" stroke="rgb(var(--brand-primary))" strokeWidth={2} fill="url(#fillGrad)" isAnimationActive={false} dot={false} connectNulls={false} />
-                </AreaChart>
-              </ResponsiveContainer>
+<Suspense fallback={<div className="h-full w-full" />}><Sparkline data={spark} /></Suspense>
             </div>
             <div className="whitespace-nowrap text-right">
               <div className="mono text-sm text-brand-primary">{money(cumAtActive)}</div>

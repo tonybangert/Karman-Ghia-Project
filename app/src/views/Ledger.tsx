@@ -1,10 +1,10 @@
-import { useMemo, useState } from 'react'
+import { lazy, Suspense, useMemo, useState } from 'react'
 import type { LedgerEntry, SystemId } from '@/types/archive'
 import { paidAmount } from '@/types/archive'
 import { useArchive } from '@/lib/useArchive'
 import { money, fmtDate, yearOf } from '@/lib/format'
 import { SectionHeader, Price, IdMono, AttributionFlag, EmptyState } from '@/components/primitives'
-import { SpendBySystemBar, SpendByVendorDonut } from '@/components/SpendCharts'
+const SpendSummary = lazy(() => import('@/components/SpendCharts'))
 import { DocChip } from '@/components/DocChip'
 import { Modal } from '@/components/Modal'
 import { cx } from '@/lib/cx'
@@ -58,10 +58,9 @@ export function Ledger() {
         <SectionHeader kicker="Every line item" title="The parts ledger"
           lead={`All ${a.totals.entries} entries, ${a.totals.parts} parts and ${a.totals.services} services, each tied to a document and a vendor. Filter, search, and sort. Entries at no charge (kit headers, backorders, warranty work) are kept and shown honestly.`} />
 
-        <div className="mt-8 grid gap-6 rounded-xl border border-line bg-surface-elevated p-5 lg:grid-cols-2">
-          <SpendBySystemBar />
-          <SpendByVendorDonut />
-        </div>
+        <Suspense fallback={<div className="mt-8 h-[300px] animate-pulse rounded-xl border border-line bg-surface-elevated" />}>
+          <div className="mt-8"><SpendSummary /></div>
+        </Suspense>
 
         {/* Filter bar */}
         <div className="mt-8 flex flex-wrap items-center gap-2">

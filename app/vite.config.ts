@@ -15,5 +15,18 @@ export default defineConfig({
       ),
     },
   },
-  build: { outDir: 'dist', assetsInlineLimit: 0 },
+  build: {
+    outDir: 'dist',
+    assetsInlineLimit: 0,
+    chunkSizeWarningLimit: 600,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ['react', 'react-dom'],
+          recharts: ['recharts'],
+          motion: ['framer-motion'],
+        },
+      },
+    },
+  },
 })
