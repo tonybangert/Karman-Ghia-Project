@@ -2,9 +2,13 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { fileURLToPath } from 'node:url'
 
-// GitHub Pages project site: served under /Karman-Ghia-Project/
+// Base path: Vercel serves at the domain root (it sets VERCEL=1 at build
+// time); GitHub Pages serves under /Karman-Ghia-Project/. Override with
+// BASE_PATH if deploying anywhere else.
+const base = process.env.BASE_PATH ?? (process.env.VERCEL ? '/' : '/Karman-Ghia-Project/')
+
 export default defineConfig({
-  base: '/Karman-Ghia-Project/',
+  base,
   plugins: [react()],
   resolve: {
     alias: {

@@ -43,7 +43,7 @@ npm run dev      # local dev server
 npm run build    # static bundle in app/dist, base path /Karman-Ghia-Project/
 ```
 
-Stack: React, Vite, TypeScript, Tailwind, Framer Motion, Recharts; fonts self-hosted via Fontsource. Deploy is automated: `.github/workflows/deploy.yml` builds `app/` and publishes to GitHub Pages on push to `main` (set Pages source to GitHub Actions). Optional assets: drop before/after photos in `app/public/gallery/` with a `gallery.json` manifest, and turntable frames in `app/public/spin/` with a `spin.json`; both degrade gracefully when absent.
+Stack: React, Vite, TypeScript, Tailwind, Framer Motion, Recharts; fonts self-hosted via Fontsource. The base path auto-detects the deploy target: Vercel builds (VERCEL env) serve from the domain root, everything else uses `/Karman-Ghia-Project/` (override with `BASE_PATH`). To deploy on Vercel, import the repo and set the project Root Directory to `app`; the Vite preset handles the rest. GitHub Pages deploy is also wired: `.github/workflows/deploy.yml` builds `app/` and publishes on push to `main` (set Pages source to GitHub Actions). Optional assets: drop before/after photos in `app/public/gallery/` with a `gallery.json` manifest, and turntable frames in `app/public/spin/` with a `spin.json`; both degrade gracefully when absent.
 
 ## Project status (start here)
 
