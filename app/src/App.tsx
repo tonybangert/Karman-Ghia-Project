@@ -6,6 +6,7 @@ import { ProvenanceFooter } from '@/components/Footer'
 import { AboutModal } from '@/components/AboutModal'
 import { Hero } from '@/views/Hero'
 import { CarExplorer } from '@/views/CarExplorer'
+import { Timeline } from '@/views/Timeline'
 
 function Placeholder({ id, title }: { id: string; title: string }) {
   return (
@@ -25,7 +26,7 @@ export default function App() {
         <main>
           <Hero />
           <CarExplorer />
-          <Placeholder id="timeline" title="Timeline" />
+          <Timeline />
           <Placeholder id="ledger" title="Parts Ledger" />
           <Placeholder id="vendors" title="Vendors" />
           <Placeholder id="gallery" title="Gallery" />
