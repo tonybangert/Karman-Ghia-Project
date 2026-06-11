@@ -68,6 +68,5 @@ The documented restoration spans June 29, 2013 to May 31, 2018. The arc in one p
 | 2016-09-14 | Roll pin purchase; restoration activity documented into Sep 2016 | DOC-009 |
 | 2016-09-26 | Small hardware cash run at McFadden-Dale: nickel cap nuts, stainless socket caps, carriage bolts. Latest 2016 date in the archive | DOC-053 |
 | 2018-05-31 | Two Weber carb rebuild kits from NV Automotive. NEW LATEST DATE: documented activity now spans Aug 2013 to May 2018 | DOC-034 |
-| undated | Type 4 head machine work: valve job, 94mm openings, .050 cut, 8.6:1 compression calculated (date unknown, Las Vegas area shop) | DOC-003 |
-| undated | Raby DTM Stage III kit ordered, shipped to Hurricane UT (date unknown; UT address suggests this may follow the Henderson-era purchases, or reflects a move during the build) | DOC-001 |
-| undated | Undated: handwritten build cost ledger records $500 car acquisition and itemized body/engine component costs | DOC-043 |
+| undated | ISP West 110mm programmable VW speedometer documented via its instruction manual (speedometer head identified; no purchase invoice in archive) | DOC-058 |
+| undated | Handwritten build cost ledger records $500 car acquisition and itemized body/engine component costs | DOC-043 |

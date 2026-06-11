@@ -1,6 +1,6 @@
 # Vendor Registry
 
-Seventeen vendors documented across the build.
+Eighteen vendors documented across the build.
 
 ## VEN-01: Raby Enterprises Inc (Aircooled Technology / Type 4 Store)
 - Address: 47 Raby Drive, Cleveland, GA 30528
@@ -107,4 +107,12 @@ Seventeen vendors documented across the build.
 - Web: www.chromeforu.biz
 - Specialty: Chrome plating and metal polishing. Re-chromed both bumpers Jun-Sep 2016, with a no-charge redo of two pieces.
 - Documents: DOC-050, DOC-051
+
+## VEN-18: ISP West (VW Restoration Parts)
+- Address: 20925 Brant Ave, Carson, CA 90810-1001
+- Phones: main 310-637-2100, fax 310-637-1019
+- Web: www.vwispwest.com
+- Specialty: VW restoration parts manufacturer; programmable speedometers and instruments. Identified the speedometer head via its instruction manual.
+- Documents: DOC-058
+- Note: Referenced only via the speedometer instruction manual; no purchase invoice for the speedometer is in the archive.
 

@@ -64,10 +64,11 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 - Sources: DOC-005, DOC-006, DOC-042
 
 ## Instrumentation
-- Gauge Heads: Mid America 2-1/16in gauges from order 04682256 shipped 2015-04-20 (DOC-056): oil pressure gauge 12V (111-150), oil temperature gauge (111-155), and an 8-16V voltmeter (111-152).
+- Speedometer: ISP West 110mm programmable VW speedometer (M18 x 1.5 cable, driven off the left front wheel hub), with double odometer and integrated indicator lights for turn signals, oil pressure, battery/charge, and high beam. Documented via its instruction manual (DOC-058); the purchase itself is not in the archive. The manual is Beetle-specific, so confirm the installed unit (cf. GAP-16).
+- Gauge Heads: Three Mid America 2-1/16in gauges from order 04682256 shipped 2015-04-20 (DOC-056), confirmed by their connection diagrams (DOC-059): oil pressure gauge 12V (111-150), electric temperature gauge used for oil temp (111-155), and an 8-16V voltmeter (111-152). The oil pressure gauge needs a pressure sender that is not separately documented.
 - Senders: Auto Meter 2258 electric temp sender (P-086, 2015-05-21); 300-degree oil temp sender 196-107, alt# V3-2305-5 (P-091, 2015-12-30); and a 111157 3/8in resistance temperature sender (P-184) ordered 2015-04-20 but still backordered as of 2015-05-18, fulfillment undocumented.
-- Remaining: confirm gauge cluster from dash photos and resolve which temperature sender feeds the oil temp gauge (GAP-20).
-- Sources: DOC-030, DOC-033, DOC-049, DOC-056
+- Remaining: confirm gauge cluster from dash photos, locate the oil pressure sender, and resolve which temperature sender feeds the temperature gauge (GAP-20).
+- Sources: DOC-030, DOC-033, DOC-049, DOC-056, DOC-058, DOC-059
 
 ## Wheels Tires
 - Wheels: Aftermarket Sprintstar 5-spokes (EMPI pattern), four wheels: identified by the 4x 319-655 center caps (alt# 00-9707-0) shipped spring 2015. Wheel size and finish not yet documented; confirm from photos.

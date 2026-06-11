@@ -16,24 +16,24 @@ Karman-Ghia-Project/
 ├── README.md                  <- you are here
 ├── data/
 │   ├── master-record.json     <- THE canonical dataset (always current)
-│   └── versions/              <- frozen snapshots, v1 through v7, one per extraction batch
+│   └── versions/              <- frozen snapshots, v1 through v8, one per extraction batch
 ├── docs/
 │   ├── SCHEMA.md              <- the seven-layer data model, conventions, and ID scheme
 │   ├── TIMELINE.md            <- generated narrative and event log, 2013-2018
 │   ├── SPEC-SHEET.md          <- generated build spec cards (engine, brakes, paint, interior...)
-│   ├── VENDORS.md             <- generated registry of all 17 vendors
+│   ├── VENDORS.md             <- generated registry of all 18 vendors
 │   └── GAPS-AND-ACTIONS.md    <- generated open questions and the call list to close them
 ├── summaries/
-│   └── batch-1 ... batch-7    <- human-readable narrative of what each extraction batch found
+│   └── batch-1 ... batch-8    <- human-readable narrative of what each extraction batch found
 └── scripts/
-    └── extend_v2 ... v7.py    <- the append scripts that produced each version (provenance)
+    └── extend_v2 ... v8.py    <- the append scripts that produced each version (provenance)
 ```
 
 `data/master-record.json` is the single source of truth. Everything in `docs/` is generated from it and should be regenerated, never hand-edited, when the data changes.
 
 ## Project status (start here)
 
-**Current version: v7** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v7.json`). Working tree clean, all batches committed and pushed. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
+**Current version: v8** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v8.json`). Working tree clean, all batches committed and pushed. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
 
 ### Batch history
 
@@ -46,15 +46,16 @@ Karman-Ghia-Project/
 | 5 | v5 | DOC-046, DOC-047 | Complete Raby receipt dated 2013-07-29 (GAP-02); body reseal order; wiring |
 | 6 | v6 | DOC-048 to DOC-053 | Wheels identified as Sprintstars (GAP-17); bumper re-chrome story; 2 new vendors |
 | 7 | v7 | DOC-054 to DOC-057 | Engine bottom-end invoice, new earliest date 2013-06-29 (GAP-09); gauge heads identified (GAP-20); Mid America order reconstructed (GAP-22) |
+| 8 | v8 | DOC-058, DOC-059 | Product literature: ISP West speedometer manual (speedometer head identified) and Mid America gauge connection diagrams (confirm the three gauges); 1 new vendor |
 
-### Latest session (Batches 6 and 7, 2026-06-11)
+### Latest session (Batches 6 through 8, 2026-06-11)
 
-Ten photographed documents extracted across two batches. Resolutions: GAP-17 and GAP-20 substantially resolved (Sprintstar wheels, Mid America 2-1/16in gauges), GAP-09 substantially resolved (NV Automotive supplied the bottom end), GAP-22 opened and fully resolved within the session (Mid America order 04682256 reconstructed across all three shipments). New gap GAP-23 opened: the lug-bolt evidence does not reconcile (14mm vs 12mm). Data housekeeping done in the same session: vendor document arrays re-synced, spec cards backfilled into the JSON, and a dedupe exception documented after NV Automotive turned out to have reused invoice number 125 on two distinct transactions.
+Twelve photographed documents extracted across three batches. Resolutions: GAP-17 and GAP-20 substantially resolved (Sprintstar wheels; Mid America 2-1/16in gauges, with the gauge identities later confirmed by their connection diagrams and the speedometer head identified as an ISP West unit), GAP-09 substantially resolved (NV Automotive supplied the bottom end), GAP-22 opened and fully resolved within the session (Mid America order 04682256 reconstructed across all three shipments). New gap GAP-23 opened: the lug-bolt evidence does not reconcile (14mm vs 12mm). Data housekeeping done in the same session: vendor document arrays re-synced, spec cards backfilled into the JSON, a dedupe exception documented after NV Automotive turned out to have reused invoice number 125 on two distinct transactions, and two stale undated timeline duplicates (DOC-001, DOC-003) removed now that both carry firm dates. Batch 8 added only product literature, so the ledger and documented spend are unchanged from v7.
 
 ### Where to pick up next
 
 1. **More photographs are the highest-value input.** The top targets, in order: the VIN plate (GAP-01), the dash cluster (closes GAP-20), the wheels with a lug count (closes GAP-17 and GAP-23), and a re-shoot of O'Reilly invoice 2655-492277 laid flat (GAP-14). The full list is `docs/GAPS-AND-ACTIONS.md`.
-2. **To ingest a new batch of document photos**, follow the established workflow below; the next batch is 8, producing v8 via `scripts/extend_v8.py`.
+2. **To ingest a new batch of document photos**, follow the established workflow below; the next batch is 9, producing v9 via `scripts/extend_v9.py`.
 
 ### Batch workflow (how every version is produced)
 
@@ -65,14 +66,14 @@ Ten photographed documents extracted across two batches. Resolutions: GAP-17 and
 5. Regenerate the affected files in `docs/`, update the statistics in this README, and write `summaries/batch-N-extraction-summary.md`.
 6. Commit and push.
 
-## Archive statistics (v7)
+## Archive statistics (v8)
 
 | Metric | Value |
 |---|---|
-| Documents extracted | 57 |
+| Documents extracted | 59 |
 | Parts and services ledger entries | 217 |
-| Vendors | 17 |
-| Timeline events | 56 |
+| Vendors | 18 |
+| Timeline events | 55 |
 | Documented date range | 2013-06-29 to 2018-05-31 |
 | Documented spend (priced ledger entries) | $5,831.52 |
 | Restorer's own handwritten cost ledger | ~$2,994 including the $500 car |
@@ -106,7 +107,7 @@ Seven layers, fully described in `docs/SCHEMA.md`:
 - The paint trail is recoverable: Washington County Collision (Hurricane UT), a 2014 Auto Paints Plus system purchase referencing mix "wa208v," and a 2015 Nason Ful-Thane mix to GM formula 3295. Translating those references into a color name is action item 2 in `docs/GAPS-AND-ACTIONS.md`.
 - The three-part JBugs interior order (944952A/B/C) reconciles to the penny, including a refund cycle.
 - A warranty replacement, a returned-then-recharged backorder, and two same-day cross-town supply runs are all preserved in the record.
-- The wheels are Sprintstar 5-spokes, identified by a center cap order; the gauge heads are Mid America 2-1/16in oil pressure, oil temperature, and voltmeter units from the same multi-shipment order, reconstructed in full across Batches 6 and 7.
+- The wheels are Sprintstar 5-spokes, identified by a center cap order; the gauge heads are Mid America 2-1/16in oil pressure, oil temperature, and voltmeter units (confirmed by their own connection diagrams), and the speedometer is an ISP West 110mm programmable VW unit, reconstructed across Batches 6 through 8.
 - The bumper chrome story is complete: both 3-piece bumpers re-plated in summer 2016, two pieces redone at no charge, and the chrome mounting hardware bought the day after the redo pickup.
 
 ## Roadmap
