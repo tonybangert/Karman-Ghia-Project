@@ -13,16 +13,16 @@ Seventeen vendors documented across the build.
 - Address: 1604 Morse Ave, Ventura, CA 93003
 - Phones: order 800-927-2787, info 805-650-2045, fax 805-650-2055
 - Specialty: Karmann Ghia specific restoration parts
-- Documents: DOC-002, DOC-037, DOC-038, DOC-041
+- Documents: DOC-002, DOC-037, DOC-038, DOC-041, DOC-055
 
 ## VEN-03: NV Automotive (VW Automotive)
 - Address: 4580 E. Lake Mead Blvd #104, Las Vegas, NV 89115
 - Phones: main 702-438-4689, fax 702-531-1241
 - Contact: Bill Shapley
 - Email: nvautomotive@vw.lvcoxmail.com
-- Specialty: Quality VW racing engines and transaxles. Performed the Type 4 head machine work and supplied Weber carb kits.
-- Documents: DOC-003, DOC-034
-- Note: Identified in Batch 3 via complete photo of invoice 125 (fax number matched the cropped fragment on the original DOC-003 photo) and a second invoice (100) from 2018.
+- Specialty: Quality VW racing engines and transaxles. Supplied the engine bottom-end parts (Jun 2013), performed the Type 4 head machine work (Aug 2013), and supplied Weber carb kits (2018).
+- Documents: DOC-003, DOC-034, DOC-054
+- Note: Identified in Batch 3 via complete photo of invoice 125 (fax number matched the cropped fragment on the original DOC-003 photo) and a second invoice (100) from 2018. Batch 7 added a second invoice also numbered 125 (DOC-054, 2013-06-29, bottom-end parts): the shop reused the invoice number across two distinct transactions, so the two are not deduplicated.
 
 ## VEN-04: California Pacific / JBugs
 - Address: 1338 Rocky Point Drive, Oceanside, CA 92056
@@ -57,7 +57,7 @@ Seventeen vendors documented across the build.
 - Address: 17082 N. US Hwy 45, Effingham, IL 62401
 - Customer number: 23552403-000
 - Specialty: VW and Corvette restoration catalog house
-- Documents: DOC-028, DOC-033, DOC-049
+- Documents: DOC-028, DOC-033, DOC-049, DOC-056, DOC-057
 
 ## VEN-10: Butch's Speed Shop
 - Address: 4477 Reno Ave, Las Vegas, NV 89118

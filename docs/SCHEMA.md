@@ -69,7 +69,7 @@ Conventions: small-hardware lines may be consolidated into one entry with all SK
 | extraction_note | Anything noteworthy: cropped areas, handwriting, attribution flags, story context |
 | duplicate_note | Added when a later batch re-photographs the same document; matched on invoice number, never re-entered |
 
-Dedupe rule: the invoice or order number is the dedupe key. A better photo of a known document updates the existing record.
+Dedupe rule: the invoice or order number is the dedupe key. A better photo of a known document updates the existing record. Exception: a small shop can reuse the same printed invoice number on genuinely different transactions. NV Automotive issued two distinct invoices both numbered 125 (DOC-003, head machine work, 2013-08-13; DOC-054, bottom-end parts, 2013-06-29). When the date, total, and line items differ, treat the documents as distinct and annotate each with an invoice-number collision note rather than merging.
 
 ## Layer 6: build_spec_cards
 

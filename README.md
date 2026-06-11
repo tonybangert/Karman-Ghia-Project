@@ -7,7 +7,7 @@ The long-term goal of this project is a bespoke application that understands eve
 
 ## The car in one paragraph
 
-Restored 2013-2018 by James O. Mahan, who bought the car as a $500 project. The drivetrain is the centerpiece: a 1,971cc Type 4 conversion (94mm x 71mm, 8.6:1 compression) running a Jake Raby DTM Stage III cooling system, dual Weber carburetors, an Engle cam, a lightened flywheel, and head work by NV Automotive (Bill Shapley) in Las Vegas, backed by a Freeway Flyer transaxle built by Steve Hansen. The chassis carries 2.5 inch drop spindles, an adjustable front beam, KYB shocks, and a front disc brake conversion. Body and paint were done in 2014 through Washington County Collision in Hurricane, Utah. The interior is the JBugs Deluxe Velour/Tweed kit with grey velour headliner, charcoal carpet, custom door panels, and grey 2-point Wolfsburg belts. Documented activity runs from July 29, 2013 (the Raby kit purchase) to May 31, 2018 (Weber rebuild kits).
+Restored 2013-2018 by James O. Mahan, who bought the car as a $500 project. The drivetrain is the centerpiece: a 1,971cc Type 4 conversion (94mm x 71mm, 8.6:1 compression) running a Jake Raby DTM Stage III cooling system, dual Weber carburetors, an Engle cam, a lightened flywheel, and head work by NV Automotive (Bill Shapley) in Las Vegas, backed by a Freeway Flyer transaxle built by Steve Hansen. The chassis carries 2.5 inch drop spindles, an adjustable front beam, KYB shocks, and a front disc brake conversion. Body and paint were done in 2014 through Washington County Collision in Hurricane, Utah. The interior is the JBugs Deluxe Velour/Tweed kit with grey velour headliner, charcoal carpet, custom door panels, and grey 2-point Wolfsburg belts. Documented activity runs from June 29, 2013 (the NV Automotive engine bottom-end parts) to May 31, 2018 (Weber rebuild kits).
 
 ## Repository layout
 
@@ -16,7 +16,7 @@ ghia-restoration-archive/
 ├── README.md                  <- you are here
 ├── data/
 │   ├── master-record.json     <- THE canonical dataset (always current)
-│   └── versions/              <- frozen snapshots, v1 through v6, one per extraction batch
+│   └── versions/              <- frozen snapshots, v1 through v7, one per extraction batch
 ├── docs/
 │   ├── SCHEMA.md              <- the seven-layer data model, conventions, and ID scheme
 │   ├── TIMELINE.md            <- generated narrative and event log, 2013-2018
@@ -24,25 +24,25 @@ ghia-restoration-archive/
 │   ├── VENDORS.md             <- generated registry of all 15 vendors
 │   └── GAPS-AND-ACTIONS.md    <- generated open questions and the call list to close them
 ├── summaries/
-│   └── batch-1 ... batch-6    <- human-readable narrative of what each extraction batch found
+│   └── batch-1 ... batch-7    <- human-readable narrative of what each extraction batch found
 └── scripts/
-    └── extend_v2 ... v6.py    <- the append scripts that produced each version (provenance)
+    └── extend_v2 ... v7.py    <- the append scripts that produced each version (provenance)
 ```
 
 `data/master-record.json` is the single source of truth. Everything in `docs/` is generated from it and should be regenerated, never hand-edited, when the data changes.
 
-## Archive statistics (v6)
+## Archive statistics (v7)
 
 | Metric | Value |
 |---|---|
-| Documents extracted | 53 |
-| Parts and services ledger entries | 196 |
+| Documents extracted | 57 |
+| Parts and services ledger entries | 217 |
 | Vendors | 17 |
-| Timeline events | 52 |
-| Documented date range | 2013-07-29 to 2018-05-31 |
-| Documented spend (priced ledger entries) | $5,129.40 |
+| Timeline events | 56 |
+| Documented date range | 2013-06-29 to 2018-05-31 |
+| Documented spend (priced ledger entries) | $5,831.52 |
 | Restorer's own handwritten cost ledger | ~$2,994 including the $500 car |
-| Data gaps | 22 tracked: 16 open, 4 partially resolved, 2 fully resolved |
+| Data gaps | 23 tracked: 15 open, 5 partially resolved, 3 fully resolved |
 
 ## The data model in brief
 
@@ -66,12 +66,13 @@ Seven layers, fully described in `docs/SCHEMA.md`:
 
 ## Provenance highlights
 
-- The complete Raby Enterprises receipt (#1878, July 29, 2013) marks the documented start of the restoration.
-- The handwritten cost ledger records the $500 purchase of the car and itemizes the engine bottom end.
+- The engine program is the documented start of the restoration: NV Automotive supplied the bottom-end parts on June 29, 2013 (now the earliest dated document), the Raby DTM kit followed on July 29, and NV Automotive finished the head machine work on August 13.
+- The handwritten cost ledger records the $500 purchase of the car and itemizes the engine bottom end; its estimates differ from the NV Automotive invoice prices, so the two are independent sources.
+- NV Automotive reused invoice number 125 on two distinct 2013 transactions (bottom-end parts and head work); both are kept, with the collision flagged so they are never merged.
 - The paint trail is recoverable: Washington County Collision (Hurricane UT), a 2014 Auto Paints Plus system purchase referencing mix "wa208v," and a 2015 Nason Ful-Thane mix to GM formula 3295. Translating those references into a color name is action item 2 in `docs/GAPS-AND-ACTIONS.md`.
 - The three-part JBugs interior order (944952A/B/C) reconciles to the penny, including a refund cycle.
 - A warranty replacement, a returned-then-recharged backorder, and two same-day cross-town supply runs are all preserved in the record.
-- The wheels are Sprintstar 5-spokes: identified in Batch 6 by a center cap order that locks together with the chrome 14mm lug bolts bought one day earlier on a separate order.
+- The wheels are Sprintstar 5-spokes, identified by a center cap order; the gauge heads are Mid America 2-1/16in oil pressure, oil temperature, and voltmeter units from the same multi-shipment order, reconstructed in full across Batches 6 and 7.
 - The bumper chrome story is complete: both 3-piece bumpers re-plated in summer 2016, two pieces redone at no charge, and the chrome mounting hardware bought the day after the redo pickup.
 
 ## Roadmap
