@@ -42,7 +42,7 @@ The documented record spans June 29, 2013 to June 10, 2026. The arc in one parag
 | 2015-03-17 | Transaxle gear lube purchased | DOC-014 |
 | 2015-03-18 | KGPR rear-deck brightwork: 'Volkswagen' and 'Karmann Ghia' rear hood scripts with clamping plates, door striker kit; grille seal backordered | DOC-055 |
 | 2015-03-18 | Rubber plugs | DOC-013 |
-| 2015-03-28 | O'Reilly purchase ~$48 net, line items illegible in photo (re-shoot) | DOC-016 |
+| 2015-03-28 | O'Reilly paint buff-out supplies: Meguiar's cleaner and machine glaze (16 oz each) and a polish pad, $52.40 on debit. Line items recovered by re-photograph in Batch 13 (GAP-14) | DOC-016 |
 | 2015-04-09 | Sylvania H6024XV sealed beam headlamps, pair | DOC-017 |
 | 2015-04-20 | Mid America order 04682256 placed: three 2-1/16in gauges (oil pressure, oil temp, voltmeter) and chrome lug bolts ship; Sprintstar caps and temp sender backordered. GAUGE HEADS IDENTIFIED (GAP-20) | DOC-056 |
 | 2015-04-21 | KGPR complete door rubber kit order (18 lines): door resealing phase | DOC-037 |

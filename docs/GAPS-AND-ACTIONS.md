@@ -1,13 +1,12 @@
 # Data Gaps and Action List
 
-Status as of v12: 14 open, 7 partially or substantially resolved, 3 fully resolved.
+Status as of v13: 13 open, 7 partially or substantially resolved, 4 fully resolved.
 
 ## Recommended next actions (the call list)
 
 1. Photograph the VIN plate, chassis number, and any M-code sticker; record on the Vehicle Master Record (GAP-01).
 2. Call any auto paint counter (or Boulder Auto Parts, 702-293-1368, customer B4925) and ask them to translate 'Dimension mix wa208v' and 'Nason Ful-Thane GM formula 3295' into a color name and code (GAP-13/GAP-21).
 3. Look up Washington County Collision in Hurricane UT and ask whether they retain 2014 job records or photos for a Karmann Ghia (GAP-21).
-4. Re-photograph DOC-016 (O'Reilly invoice 2655-492277, 2015-03-28) with line items visible (GAP-14).
 5. Pull a valve cover or check old paperwork for the Engle cam grind card (GAP-04), and photograph the Webers for model and jet sizes (GAP-05).
 6. Close-up photographs finish two gaps the overview photos (DOC-062) opened up: the gauge faces and speedometer brand marking (GAP-20), and a wheel close-up with the brand stamp plus a lug count (GAP-17/GAP-23). Also read the tire sidewalls while there (GAP-12).
 7. Ask any prior contacts which head carries the 2nd oversize spark plug insert (GAP-08), and who Bill Wilson and the Steve Hansen invoice trail are (GAP-18, GAP-06).
@@ -24,7 +23,6 @@ Status as of v12: 14 open, 7 partially or substantially resolved, 3 fully resolv
 | GAP-08 | medium | Which cylinder head carries the 2nd-oversize spark plug insert (matters for future plug service) |
 | GAP-10 | low | KGPR invoice page 2+ if it exists (page 1 of #441346 shown) |
 | GAP-11 | low | Fresh air inlet grille seal backorder fulfillment (P-027) |
-| GAP-14 | high | DOC-016 (O'Reilly 2655-492277, 2015-03-28, ~$48.47 net): line items cut off in photo. Re-photograph flat and complete. |
 | GAP-15 | medium | Identify 'EDE 224600 45 STREET' (4 units, DOC-020). Possibly carburetor jets. Verify against physical parts or O'Reilly part lookup. |
 | GAP-16 | medium | Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded. Batch 11 note: the pre-restoration photos (DOC-063) confirm the project car itself, a green Ghia coupe. |
 | GAP-18 | medium | Attribution: Drake insulating sheets invoice (DOC-031) billed to 'Bill Wilson, NV'. Determine whether Wilson was a helper/friend purchasing for the Ghia or this document belongs to another project. |
@@ -51,3 +49,4 @@ Status as of v12: 14 open, 7 partially or substantially resolved, 3 fully resolv
 | GAP-02 | Complete Raby receipt recovered: #1878, dated 2013-07-29, sales order #94, cashier Jake. |
 | GAP-03 | Machine shop identified as NV Automotive, 4580 E. Lake Mead Blvd #104, Las Vegas (Bill Shapley). Complete invoice 125 dated 2013-08-13, total $379.67. |
 | GAP-22 | Order 04682256 reconstructed: shipment -00001 (DOC-056, gauges and lug bolts, $160.92) and -00003 (DOC-057, final 2 Sprintstar caps, $25.98) recovered, alongside -00002 (DOC-049). Only open thread: the 111157 temperature sender stayed backordered through -00003, tracked under GAP-20. |
+| GAP-14 | Batch 13: DOC-016 re-photographed flat. The three line items are recovered, Meguiar's M0216 cleaner, M0316 machine glaze, and an MPR 67-900 polish pad (net $48.47, tax $3.93, total $52.40, debit VISA x7266, a paint buff-out), and the invoice number is corrected to 2655-499277 (the cut-off original misread it as 2655-492277). |

@@ -47,7 +47,7 @@ Stack: React, Vite, TypeScript, Tailwind, Framer Motion, Recharts; fonts self-ho
 
 ## Project status (start here)
 
-**Current version: v12** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v12.json`). Working tree clean, all batches committed and pushed. **The restorer's paper folder is fully ingested** (Batch 9 was the last folder document), and **Batch 12 opens the new-owner service era**: the first maintenance invoice since the car moved to Wisconsin. New service and ownership records are now an ongoing source. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
+**Current version: v13** (`data/master-record.json` equals `data/versions/ghia-1965-master-record-v13.json`). Working tree clean, all batches committed and pushed. **The restorer's paper folder is fully ingested** (Batch 9 was the last folder document), **Batch 12 opened the new-owner service era** (the first maintenance invoice since the car moved to Wisconsin), and **Batch 13 re-photographed DOC-016** to recover its cut-off line items and resolve GAP-14. New service and ownership records are now an ongoing source. The repository was reorganized from the original flat upload into the canonical layered layout, so the layout above is what is actually on disk.
 
 ### Batch history
 
@@ -65,19 +65,24 @@ Stack: React, Vite, TypeScript, Tailwind, Framer Motion, Recharts; fonts self-ho
 | 10 | v10 | DOC-062 | Owner photo set of the finished car: installed wheels CORRECTED to 911/Fuchs-style (not Sprintstars), engine bay / exhaust / interior / instruments photo-verified, odometer 877, Wisconsin registration |
 | 11 | v11 | DOC-063 | Pre-restoration prints: the $500 car was oxidized green with lower-body rust and nose damage, on steel wheels with hubcaps, explaining the 'for iron' caps order (GAP-23) and corroborating the handwritten prep ledger |
 | 12 | v12 | DOC-064 | New-owner era begins: Riverwest Automotive (Milwaukee WI) service invoice, 2026-06-10, 1,650 mi. No-start repair (hard start relay, points and condenser for the 009 distributor) and a 20W-50 oil change; the newest document by eight years; 1 new vendor |
+| 13 | v13 | DOC-016 (re-photo) | GAP-14 resolved: a clear re-shoot of the cut-off O'Reilly receipt recovers three Meguiar's paint buff-out items ($52.40) and corrects the invoice number to 2655-499277. First batch to update an existing document rather than add one |
 
-### Latest session (Batch 12, 2026-06-11)
+### Latest session (Batch 13, 2026-06-11)
+
+A re-photograph, not a new document. The cut-off original of DOC-016 (an O'Reilly receipt, 2015-03-28) had illegible line items and a misread invoice number, tracked as GAP-14. A clear flat scan recovers the three line items, Meguiar's M0216 cleaner and M0316 machine glaze (16 oz each) and an MPR 67-900 polish pad (net $48.47, tax $3.93, total $52.40, debit VISA x7266), and corrects the invoice number from 2655-492277 to 2655-499277. Per the schema dedupe rule, DOC-016 is updated in place rather than duplicated, its three previously-missing ledger entries (P-215 to P-217, SYS-08) are added, and GAP-14 is resolved. The purchase is the paint buff-out of the fresh 2014-2015 paint, fitting the March 2015 activity cluster. This is the first batch to update an existing document rather than append a new one.
+
+### Prior session (Batch 12, 2026-06-11)
 
 One new document, the first of the new-owner era. Riverwest Automotive Service (Milwaukee WI) invoice #9697, dated 2026-06-10, is the newest document in the archive by eight years. It documents the car under current owner Tony Bangert (co-name Zara Pakroo) in Whitefish Bay WI at 1,650 miles, confirming the Nevada-to-Wisconsin move that the garage photo (DOC-062c, plate ZZ65KG) implied. The visit was a no-start repair: a trigger wire to the starter had resistance at the connection (a hard start relay was added), then a no-spark was cured with new points and a condenser, which establishes a points-type Bosch 009 distributor (not electronic ignition); a 20W-50 Castrol GTX Classic oil and filter change was also done. $629.31 total ($583.23 in line items plus $46.08 tax). Five ledger entries (S-009, P-212 to P-214, S-010), one new vendor (VEN-20), and the engine, electrical, and ownership records updated. The VIN field was blank again, so GAP-01 stays open.
 
-### Prior session (Batches 6 through 11, 2026-06-11)
+### Earlier sessions (Batches 6 through 11, 2026-06-11)
 
 Sixteen documents (DOC-048 to DOC-063: fourteen from the paper folder plus two photographic records) extracted across six batches. Resolutions: GAP-07, GAP-17, and GAP-20 substantially resolved (Sprintstar wheels; Mid America 2-1/16in gauges, with the gauge identities later confirmed by their connection diagrams and the speedometer head identified as an ISP West unit), GAP-09 substantially resolved (NV Automotive supplied the bottom end), GAP-22 opened and fully resolved within the session (Mid America order 04682256 reconstructed across all three shipments). New gap GAP-23 opened: the lug-bolt evidence does not reconcile (14mm vs 12mm). Data housekeeping done in the same session: vendor document arrays re-synced, spec cards backfilled into the JSON, a dedupe exception documented after NV Automotive turned out to have reused invoice number 125 on two distinct transactions, and two stale undated timeline duplicates (DOC-001, DOC-003) removed now that both carry firm dates. Batch 8 added only product literature (no spend). Batch 9, the final batch, identified the exhaust manufacturer as A-1 Performance Exhaust Systems (GAP-07 substantially resolved) and added the JBugs armrest/headlight-switch order of 2016-09-28, the latest 2016 document; with it, every document in the restorer's folder has been ingested. Batch 10 added the first photographs of the finished car (DOC-062), which verified the engine bay, exhaust, interior, and instruments against the paper record and CORRECTED the wheel identification: the installed wheels are 911/Fuchs-style alloys, not the Sprintstars the 2015 center cap order implied; the Sprintstar caps evidently belong to a set that never went on the car (GAP-23). The photos also surfaced two undocumented items, the banjo steering wheel and coco mats (new GAP-24). Batch 11 closed the session with three pre-restoration prints (DOC-063): the $500 car was oxidized green with lower-body rust-through and nose damage, on steel wheels with hubcaps, which corroborates the handwritten prep ledger line by line and explains the 'for iron' chrome caps order as abandoned dress-up for the original steel wheels.
 
 ### Where to pick up next
 
 1. **Close-up photographs are the highest-value input.** Overview photos arrived in Batch 10; the remaining targets are close-ups: the VIN plate (GAP-01), the gauge faces and speedometer branding (GAP-20), a wheel with its brand stamp and lug count plus tire sidewalls (GAP-17/GAP-23/GAP-12), and a re-shoot of O'Reilly invoice 2655-492277 laid flat (GAP-14). The full list is `docs/GAPS-AND-ACTIONS.md`.
-2. **The paper folder is fully ingested, and the service era has begun.** New maintenance and ownership records now arrive from the current owner; ingest each with the workflow below. The next batch would be 13, producing v13 via `scripts/extend_v13.py`. Known absences from the restoration folder remain the exhaust and speedometer purchase invoices.
+2. **The paper folder is fully ingested, and the service era has begun.** New maintenance and ownership records now arrive from the current owner; ingest each with the workflow below. The next batch would be 14, producing v14 via `scripts/extend_v14.py`. Known absences from the restoration folder remain the exhaust and speedometer purchase invoices.
 
 ### Batch workflow (how every version is produced)
 
@@ -88,18 +93,18 @@ Sixteen documents (DOC-048 to DOC-063: fourteen from the paper folder plus two p
 5. Regenerate the affected files in `docs/`, update the statistics in this README, and write `summaries/batch-N-extraction-summary.md`.
 6. Commit and push.
 
-## Archive statistics (v12)
+## Archive statistics (v13)
 
 | Metric | Value |
 |---|---|
 | Documents extracted | 64 (61 paper, 2 photographic records, 1 service invoice) |
-| Parts and services ledger entries | 224 |
+| Parts and services ledger entries | 227 |
 | Vendors | 20 |
 | Timeline events | 60 |
 | Documented date range | 2013-06-29 to 2026-06-10 |
-| Documented spend (priced ledger entries) | $6,539.65 |
+| Documented spend (priced ledger entries) | $6,588.12 |
 | Restorer's own handwritten cost ledger | ~$2,994 including the $500 car |
-| Data gaps | 24 tracked: 14 open, 7 partially resolved, 3 fully resolved |
+| Data gaps | 24 tracked: 13 open, 7 partially resolved, 4 fully resolved |
 
 ## The data model in brief
 

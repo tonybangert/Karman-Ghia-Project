@@ -96,11 +96,12 @@ Compiled from documents in the archive. Each fact is traceable to source documen
   - GM formula 3295 in Nason Ful-Thane (DOC-036)
 - Bumpers: Front and rear 3-piece bumpers re-chromed Jun-Sep 2016 by American Polishing & Plating (Shine Shop), Henderson NV, $350 flat; two pieces redone at no charge Sep 2016. Remounted with chrome 5/16-18 carriage bolt hardware, 8 positions (McFadden-Dale, 2016-09-07). Bumper bracket seals, cover seals, rubber mounts, and a rear left bracket sourced from KGPR Apr 2015.
 - Rear Deck Emblems: Rear hood 'Volkswagen' script (853-687) and 'Karmann Ghia' script (853-905) with VW 3-piece and KG 4-piece clamping plates; door striker repair kit (KGPR invoice 445363, 2015-03-18). Photo-verified installed (DOC-062e)
+- Paint Polishing: Machine paint-correction supplies bought 2015-03-28 (DOC-016): Meguiar's M0216 cleaner and M0316 machine glaze (16 oz each) with an MPR 67-900 polish pad, the buff-out of the fresh 2014-2015 paint
 - Color Visual: Light silver-blue metallic over black rocker panels (owner photos, DOC-062d/e). Formula name still open under GAP-13 (wa208v / GM 3295 references)
 - Pre Restoration: Photographed before restoration (DOC-063): oxidized green over rust-through and primer patches, damaged nose/front valance, rear quarters in primer, taillight lens missing, rear bumper absent. Explains the DOC-043 prep spend (media blast, Bondo, Dolphin Glaze, fiberglass, replacement nose/fender/hood panels, multiple primer stages). Factory paint code still unknown (GAP-01)
 - As Installed Verification: Photo-verified (DOC-062): chrome sharp-edge side molding, euro tail lights, chrome bumpers, LED strips at license plate and below decklid (consistent with DOC-018), lowered stance consistent with the 2.5in drop spindles
 - Exterior Trim: Sharp-edge complete side molding set w/52 clips (KGPR, Aug 2016); CAL trimless windshield and rear glass seals (JBugs, May 2016); Karmann side body badge emblem (West Coast Metric, Jan 2015); verify trim configuration on car
-- Sources: DOC-023, DOC-026, DOC-027, DOC-036, DOC-037, DOC-041, DOC-042, DOC-043, DOC-044, DOC-046, DOC-050, DOC-051, DOC-052, DOC-055, DOC-062, DOC-063
+- Sources: DOC-016, DOC-023, DOC-026, DOC-027, DOC-036, DOC-037, DOC-041, DOC-042, DOC-043, DOC-044, DOC-046, DOC-050, DOC-051, DOC-052, DOC-055, DOC-062, DOC-063
 
 ## Electrical
 - Fuse Box: 8-fuse box with cover, correct for Bug/Ghia 1961-66 (WCM 111-037 + 181-555A, Jan 2015)
