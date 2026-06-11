@@ -34,8 +34,9 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 - Sources: DOC-001, DOC-004
 
 ## Exhaust
-- System: Ceramic coated exhaust (manufacturer unknown, data gap)
-- Sources: DOC-004
+- System: A-1 Performance Exhaust Systems (Santa Ana CA), ceramic coated. Manufacturer identified from the installation/maintenance literature that shipped with the system (DOC-060); the ceramic coating reads as A-1 factory-applied (implied, not stated). Flat-surfaced header-to-muffler flange joint, sealed with high temperature silicone, no gasket.
+- Maintenance Notes: Per A-1 literature: retorque header bolts warm after first 15 minutes; coated slip joints marked and re-fitted ~1in past the coated pipe end; anti-seize on stainless slip joints.
+- Sources: DOC-004, DOC-060
 
 ## Transmission
 - Builder: Steve Hansen
@@ -61,7 +62,8 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 - Door Panels: Custom 56-61 style with 12 inch inserts (14-1522-CUST)
 - Seats: Front pads 43-1515 x2, rear pad 43-1518, upholstery 44-1523 (66-67 sedan, 12 inch insert, 56-61 style)
 - Seat Belts: Grey 2-point lap belts with chrome lift latches and Wolfsburg stickers (JBugs Z VW 20 GY L, May 2016)
-- Sources: DOC-005, DOC-006, DOC-042
+- Armrests: Grey armrest pair, 1958-67 style (JBugs 16-1622-16, 2016-09-28), matching the grey kit
+- Sources: DOC-005, DOC-006, DOC-042, DOC-061
 
 ## Instrumentation
 - Speedometer: ISP West 110mm programmable VW speedometer (M18 x 1.5 cable, driven off the left front wheel hub), with double odometer and integrated indicator lights for turn signals, oil pressure, battery/charge, and high beam. Documented via its instruction manual (DOC-058); the purchase itself is not in the archive. The manual is Beetle-specific, so confirm the installed unit (cf. GAP-16).
@@ -93,5 +95,6 @@ Compiled from documents in the archive. Each fact is traceable to source documen
 ## Electrical
 - Fuse Box: 8-fuse box with cover, correct for Bug/Ghia 1961-66 (WCM 111-037 + 181-555A, Jan 2015)
 - Wiring: Hand-wiring work Feb 2015: 12ga and 16ga primary wire in four colors, cable tie mounts, grommets. No complete harness purchase documented.
-- Sources: DOC-046, DOC-047
+- Headlight Switch: Bug/Ghia 58-67 pattern (311941531A, JBugs 2016-09-28), fitted with 10mm dash escutcheon per invoice note
+- Sources: DOC-046, DOC-047, DOC-061
 

@@ -1,6 +1,6 @@
 # Data Gaps and Action List
 
-Status as of v7: 15 open, 5 partially or substantially resolved, 3 fully resolved.
+Status as of v9: 14 open, 6 partially or substantially resolved, 3 fully resolved.
 
 ## Recommended next actions (the call list)
 
@@ -21,7 +21,6 @@ Status as of v7: 15 open, 5 partially or substantially resolved, 3 fully resolve
 | GAP-04 | high | Engle cam grind number (e.g., W-100, W-110). May appear on an engine parts receipt elsewhere in the folder, or on the cam card if retained. |
 | GAP-05 | medium | Exact Weber carb model (44 IDF presumed) and jetting if documented |
 | GAP-06 | medium | Steve Hansen transmission invoice, gear ratios, ring and pinion spec |
-| GAP-07 | medium | Exhaust system manufacturer and ceramic coating vendor |
 | GAP-08 | medium | Which cylinder head carries the 2nd-oversize spark plug insert (matters for future plug service) |
 | GAP-10 | low | KGPR invoice page 2+ if it exists (page 1 of #441346 shown) |
 | GAP-11 | low | Fresh air inlet grille seal backorder fulfillment (P-027) |
@@ -37,6 +36,7 @@ Status as of v7: 15 open, 5 partially or substantially resolved, 3 fully resolve
 
 | ID | Status | Resolution so far |
 |---|---|---|
+| GAP-07 | SUBSTANTIALLY RESOLVED (Batch 9) | Exhaust manufacturer identified as A-1 Performance Exhaust Systems (Santa Ana CA) from the installation/maintenance literature shipped with the system (DOC-060). The literature's ceramic coating care section implies the coating is A-1 factory-applied, which would close the coating vendor question too, but that is implied rather than stated. Remaining: the exhaust purchase invoice (model, date, price) is not in the archive. |
 | GAP-09 | SUBSTANTIALLY RESOLVED (Batch 7) | NV Automotive invoice 125 dated 2013-06-29 (DOC-054) documents the bottom-end vendor and itemizes crank, rods, bearings, gaskets, seals, Melling oil pump, 210mm lightened flywheel, and pilot bearing, $464.76 paid cash. Remaining: source of the 94mm pistons/cylinders, lifters, and rockers, which are in the handwritten ledger (DOC-043) but not on this invoice. |
 | GAP-12 | PARTIALLY RESOLVED (Batch 5) | Wiring work documented (DOC-047, Feb 2015): primary wire and supplies, but no complete harness. Tires remain undocumented. |
 | GAP-13 | SUBSTANTIALLY RESOLVED (Batch 4) | Paint trail recovered: body shop = Washington County Collision (Hurricane UT); June 2014 full system from Auto Paints Plus with mixed color 'Dimentions Mixwa208v'; Jan 2015 Nason Ful-Thane BC/CC mixed to GM formula 3295 + SelectClear activator (Boulder Auto Parts). Remaining: translate formula references (wa208v / GM 3295) into the color name, and confirm which system is the final topcoat. |
