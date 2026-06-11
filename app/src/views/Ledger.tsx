@@ -50,7 +50,7 @@ export function Ledger() {
   const filteredSpend = rows.reduce((s, e) => s + paidAmount(e), 0)
   const active = activeId ? a.entryById.get(activeId) : null
 
-  const selectCls = 'rounded-md border border-line bg-surface-elevated px-2.5 py-1.5 text-sm text-ink focus:border-brand-primary'
+  const selectCls = 'min-w-0 max-w-full flex-1 basis-[140px] rounded-md border border-line bg-surface-elevated px-2.5 py-1.5 text-sm text-ink focus:border-brand-primary'
 
   return (
     <section id="ledger" className="scroll-mt-16 border-t border-line bg-surface-sunken/40">

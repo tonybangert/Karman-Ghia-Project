@@ -26,9 +26,9 @@ export function SpendBySystemBar() {
   , [a])
   const colors = palette(data.length)
   return (
-    <div>
+    <div className="min-w-0">
       <div className="mono mb-2 text-xs uppercase tracking-wide text-ink-faint">Spend by system</div>
-      <div className="h-[260px] w-full">
+      <div className="h-[260px] w-full min-w-0">
         <ResponsiveContainer>
           <BarChart data={data} layout="vertical" margin={{ left: 4, right: 12, top: 0, bottom: 0 }}>
             <XAxis type="number" hide />
@@ -60,9 +60,9 @@ export function SpendByVendorDonut() {
   const colors = palette(data.length)
   const total = data.reduce((s, d) => s + d.value, 0)
   return (
-    <div>
+    <div className="min-w-0">
       <div className="mono mb-2 text-xs uppercase tracking-wide text-ink-faint">Spend by vendor</div>
-      <div className="flex items-center gap-4">
+      <div className="flex min-w-0 items-center gap-4">
         <div className="relative h-[180px] w-[180px] shrink-0">
           <ResponsiveContainer>
             <PieChart>
