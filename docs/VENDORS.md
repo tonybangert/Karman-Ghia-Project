@@ -1,6 +1,6 @@
 # Vendor Registry
 
-Seventeen vendors documented across the build.
+Nineteen vendors documented across the build.
 
 ## VEN-01: Raby Enterprises Inc (Aircooled Technology / Type 4 Store)
 - Address: 47 Raby Drive, Cleveland, GA 30528
@@ -29,7 +29,7 @@ Seventeen vendors documented across the build.
 - Phones: main 760-722-2535
 - Customer number: 467595
 - Specialty: VW interior kits and restoration parts
-- Documents: DOC-005, DOC-006, DOC-032, DOC-042
+- Documents: DOC-005, DOC-006, DOC-032, DOC-042, DOC-061
 
 ## VEN-05: O'Reilly Auto Parts (Store #4464 area, Henderson NV)
 - Address: 884 South Boulder Highway, Henderson, NV 89015-7502
@@ -107,4 +107,21 @@ Seventeen vendors documented across the build.
 - Web: www.chromeforu.biz
 - Specialty: Chrome plating and metal polishing. Re-chromed both bumpers Jun-Sep 2016, with a no-charge redo of two pieces.
 - Documents: DOC-050, DOC-051
+
+## VEN-18: ISP West (VW Restoration Parts)
+- Address: 20925 Brant Ave, Carson, CA 90810-1001
+- Phones: main 310-637-2100, fax 310-637-1019
+- Web: www.vwispwest.com
+- Specialty: VW restoration parts manufacturer; programmable speedometers and instruments. Identified the speedometer head via its instruction manual.
+- Documents: DOC-058
+- Note: Referenced only via the speedometer instruction manual; no purchase invoice for the speedometer is in the archive.
+
+## VEN-19: A-1 Performance Exhaust Systems
+- Address: 721 South Main Street, Santa Ana, CA 92701
+- Phones: main 714-836-7201
+- Email: tigerperformance@aol.com
+- Web: GenuineA1.com
+- Specialty: Performance exhaust systems for aircooled VWs ('As seen on the fastest street and drag cars in the world'); ships ceramic coated and stainless systems. Identified the exhaust manufacturer (GAP-07).
+- Documents: DOC-060
+- Note: Referenced only via the installation/maintenance literature that shipped with the exhaust; no purchase invoice for the exhaust is in the archive.
 

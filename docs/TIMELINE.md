@@ -66,8 +66,11 @@ The documented restoration spans June 29, 2013 to May 31, 2018. The arc in one p
 | 2016-09-06 | Two bumper pieces redone at no charge by the plating shop | DOC-051 |
 | 2016-09-07 | Chrome bumper mounting hardware (5/16-18 carriage bolts, washers, nuts, 8 each) from McFadden-Dale, the day after the plating redo: bumpers going back on | DOC-052 |
 | 2016-09-14 | Roll pin purchase; restoration activity documented into Sep 2016 | DOC-009 |
-| 2016-09-26 | Small hardware cash run at McFadden-Dale: nickel cap nuts, stainless socket caps, carriage bolts. Latest 2016 date in the archive | DOC-053 |
+| 2016-09-26 | Small hardware cash run at McFadden-Dale: nickel cap nuts, stainless socket caps, carriage bolts | DOC-053 |
+| 2016-09-28 | JBugs order: grey armrest pair and headlight switch, $124.90, shipped same day. Latest 2016 date; documented activity now continuous Jan 2015 to Sep 2016 | DOC-061 |
 | 2018-05-31 | Two Weber carb rebuild kits from NV Automotive. NEW LATEST DATE: documented activity now spans Aug 2013 to May 2018 | DOC-034 |
-| undated | Type 4 head machine work: valve job, 94mm openings, .050 cut, 8.6:1 compression calculated (date unknown, Las Vegas area shop) | DOC-003 |
-| undated | Raby DTM Stage III kit ordered, shipped to Hurricane UT (date unknown; UT address suggests this may follow the Henderson-era purchases, or reflects a move during the build) | DOC-001 |
-| undated | Undated: handwritten build cost ledger records $500 car acquisition and itemized body/engine component costs | DOC-043 |
+| undated | ISP West 110mm programmable VW speedometer documented via its instruction manual (speedometer head identified; no purchase invoice in archive) | DOC-058 |
+| undated | A-1 Performance exhaust installation/maintenance literature (exhaust manufacturer identified; no purchase invoice in archive) | DOC-060 |
+| undated | Owner photo set of the finished car verifies the archive against the machine: Fuchs-style wheels installed (not Sprintstars), DTM/Weber engine bay, A-1 style exhaust, JBugs interior, odometer 877, Wisconsin registration | DOC-062 |
+| undated | Pre-2014: three surviving prints show the car as acquired: oxidized green, lower-body rust-through, nose damage, on steel wheels with hubcaps, riding a trailer | DOC-063 |
+| undated | Handwritten build cost ledger records $500 car acquisition and itemized body/engine component costs | DOC-043 |

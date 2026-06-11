@@ -1,8 +1,8 @@
 {
- "schema_version": "1.10",
+ "schema_version": "1.9",
  "project_name": "1965 Karmann Ghia Restoration Documentation",
  "generated_date": "2026-06-11",
- "generated_from": "Batches 1-11 (DOC-001 to DOC-063)",
+ "generated_from": "Batches 1-10 (DOC-001 to DOC-062)",
  "vehicle_master_record": {
   "vehicle_id": "GHIA-1965-001",
   "year_titled": 1965,
@@ -42,9 +42,7 @@
    "note": "The car was a $500 project car at the start of the restoration."
   },
   "odometer_observed": "000877 on the 110mm speedometer (DOC-062a, undated photo): roughly 877 miles since the instrument was installed/reset during restoration",
-  "as_completed_photo_record": "DOC-062",
-  "pre_restoration_condition": "Photographed before restoration (DOC-063): oxidized green paint (factory color unknown, GAP-01), rust-through along rockers and door bottoms, primer patches, nose/front valance damage, rear quarters in primer, one taillight lens missing, rear bumper absent, on steel wheels with hubcaps. Corroborates the DOC-043 body-prep cost lines.",
-  "as_acquired_photo_record": "DOC-063"
+  "as_completed_photo_record": "DOC-062"
  },
  "systems_taxonomy": [
   {
@@ -1377,21 +1375,6 @@
     "e": "Rear, desert: exhaust, rear scripts, tail lights, LED strips"
    },
    "extraction_note": "FIRST PHOTOGRAPHIC RECORD OF THE FINISHED CAR, supplied by the current owner to verify the paper archive against the physical machine. Image files retained by the owner; not stored in this repository (see roadmap item: photo library). Key verifications and findings: (1) WHEELS: the installed wheels are flat-five-spoke 911/Fuchs-style alloys with black spoke recesses, polished lips, and small chrome center caps; they are NOT the Sprintstar pattern that the 319-655 center cap order implied (corrects GAP-17, advances GAP-23: the 16pc 14mm chrome lug bolt set fits this 4x130-pattern style, while the 12mm sets and Sprintstar caps likely belong to an uninstalled or returned set). (2) DASH: 110mm speedometer with trip button and odometer reading 000877, consistent with the ISP West programmable unit (DOC-058), roughly 877 miles since restoration; one 2-1/16in gauge mounted right of the speedometer above a larger round instrument, and two more 2-1/16in chrome-bezel gauges center dash below the radio aperture, consistent with the three Mid America gauges (DOC-056), faces not readable at this resolution. (3) ENGINE BAY: Raby DTM Stage III black upright shroud with flexible intake duct, dual Weber carburetors with chrome oval gauze filters and hex-bar cross linkage, alternator on the Raby billet stand with integrated oil filler: DOC-001 hardware verified installed. (4) EXHAUST: polished sidewinder-style merged-collector system exiting right, consistent with A-1 Performance (DOC-060). (5) PAINT: light silver-blue metallic over black rockers (visual; formula name still open under GAP-13), chrome sharp-edge side molding, VOLKSWAGEN block and cursive Ghia rear scripts installed (DOC-055), euro tail lights, LED strips at the license plate and below the decklid (consistent with the DOC-018 LED purchase). (6) INTERIOR: JBugs grey velour kit verified installed (door panels, charcoal carpet, grey velour seats, grey 2-point belts with chrome latches, passenger door armrest per DOC-061); woven coco mats and a silver banjo-style steering wheel with decorative horn button and polished drilled column drop are present but UNDOCUMENTED in the purchase record. (7) REGISTRATION: Wisconsin plate ZZ65KG on the car in the current owner's garage."
-  },
-  {
-   "doc_id": "DOC-063",
-   "type": "Photographic record (3 printed photographs, rephotographed)",
-   "vendor_id": null,
-   "title": "Pre-restoration photo set: the $500 car as acquired (green, rusted, on a trailer)",
-   "reference_numbers": {},
-   "date": null,
-   "line_item_count": 0,
-   "photos": {
-    "a": "Side profile on a trailer: oxidized green paint, rust-through and primer patches along rockers and door bottoms, steel wheels with hubcaps",
-    "b": "Rear three-quarter: primer/bare metal on rear lower quarters, taillight lens missing, rear bumper absent, exhaust pipe protruding, quarter vent trim present",
-    "c": "Front three-quarter at a wooden building: nose and front valance damage, oxidized dark green paint, glass present"
-   },
-   "extraction_note": "PRE-RESTORATION CONDITION RECORD: three printed photographs (rephotographed from the prints, which survive with the project's papers; print files retained by the owner, not stored in this repository). Undated; the condition places them at or near the $500 acquisition, before the 2014 Utah body/paint phase. What they establish: (1) PRE-RESTORATION COLOR was green, heavily oxidized, over widespread rust-through and dotted primer patches along the lower body; whether it is the factory color is unknown (GAP-01 paint code still open). (2) BODY DAMAGE corroborates the handwritten cost ledger's prep lines (DOC-043: media blast, Bondo, Dolphin Glaze, fiberglass, 'Nose & fender & Hood Replacement parts', primer stages): visible nose/front valance damage, rust along rockers and door bottoms, rear lower quarters in primer/bare metal, one taillight lens missing, rear bumper absent. (3) WHEELS: the car sat on steel wheels with hubcaps, which finally explains the backordered 'CENTER CAP, CHROME, FOR IRON' parts and decals on Mid America order 04682256-00001 (DOC-056): dress-up parts for the original steel (iron) wheels, presumably abandoned when the disc-conversion/alloy direction won out (GAP-23). (4) The car is on a trailer in two frames: transport day, consistent with the acquisition or the move to the body shop. (5) Glass present pre-restoration. Also useful for GAP-16: the project car was demonstrably this green Ghia."
   }
  ],
  "parts_ledger": [
@@ -4487,11 +4470,9 @@
     "DOC-049",
     "DOC-056",
     "DOC-057",
-    "DOC-062",
-    "DOC-063"
+    "DOC-062"
    ],
-   "center_caps": "Installed wheels wear small chrome caps (DOC-062d), not obviously the 319-655 Sprintstar caps; the Sprintstar caps and 'for iron' caps from order 04682256 are unaccounted for on the car (GAP-23).",
-   "pre_restoration_wheels": "Steel wheels with hubcaps (DOC-063). This explains the 'center cap, chrome, for iron' parts and chrome decals backordered on Mid America order 04682256-00001 (DOC-056): dress-up for the original steel wheels, evidently abandoned in favor of the alloy direction (GAP-23)."
+   "center_caps": "Installed wheels wear small chrome caps (DOC-062d), not obviously the 319-655 Sprintstar caps; the Sprintstar caps and 'for iron' caps from order 04682256 are unaccounted for on the car (GAP-23)."
   },
   "body_paint": {
    "card_id": "SPEC-BODY-PAINT",
@@ -4520,13 +4501,11 @@
     "DOC-051",
     "DOC-052",
     "DOC-055",
-    "DOC-062",
-    "DOC-063"
+    "DOC-062"
    ],
    "rear_deck_emblems": "Rear hood 'Volkswagen' script (853-687) and 'Karmann Ghia' script (853-905) with VW 3-piece and KG 4-piece clamping plates; door striker repair kit (KGPR invoice 445363, 2015-03-18).",
    "color_visual": "Light silver-blue metallic over black rocker panels (owner photos, DOC-062d/e). Formula name still open under GAP-13 (wa208v / GM 3295 references).",
-   "as_installed_verification": "Photo-verified (DOC-062): chrome sharp-edge side molding, VOLKSWAGEN block and cursive Ghia rear scripts (DOC-055 parts), euro tail lights, chrome bumpers, LED strips at license plate and below decklid (consistent with DOC-018), lowered stance consistent with the 2.5in drop spindles.",
-   "pre_restoration": "Photographed before restoration (DOC-063): oxidized green over rust-through and primer patches, damaged nose/front valance, rear quarters in primer, taillight lens missing, rear bumper absent. Explains the DOC-043 prep spend (media blast, Bondo, Dolphin Glaze, fiberglass, replacement nose/fender/hood panels, multiple primer stages). Factory paint code still unknown (GAP-01)."
+   "as_installed_verification": "Photo-verified (DOC-062): chrome sharp-edge side molding, VOLKSWAGEN block and cursive Ghia rear scripts (DOC-055 parts), euro tail lights, chrome bumpers, LED strips at license plate and below decklid (consistent with DOC-018), lowered stance consistent with the 2.5in drop spindles."
   },
   "electrical": {
    "card_id": "SPEC-ELECTRICAL",
@@ -4828,11 +4807,6 @@
   },
   {
    "date": null,
-   "event": "Undated (pre-2014): three surviving prints show the car as acquired: oxidized green, lower-body rust-through, nose damage, on steel wheels with hubcaps, riding a trailer",
-   "doc_id": "DOC-063"
-  },
-  {
-   "date": null,
    "event": "Undated: handwritten build cost ledger records $500 car acquisition and itemized body/engine component costs",
    "doc_id": "DOC-043"
   }
@@ -4928,8 +4902,7 @@
   {
    "gap_id": "GAP-16",
    "priority": "medium",
-   "item": "Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded.",
-   "note": "Batch 11: the pre-restoration photos (DOC-063) confirm the project car itself: a green Ghia coupe. The attribution question for the Type 1 carb kit and 1967 Beetle lookup remains open."
+   "item": "Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded."
   },
   {
    "gap_id": "GAP-17",
@@ -4972,7 +4945,7 @@
    "priority": "medium",
    "item": "Reconcile the wheel/lug evidence. Two lug bolt purchases conflict: 16pc chrome 14mm (319-994, DOC-028, implies 4-lug) versus four sets of 5 chrome 12mm (319-991, DOC-056, implies 5-lug). Order 04682256-00001 also carried 'center cap, chrome, for iron' parts and chrome decals (backordered) that do not obviously match the Sprintstar caps (319-655). Confirm from the car: wheel make (Sprintstar confirmed by caps), bolt pattern, lug size, and whether a second wheel set or iron-wheel caps were involved.",
    "status": "PARTIALLY RESOLVED",
-   "resolution": "Batch 10: owner photos (DOC-062d) show the installed wheels are 911/Fuchs-style (consistent with 4-lug 14mm, the DOC-028 bolt set), so the 12mm 5-bolt sets and the Sprintstar caps from order 04682256 evidently belong to a set that is not on the car (returned, planned, or spare). Remaining: physically confirm lug size/pattern, read the wheel brand stamp, and account for the Sprintstar caps and 12mm bolts. Batch 11: the pre-restoration photos (DOC-063) show the car arrived on steel wheels with hubcaps, so the 'for iron' chrome caps and decals were evidently dress-up for the original steel wheels, abandoned when the disc-conversion/alloy direction won out. Remaining: physical lug confirmation on the installed alloys and the fate of the Sprintstar caps and 12mm bolts."
+   "resolution": "Batch 10: owner photos (DOC-062d) show the installed wheels are 911/Fuchs-style (consistent with 4-lug 14mm, the DOC-028 bolt set), so the 12mm 5-bolt sets and the Sprintstar caps from order 04682256 evidently belong to a set that is not on the car (returned, planned, or spare). Remaining: physically confirm lug size/pattern, read the wheel brand stamp, and account for the Sprintstar caps and 12mm bolts."
   },
   {
    "gap_id": "GAP-24",

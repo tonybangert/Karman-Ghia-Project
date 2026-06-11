@@ -1,8 +1,8 @@
 {
- "schema_version": "1.10",
+ "schema_version": "1.8",
  "project_name": "1965 Karmann Ghia Restoration Documentation",
  "generated_date": "2026-06-11",
- "generated_from": "Batches 1-11 (DOC-001 to DOC-063)",
+ "generated_from": "Batches 1-9 (DOC-001 to DOC-061)",
  "vehicle_master_record": {
   "vehicle_id": "GHIA-1965-001",
   "year_titled": 1965,
@@ -32,19 +32,14 @@
     "owner": "Tony Bangert",
     "role": "Current owner",
     "location": "Bayside, WI",
-    "period": "Current",
-    "registration": "Wisconsin plate ZZ65KG (photographed, DOC-062c)"
+    "period": "Current"
    }
   ],
   "acquisition_by_restorer": {
    "purchase_price": 500.0,
    "source": "DOC-043 handwritten cost ledger, line 1: '$500.00 price for car'",
    "note": "The car was a $500 project car at the start of the restoration."
-  },
-  "odometer_observed": "000877 on the 110mm speedometer (DOC-062a, undated photo): roughly 877 miles since the instrument was installed/reset during restoration",
-  "as_completed_photo_record": "DOC-062",
-  "pre_restoration_condition": "Photographed before restoration (DOC-063): oxidized green paint (factory color unknown, GAP-01), rust-through along rockers and door bottoms, primer patches, nose/front valance damage, rear quarters in primer, one taillight lens missing, rear bumper absent, on steel wheels with hubcaps. Corroborates the DOC-043 body-prep cost lines.",
-  "as_acquired_photo_record": "DOC-063"
+  }
  },
  "systems_taxonomy": [
   {
@@ -1360,38 +1355,6 @@
    "total": 124.9,
    "payment": "VISA x0115 (same card as DOC-052, McFadden-Dale 2016-09-07)",
    "extraction_note": "Final interior trim: grey armrests for 1958-67 (sold as a pair at $99.95, with the left and right component lines printed at 0.00, the familiar kit-header pattern) matching the grey velour/tweed interior, plus a headlight switch for Bug/Ghia 58-67 with a note to use the 10mm dash escutcheon. Shipped same day via post office (pulled by DJ, shipped by OS). NEW LATEST 2016 DATE: 2016-09-28, two days after the McFadden-Dale small hardware run (DOC-053). The VISA ending 0115 ties this account (JBugs customer 467595) to the in-person McFadden-Dale purchases, and the phone 702-351-1031 matches the Shine Shop and KGPR records: one buyer across all channels."
-  },
-  {
-   "doc_id": "DOC-062",
-   "type": "Photographic record (5 photos)",
-   "vendor_id": null,
-   "title": "Owner photo set: the car as completed (interior, engine bay, exterior, registration)",
-   "reference_numbers": {},
-   "date": null,
-   "line_item_count": 0,
-   "photos": {
-    "a": "Interior/dash: banjo steering wheel, instrument cluster, JBugs grey interior installed",
-    "b": "Engine bay: DTM shroud, dual Webers, billet alternator stand",
-    "c": "Rear in garage: Wisconsin registration ZZ65KG (current owner)",
-    "d": "Front three-quarter, red-rock desert backdrop: paint, wheels, stance, trim",
-    "e": "Rear, desert: exhaust, rear scripts, tail lights, LED strips"
-   },
-   "extraction_note": "FIRST PHOTOGRAPHIC RECORD OF THE FINISHED CAR, supplied by the current owner to verify the paper archive against the physical machine. Image files retained by the owner; not stored in this repository (see roadmap item: photo library). Key verifications and findings: (1) WHEELS: the installed wheels are flat-five-spoke 911/Fuchs-style alloys with black spoke recesses, polished lips, and small chrome center caps; they are NOT the Sprintstar pattern that the 319-655 center cap order implied (corrects GAP-17, advances GAP-23: the 16pc 14mm chrome lug bolt set fits this 4x130-pattern style, while the 12mm sets and Sprintstar caps likely belong to an uninstalled or returned set). (2) DASH: 110mm speedometer with trip button and odometer reading 000877, consistent with the ISP West programmable unit (DOC-058), roughly 877 miles since restoration; one 2-1/16in gauge mounted right of the speedometer above a larger round instrument, and two more 2-1/16in chrome-bezel gauges center dash below the radio aperture, consistent with the three Mid America gauges (DOC-056), faces not readable at this resolution. (3) ENGINE BAY: Raby DTM Stage III black upright shroud with flexible intake duct, dual Weber carburetors with chrome oval gauze filters and hex-bar cross linkage, alternator on the Raby billet stand with integrated oil filler: DOC-001 hardware verified installed. (4) EXHAUST: polished sidewinder-style merged-collector system exiting right, consistent with A-1 Performance (DOC-060). (5) PAINT: light silver-blue metallic over black rockers (visual; formula name still open under GAP-13), chrome sharp-edge side molding, VOLKSWAGEN block and cursive Ghia rear scripts installed (DOC-055), euro tail lights, LED strips at the license plate and below the decklid (consistent with the DOC-018 LED purchase). (6) INTERIOR: JBugs grey velour kit verified installed (door panels, charcoal carpet, grey velour seats, grey 2-point belts with chrome latches, passenger door armrest per DOC-061); woven coco mats and a silver banjo-style steering wheel with decorative horn button and polished drilled column drop are present but UNDOCUMENTED in the purchase record. (7) REGISTRATION: Wisconsin plate ZZ65KG on the car in the current owner's garage."
-  },
-  {
-   "doc_id": "DOC-063",
-   "type": "Photographic record (3 printed photographs, rephotographed)",
-   "vendor_id": null,
-   "title": "Pre-restoration photo set: the $500 car as acquired (green, rusted, on a trailer)",
-   "reference_numbers": {},
-   "date": null,
-   "line_item_count": 0,
-   "photos": {
-    "a": "Side profile on a trailer: oxidized green paint, rust-through and primer patches along rockers and door bottoms, steel wheels with hubcaps",
-    "b": "Rear three-quarter: primer/bare metal on rear lower quarters, taillight lens missing, rear bumper absent, exhaust pipe protruding, quarter vent trim present",
-    "c": "Front three-quarter at a wooden building: nose and front valance damage, oxidized dark green paint, glass present"
-   },
-   "extraction_note": "PRE-RESTORATION CONDITION RECORD: three printed photographs (rephotographed from the prints, which survive with the project's papers; print files retained by the owner, not stored in this repository). Undated; the condition places them at or near the $500 acquisition, before the 2014 Utah body/paint phase. What they establish: (1) PRE-RESTORATION COLOR was green, heavily oxidized, over widespread rust-through and dotted primer patches along the lower body; whether it is the factory color is unknown (GAP-01 paint code still open). (2) BODY DAMAGE corroborates the handwritten cost ledger's prep lines (DOC-043: media blast, Bondo, Dolphin Glaze, fiberglass, 'Nose & fender & Hood Replacement parts', primer stages): visible nose/front valance damage, rust along rockers and door bottoms, rear lower quarters in primer/bare metal, one taillight lens missing, rear bumper absent. (3) WHEELS: the car sat on steel wheels with hubcaps, which finally explains the backordered 'CENTER CAP, CHROME, FOR IRON' parts and decals on Mid America order 04682256-00001 (DOC-056): dress-up parts for the original steel (iron) wheels, presumably abandoned when the disc-conversion/alloy direction won out (GAP-23). (4) The car is on a trailer in two frames: transport day, consistent with the acquisition or the move to the body shop. (5) Glass present pre-restoration. Also useful for GAP-16: the project car was demonstrably this green Ghia."
   }
  ],
  "parts_ledger": [
@@ -4384,16 +4347,14 @@
     "DOC-007",
     "DOC-030",
     "DOC-043",
-    "DOC-054",
-    "DOC-062"
+    "DOC-054"
    ],
    "spark_plugs": "Bosch W8DC (4 purchased 2015-05-21, Butch's Speed Shop)",
    "head_work_date": "2013-08-13, NV Automotive (Bill Shapley), Las Vegas, invoice 125, $379.67",
    "flywheel": "Lightened flywheel, 210mm, supplied no-charge by NV Automotive 2013-06-29 (DOC-054); also noted in DOC-043",
    "bottom_end_cost_record": "DOC-043 itemizes: 94mm pistons/cylinders $169, crankshaft $60, rod/main/cam bearings $90, lifters $30, rockers $90, gasket set $25, alternator $90, oil pump milling $10, shroud assembly $1000 (matches DTM Stage III).",
    "dtm_kit_purchase": "2013-07-29, Raby Enterprises receipt #1878 (sales order #94), shipped to Hurricane UT",
-   "bottom_end_sourcing": "Bottom-end parts supplied by NV Automotive, invoice 125 dated 2013-06-29, $464.76 paid cash (DOC-054): 2.0L crank, rods, gasket set, main/rod/cam bearings, front and rear seals, Melling oil pump, 210mm lightened flywheel (no charge), pilot bearing. The 94mm pistons/cylinders, lifters, and rockers (in the handwritten ledger DOC-043) are not on this invoice and came from elsewhere.",
-   "as_installed_verification": "Photo-verified (DOC-062b): DTM Stage III black upright shroud with flexible intake duct, dual Webers with chrome oval gauze air filters and hex-bar cross linkage, alternator on Raby billet stand with integrated oil filler, body-color engine bay with black tins."
+   "bottom_end_sourcing": "Bottom-end parts supplied by NV Automotive, invoice 125 dated 2013-06-29, $464.76 paid cash (DOC-054): 2.0L crank, rods, gasket set, main/rod/cam bearings, front and rear seals, Melling oil pump, 210mm lightened flywheel (no charge), pilot bearing. The 94mm pistons/cylinders, lifters, and rockers (in the handwritten ledger DOC-043) are not on this invoice and came from elsewhere."
   },
   "cooling": {
    "card_id": "SPEC-COOLING",
@@ -4411,10 +4372,8 @@
    "maintenance_notes": "Per A-1 literature: retorque header bolts warm after first 15 minutes; coated slip joints marked and re-fitted ~1in past the coated pipe end; anti-seize on stainless slip joints.",
    "sources": [
     "DOC-004",
-    "DOC-060",
-    "DOC-062"
-   ],
-   "as_installed_verification": "Photo-verified (DOC-062e): polished sidewinder-style merged-collector system exiting right of the rear apron, consistent with the A-1 Performance literature (DOC-060)."
+    "DOC-060"
+   ]
   },
   "transmission": {
    "card_id": "SPEC-TRANSMISSION",
@@ -4454,12 +4413,10 @@
     "DOC-005",
     "DOC-006",
     "DOC-042",
-    "DOC-061",
-    "DOC-062"
+    "DOC-061"
    ],
    "seat_belts": "Grey 2-point lap belts with chrome lift latches and Wolfsburg stickers (JBugs Z VW 20 GY L, May 2016)",
-   "armrests": "Grey armrest pair, 1958-67 style (JBugs 16-1622-16, 2016-09-28), matching the grey kit",
-   "as_installed_verification": "Photo-verified (DOC-062a): grey velour door panels, charcoal carpet, grey velour seats, grey 2-point belts with chrome latches, passenger door armrest. Present but UNDOCUMENTED in the purchase record: woven coco floor mats, and a silver banjo-style steering wheel with decorative horn button on a polished drilled column drop."
+   "armrests": "Grey armrest pair, 1958-67 style (JBugs 16-1622-16, 2016-09-28), matching the grey kit"
   },
   "instrumentation": {
    "card_id": "SPEC-INSTRUMENTATION",
@@ -4469,29 +4426,24 @@
     "DOC-049",
     "DOC-056",
     "DOC-058",
-    "DOC-059",
-    "DOC-062"
+    "DOC-059"
    ],
    "gauge_heads": "Three Mid America 2-1/16in gauges from order 04682256 shipped 2015-04-20 (DOC-056), confirmed by their connection diagrams (DOC-059): oil pressure gauge 12V (111-150), electric temperature gauge used for oil temp (111-155), and an 8-16V voltmeter (111-152). The oil pressure gauge needs a pressure sender that is not separately documented.",
    "senders": "Auto Meter 2258 electric temp sender (P-086, 2015-05-21); 300-degree oil temp sender 196-107, alt# V3-2305-5 (P-091, 2015-12-30); and a 111157 3/8in resistance temperature sender (P-184) ordered 2015-04-20 but still backordered as of 2015-05-18, fulfillment undocumented.",
-   "speedometer": "ISP West 110mm programmable VW speedometer (M18 x 1.5 cable, driven off the left front wheel hub), with double odometer and integrated indicator lights for turn signals, oil pressure, battery/charge, and high beam. Documented via its instruction manual (DOC-058); the purchase itself is not in the archive. The manual is Beetle-specific, so confirm the installed unit (cf. GAP-16).",
-   "as_installed_verification": "Photo-verified (DOC-062a): 110mm speedometer with trip button, odometer 000877, consistent with the ISP West unit (DOC-058); one 2-1/16in gauge right of the speedometer above a larger round instrument, plus two 2-1/16in chrome-bezel gauges center dash below the radio aperture, consistent with the three Mid America gauges (DOC-056). Gauge faces not readable; close-ups would finish GAP-20."
+   "speedometer": "ISP West 110mm programmable VW speedometer (M18 x 1.5 cable, driven off the left front wheel hub), with double odometer and integrated indicator lights for turn signals, oil pressure, battery/charge, and high beam. Documented via its instruction manual (DOC-058); the purchase itself is not in the archive. The manual is Beetle-specific, so confirm the installed unit (cf. GAP-16)."
   },
   "wheels_tires": {
    "card_id": "SPEC-WHEELS-TIRES",
-   "wheels": "INSTALLED (photo-verified, DOC-062d): flat-five-spoke 911/Fuchs-style alloys, black spoke recesses, polished lips, small chrome center caps; brand and size not yet read from the wheel. This CORRECTS the earlier Sprintstar inference: the 319-655 Sprintstar center caps bought in 2015 do not match the installed wheels and likely belong to an uninstalled or returned set (GAP-23).",
-   "lug_hardware": "The 16pc chrome 14mm set (319-994, DOC-028) matches the installed 4-lug Fuchs-style wheels. The four 5-bolt sets of chrome 12mm (319-991, DOC-056) imply a 5-lug set that is not on the car.",
+   "wheels": "Aftermarket Sprintstar 5-spokes (EMPI pattern), four wheels: identified by the 4x 319-655 center caps (alt# 00-9707-0) ordered spring 2015, corroborated by the 16pc chrome 14mm lug bolt set (319-994, 2015-04-27). Wheel size and finish not yet documented; confirm from photos.",
+   "lug_hardware": "Two distinct chrome lug bolt purchases that do not reconcile: a 16pc 14mm set (319-994, DOC-028, 2015-04-27) implying 4 lugs x 4 wheels, and four sets of 5 chrome 12mm bolts (319-991, DOC-056, 2015-04-20) implying 5 lugs x 4 wheels. Confirm the wheel bolt pattern and lug size from the car (GAP-23).",
    "tires": "Undocumented (GAP-12); record brand/size from the car",
    "sources": [
     "DOC-028",
     "DOC-049",
     "DOC-056",
-    "DOC-057",
-    "DOC-062",
-    "DOC-063"
+    "DOC-057"
    ],
-   "center_caps": "Installed wheels wear small chrome caps (DOC-062d), not obviously the 319-655 Sprintstar caps; the Sprintstar caps and 'for iron' caps from order 04682256 are unaccounted for on the car (GAP-23).",
-   "pre_restoration_wheels": "Steel wheels with hubcaps (DOC-063). This explains the 'center cap, chrome, for iron' parts and chrome decals backordered on Mid America order 04682256-00001 (DOC-056): dress-up for the original steel wheels, evidently abandoned in favor of the alloy direction (GAP-23)."
+   "center_caps": "Four Sprintstar center caps (319-655) across shipments -00002 and -00003. Order -00001 also carried 'center cap, chrome, for iron' parts and chrome decals (backordered, fulfillment undocumented), which do not obviously belong to Sprintstar wheels; see GAP-23."
   },
   "body_paint": {
    "card_id": "SPEC-BODY-PAINT",
@@ -4519,14 +4471,9 @@
     "DOC-050",
     "DOC-051",
     "DOC-052",
-    "DOC-055",
-    "DOC-062",
-    "DOC-063"
+    "DOC-055"
    ],
-   "rear_deck_emblems": "Rear hood 'Volkswagen' script (853-687) and 'Karmann Ghia' script (853-905) with VW 3-piece and KG 4-piece clamping plates; door striker repair kit (KGPR invoice 445363, 2015-03-18).",
-   "color_visual": "Light silver-blue metallic over black rocker panels (owner photos, DOC-062d/e). Formula name still open under GAP-13 (wa208v / GM 3295 references).",
-   "as_installed_verification": "Photo-verified (DOC-062): chrome sharp-edge side molding, VOLKSWAGEN block and cursive Ghia rear scripts (DOC-055 parts), euro tail lights, chrome bumpers, LED strips at license plate and below decklid (consistent with DOC-018), lowered stance consistent with the 2.5in drop spindles.",
-   "pre_restoration": "Photographed before restoration (DOC-063): oxidized green over rust-through and primer patches, damaged nose/front valance, rear quarters in primer, taillight lens missing, rear bumper absent. Explains the DOC-043 prep spend (media blast, Bondo, Dolphin Glaze, fiberglass, replacement nose/fender/hood panels, multiple primer stages). Factory paint code still unknown (GAP-01)."
+   "rear_deck_emblems": "Rear hood 'Volkswagen' script (853-687) and 'Karmann Ghia' script (853-905) with VW 3-piece and KG 4-piece clamping plates; door striker repair kit (KGPR invoice 445363, 2015-03-18)."
   },
   "electrical": {
    "card_id": "SPEC-ELECTRICAL",
@@ -4823,16 +4770,6 @@
   },
   {
    "date": null,
-   "event": "Undated: owner photo set of the finished car verifies the archive against the machine: Fuchs-style wheels installed (not Sprintstars), DTM/Weber engine bay, A-1 style exhaust, JBugs interior, odometer 877, Wisconsin registration",
-   "doc_id": "DOC-062"
-  },
-  {
-   "date": null,
-   "event": "Undated (pre-2014): three surviving prints show the car as acquired: oxidized green, lower-body rust-through, nose damage, on steel wheels with hubcaps, riding a trailer",
-   "doc_id": "DOC-063"
-  },
-  {
-   "date": null,
    "event": "Undated: handwritten build cost ledger records $500 car acquisition and itemized body/engine component costs",
    "doc_id": "DOC-043"
   }
@@ -4877,7 +4814,7 @@
    "priority": "medium",
    "item": "Exhaust system manufacturer and ceramic coating vendor",
    "status": "SUBSTANTIALLY RESOLVED",
-   "resolution": "Batch 9: exhaust manufacturer identified as A-1 Performance Exhaust Systems (Santa Ana CA) from the installation/maintenance literature shipped with the system (DOC-060). The literature's ceramic coating care section implies the coating is A-1 factory-applied, which would close the coating vendor question too, but that is implied rather than stated. Remaining: the exhaust purchase invoice (model, date, price) is not in the archive. Batch 10: owner photos (DOC-062e) show a polished sidewinder-style merged-collector system on the car, visually consistent with A-1 Performance."
+   "resolution": "Batch 9: exhaust manufacturer identified as A-1 Performance Exhaust Systems (Santa Ana CA) from the installation/maintenance literature shipped with the system (DOC-060). The literature's ceramic coating care section implies the coating is A-1 factory-applied, which would close the coating vendor question too, but that is implied rather than stated. Remaining: the exhaust purchase invoice (model, date, price) is not in the archive."
   },
   {
    "gap_id": "GAP-08",
@@ -4913,7 +4850,7 @@
    "priority": "high",
    "item": "Paint system: Nason clearcoat activator confirmed (DOC-023). Locate basecoat/color and primer receipts to recover the exact paint color formula and product line. Boulder Auto Parts paint dept may retain the mix formula under customer B4925.",
    "status": "SUBSTANTIALLY RESOLVED (Batch 4)",
-   "resolution": "Paint trail recovered: body shop = Washington County Collision (Hurricane UT); June 2014 full system from Auto Paints Plus with mixed color 'Dimentions Mixwa208v'; Jan 2015 Nason Ful-Thane BC/CC mixed to GM formula 3295 + SelectClear activator (Boulder Auto Parts). Remaining: translate formula references (wa208v / GM 3295) into the color name, and confirm which system is the final topcoat. Batch 10: owner photos (DOC-062d/e) show the color as a light silver-blue metallic over black rockers; the formula-to-name translation remains open."
+   "resolution": "Paint trail recovered: body shop = Washington County Collision (Hurricane UT); June 2014 full system from Auto Paints Plus with mixed color 'Dimentions Mixwa208v'; Jan 2015 Nason Ful-Thane BC/CC mixed to GM formula 3295 + SelectClear activator (Boulder Auto Parts). Remaining: translate formula references (wa208v / GM 3295) into the color name, and confirm which system is the final topcoat."
   },
   {
    "gap_id": "GAP-14",
@@ -4928,15 +4865,14 @@
   {
    "gap_id": "GAP-16",
    "priority": "medium",
-   "item": "Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded.",
-   "note": "Batch 11: the pre-restoration photos (DOC-063) confirm the project car itself: a green Ghia coupe. The attribution question for the Type 1 carb kit and 1967 Beetle lookup remains open."
+   "item": "Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded."
   },
   {
    "gap_id": "GAP-17",
    "priority": "medium",
    "item": "Identify aftermarket wheels (implied by 16pc chrome 14mm lug bolt purchase). Use car photos; record wheel make/model/size and tire spec.",
    "status": "SUBSTANTIALLY RESOLVED",
-   "resolution": "Batch 6 inferred Sprintstar wheels from the 319-655 center cap order (DOC-049). Batch 10 CORRECTED this from owner photos (DOC-062d): the installed wheels are flat-five-spoke 911/Fuchs-style alloys with small chrome caps, matched by the 16pc 14mm chrome lug bolts (DOC-028). Remaining: wheel brand/size from a stamp or close-up, and the tire spec (GAP-12)."
+   "resolution": "Batch 6: wheels identified as Sprintstar 5-spokes (EMPI pattern) by the 319-655 center cap order, DOC-049, consistent with the chrome 14mm lug bolts (DOC-028). Remaining: wheel size and finish, and the tire spec, from photos of the car."
   },
   {
    "gap_id": "GAP-18",
@@ -4953,7 +4889,7 @@
    "priority": "low",
    "item": "Identify gauge heads (Auto Meter? VDO?) matching the documented senders, now three: Auto Meter 2258 electric temp (P-086), 300-degree oil temp 196-107 (P-091), and the backordered 3/8in resistance sender 111157 (P-184, fulfillment undocumented). Photograph dash cluster.",
    "status": "SUBSTANTIALLY RESOLVED",
-   "resolution": "Batch 7: gauge heads identified as Mid America 2-1/16in units (DOC-056). Batch 8: those three gauges confirmed by their connection diagrams (DOC-059, oil pressure 111-150, voltmeter 111-152, electric temperature 111-155), and the speedometer head identified as an ISP West 110mm programmable VW unit via its instruction manual (DOC-058). Remaining: confirm the cluster against dash photos; the oil pressure sender is undocumented; the speedometer purchase invoice is not in the archive; and which temp sender (Auto Meter 2258, 196-107, or backordered 111157) feeds the temperature gauge is unresolved. Batch 10: dash photographed (DOC-062a): 110mm speedometer consistent with the ISP West unit, odometer 000877, three small gauges placed one high right of the speedometer and two center dash. Faces not readable; close-ups would close this gap."
+   "resolution": "Batch 7: gauge heads identified as Mid America 2-1/16in units (DOC-056). Batch 8: those three gauges confirmed by their connection diagrams (DOC-059, oil pressure 111-150, voltmeter 111-152, electric temperature 111-155), and the speedometer head identified as an ISP West 110mm programmable VW unit via its instruction manual (DOC-058). Remaining: confirm the cluster against dash photos; the oil pressure sender is undocumented; the speedometer purchase invoice is not in the archive; and which temp sender (Auto Meter 2258, 196-107, or backordered 111157) feeds the temperature gauge is unresolved."
   },
   {
    "gap_id": "GAP-21",
@@ -4970,14 +4906,7 @@
   {
    "gap_id": "GAP-23",
    "priority": "medium",
-   "item": "Reconcile the wheel/lug evidence. Two lug bolt purchases conflict: 16pc chrome 14mm (319-994, DOC-028, implies 4-lug) versus four sets of 5 chrome 12mm (319-991, DOC-056, implies 5-lug). Order 04682256-00001 also carried 'center cap, chrome, for iron' parts and chrome decals (backordered) that do not obviously match the Sprintstar caps (319-655). Confirm from the car: wheel make (Sprintstar confirmed by caps), bolt pattern, lug size, and whether a second wheel set or iron-wheel caps were involved.",
-   "status": "PARTIALLY RESOLVED",
-   "resolution": "Batch 10: owner photos (DOC-062d) show the installed wheels are 911/Fuchs-style (consistent with 4-lug 14mm, the DOC-028 bolt set), so the 12mm 5-bolt sets and the Sprintstar caps from order 04682256 evidently belong to a set that is not on the car (returned, planned, or spare). Remaining: physically confirm lug size/pattern, read the wheel brand stamp, and account for the Sprintstar caps and 12mm bolts. Batch 11: the pre-restoration photos (DOC-063) show the car arrived on steel wheels with hubcaps, so the 'for iron' chrome caps and decals were evidently dress-up for the original steel wheels, abandoned when the disc-conversion/alloy direction won out. Remaining: physical lug confirmation on the installed alloys and the fate of the Sprintstar caps and 12mm bolts."
-  },
-  {
-   "gap_id": "GAP-24",
-   "priority": "low",
-   "item": "Banjo-style steering wheel (silver, decorative horn button, polished drilled column drop) and woven coco floor mats are installed (DOC-062a) but appear nowhere in the purchase record. Identify maker (wheel likely Flat4/EMPI pattern) and source if paperwork ever surfaces."
+   "item": "Reconcile the wheel/lug evidence. Two lug bolt purchases conflict: 16pc chrome 14mm (319-994, DOC-028, implies 4-lug) versus four sets of 5 chrome 12mm (319-991, DOC-056, implies 5-lug). Order 04682256-00001 also carried 'center cap, chrome, for iron' parts and chrome decals (backordered) that do not obviously match the Sprintstar caps (319-655). Confirm from the car: wheel make (Sprintstar confirmed by caps), bolt pattern, lug size, and whether a second wheel set or iron-wheel caps were involved."
   }
  ]
 }
