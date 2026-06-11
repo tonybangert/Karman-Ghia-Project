@@ -5,6 +5,7 @@ import { Nav } from '@/components/Nav'
 import { ProvenanceFooter } from '@/components/Footer'
 import { AboutModal } from '@/components/AboutModal'
 import { Hero } from '@/views/Hero'
+import { CarExplorer } from '@/views/CarExplorer'
 
 function Placeholder({ id, title }: { id: string; title: string }) {
   return (
@@ -23,7 +24,7 @@ export default function App() {
         <Nav onAbout={() => setAbout(true)} />
         <main>
           <Hero />
-          <Placeholder id="explorer" title="Car Explorer" />
+          <CarExplorer />
           <Placeholder id="timeline" title="Timeline" />
           <Placeholder id="ledger" title="Parts Ledger" />
           <Placeholder id="vendors" title="Vendors" />
