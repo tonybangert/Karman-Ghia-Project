@@ -7,6 +7,7 @@ import { AboutModal } from '@/components/AboutModal'
 import { Hero } from '@/views/Hero'
 import { CarExplorer } from '@/views/CarExplorer'
 import { Timeline } from '@/views/Timeline'
+import { Ledger } from '@/views/Ledger'
 
 function Placeholder({ id, title }: { id: string; title: string }) {
   return (
@@ -27,7 +28,7 @@ export default function App() {
           <Hero />
           <CarExplorer />
           <Timeline />
-          <Placeholder id="ledger" title="Parts Ledger" />
+          <Ledger />
           <Placeholder id="vendors" title="Vendors" />
           <Placeholder id="gallery" title="Gallery" />
           <Placeholder id="mysteries" title="Open Mysteries" />

@@ -43,6 +43,7 @@ function build() {
   const vendorById = new Map(data.vendor_registry.map((v) => [v.vendor_id, v]))
   const docById = new Map(data.document_archive.map((d) => [d.doc_id, d]))
   const systemById = new Map(data.systems_taxonomy.map((s) => [s.system_id, s]))
+  const entryById = new Map(ledger.map((e) => [e.entry_id, e]))
 
   const spendBySystem = groupSum(ledger, (e) => e.system_id, paidAmount)
   const spendByVendor = groupSum(ledger, (e) => e.vendor_id, paidAmount)
@@ -85,7 +86,7 @@ function build() {
     gaps: data.data_gaps,
     specCards: data.build_spec_cards,
     // lookups
-    vendorById, docById, systemById, cardsBySystem,
+    vendorById, docById, systemById, entryById, cardsBySystem,
     // aggregates
     spendBySystem, spendByVendor, docsByVendor, cumulativeSpend,
     totals: {
