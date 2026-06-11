@@ -25,11 +25,25 @@ Karman-Ghia-Project/
 │   └── GAPS-AND-ACTIONS.md    <- generated open questions and the call list to close them
 ├── summaries/
 │   └── batch-1 ... batch-11   <- human-readable narrative of what each extraction batch found
-└── scripts/
-    └── extend_v2 ... v11.py   <- the append scripts that produced each version (provenance)
+├── scripts/
+│   └── extend_v2 ... v11.py   <- the append scripts that produced each version (provenance)
+└── app/                       <- "The $500 Ghia", the interactive archive web app
 ```
 
 `data/master-record.json` is the single source of truth. Everything in `docs/` is generated from it and should be regenerated, never hand-edited, when the data changes.
+
+## The interactive app
+
+`app/` is a single-page React app, a digital museum exhibit for the car. It imports `data/master-record.json` directly as its database and computes every figure at load time, so it always matches the archive. Seven views: an overview, an interactive car explorer with twelve system hotspots, a phased timeline with a cumulative-spend sparkline, a filterable parts ledger with spend charts, a vendor grid with a supply-geography map, a before/after gallery, and the open mysteries from the data gaps. Every fact is one click from its source document.
+
+```
+cd app
+npm install
+npm run dev      # local dev server
+npm run build    # static bundle in app/dist, base path /Karman-Ghia-Project/
+```
+
+Stack: React, Vite, TypeScript, Tailwind, Framer Motion, Recharts; fonts self-hosted via Fontsource. The base path auto-detects the deploy target: Vercel builds (VERCEL env) serve from the domain root, everything else uses `/Karman-Ghia-Project/` (override with `BASE_PATH`). To deploy on Vercel, import the repo and set the project Root Directory to `app`; the Vite preset handles the rest. GitHub Pages deploy is also wired: `.github/workflows/deploy.yml` builds `app/` and publishes on push to `main` (set Pages source to GitHub Actions). Optional assets: drop before/after photos in `app/public/gallery/` with a `gallery.json` manifest, and turntable frames in `app/public/spin/` with a `spin.json`; both degrade gracefully when absent.
 
 ## Project status (start here)
 
