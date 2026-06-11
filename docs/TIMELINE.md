@@ -8,7 +8,7 @@ The documented restoration spans July 29, 2013 to May 31, 2018. The arc in one p
 |---|---|---|---|
 | Engine program launch | Jul-Aug 2013 | Hurricane UT / Las Vegas | DTM Stage III kit purchase; Type 4 head machine work |
 | Body and paint | 2014 | Hurricane UT | Seals and grills ordered; full paint system bought under Washington County Collision in June |
-| Assembly | Jan 2015 - Sep 2016 | Henderson NV | Reseal, brakes, fuel system, wiring, interior, glass, exterior trim |
+| Assembly | Jan 2015 - Sep 2016 | Henderson NV | Reseal, brakes, fuel system, wiring, interior, glass, exterior trim, bumper re-chrome |
 | Running and maintenance | 2016 - May 2018 | Henderson NV | Consumables, senders, Weber rebuild kits |
 
 ## Event log
@@ -22,7 +22,8 @@ The documented restoration spans July 29, 2013 to May 31, 2018. The arc in one p
 | 2014-06-19 | PAINT DAY MATERIALS: full system ($586) from Auto Paints Plus, Hurricane UT, purchased under Washington County Collision. Epoxy primer, 'Dimentions Mixwa208v' color, 5L urethane clear. Body/paint executed in Utah, mid-2014 | DOC-044 |
 | 2014-12-22 | Silver Magic insulating sheets, Drake Automotive will-call (billed to Bill Wilson, attribution open) | DOC-031 |
 | 2015-01-12 | Nason Ful-Thane BC/CC mix to GM formula 3295, Boulder Auto Parts paint dept (color formula recovered) | DOC-036 |
-| 2015-01-20 | Body restoration seal set ordered from West Coast Metric ($364.45, 28 lines): full reseal including quarter window kit, fuse box, Karmann badge, wiper refresh. Opens the Henderson assembly phase | DOC-046 |
+| 2015-01-14 | Dzus quarter-turn fasteners and clutch hook shaft from Nevada Offroad Buggy, Las Vegas: earliest documented purchase of the Henderson assembly phase, six days before the West Coast Metric reseal order | DOC-048 |
+| 2015-01-20 | Body restoration seal set ordered from West Coast Metric ($364.45, 28 lines): full reseal including quarter window kit, fuse box, Karmann badge, wiper refresh. Opens the Henderson reseal program | DOC-046 |
 | 2015-01-22 | Paint phase evidence: Nason clearcoat activator purchased at Boulder Auto Parts paint dept. Body/paint work active by late Jan 2015 | DOC-023 |
 | 2015-01-22 | Two supply stops same day: Nason SelectClear activator (Boulder City) and stainless M8 hardware + gloss black spray (McFadden-Dale, Las Vegas) | DOC-023, DOC-045 |
 | 2015-01-25 | Lighting bulbs, electrical disconnects, grease (O'Reilly) | DOC-011 |
@@ -42,6 +43,7 @@ The documented restoration spans July 29, 2013 to May 31, 2018. The arc in one p
 | 2015-04-09 | Sylvania H6024XV sealed beam headlamps, pair | DOC-017 |
 | 2015-04-21 | KGPR complete door rubber kit order (18 lines): door resealing phase | DOC-037 |
 | 2015-04-27 | Chrome 14mm lug bolt set from Mid America Motorworks: aftermarket wheels going on | DOC-028 |
+| 2015-04-28 | Sprintstar center caps ship from Mid America (2 of 4; 2 caps and a temp sender on backorder): WHEELS IDENTIFIED as Sprintstars (GAP-17) | DOC-049 |
 | 2015-04-29 | Backordered left/right door seals ship from KGPR | DOC-038 |
 | 2015-05-04 | Body finishing materials: 3M refinish tape and Permatex weatherstrip adhesive, Boulder Auto Parts, same visit | DOC-026, DOC-027 |
 | 2015-05-21 | Auto Meter temp sender and Bosch W8DC plugs x4, Butch's Speed Shop | DOC-030 |
@@ -55,8 +57,12 @@ The documented restoration spans July 29, 2013 to May 31, 2018. The arc in one p
 | 2016-04-23 | EMPI master cylinder w/reservoir and axle boot kits, Meyers Auto Parts | DOC-025 |
 | 2016-05-10 | Interior trim screws from McFadden-Dale: interior installation underway | DOC-035 |
 | 2016-05-23 | JBugs glass and final-trim order: CAL windshield/rear seals, mirror, sunvisors, grey 2-point belts. Glass-in phase | DOC-042 |
+| 2016-06-22 | Both bumpers (3-piece each) dropped at American Polishing & Plating, Henderson, for re-chroming: $350, two-week quote. Exterior brightwork phase underway | DOC-050 |
 | 2016-08-17 | KGPR exterior brightwork order: sharp-edge side molding set, hinge, trunk wire cover, hood stops | DOC-041 |
-| 2016-09-14 | Roll pin purchase. New latest-dated document; restoration activity documented into Sep 2016 | DOC-009 |
+| 2016-09-06 | Two bumper pieces redone at no charge by the plating shop | DOC-051 |
+| 2016-09-07 | Chrome bumper mounting hardware (5/16-18 carriage bolts, washers, nuts, 8 each) from McFadden-Dale, the day after the plating redo: bumpers going back on | DOC-052 |
+| 2016-09-14 | Roll pin purchase; restoration activity documented into Sep 2016 | DOC-009 |
+| 2016-09-26 | Small hardware cash run at McFadden-Dale: nickel cap nuts, stainless socket caps, carriage bolts. Latest 2016 date in the archive | DOC-053 |
 | 2018-05-31 | Two Weber carb rebuild kits from NV Automotive. NEW LATEST DATE: documented activity now spans Aug 2013 to May 2018 | DOC-034 |
 | undated | Type 4 head machine work: valve job, 94mm openings, .050 cut, 8.6:1 compression calculated (date unknown, Las Vegas area shop) | DOC-003 |
 | undated | Raby DTM Stage III kit ordered, shipped to Hurricane UT (date unknown; UT address suggests this may follow the Henderson-era purchases, or reflects a move during the build) | DOC-001 |

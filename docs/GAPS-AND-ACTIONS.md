@@ -1,6 +1,6 @@
 # Data Gaps and Action List
 
-Status as of v5: 16 open, 3 partially resolved, 2 fully resolved.
+Status as of v6: 16 open, 4 partially or substantially resolved, 2 fully resolved.
 
 ## Recommended next actions (the call list)
 
@@ -9,8 +9,9 @@ Status as of v5: 16 open, 3 partially resolved, 2 fully resolved.
 3. Look up Washington County Collision in Hurricane UT and ask whether they retain 2014 job records or photos for a Karmann Ghia (GAP-21).
 4. Re-photograph DOC-016 (O'Reilly invoice 2655-492277, 2015-03-28) with line items visible (GAP-14).
 5. Pull a valve cover or check old paperwork for the Engle cam grind card (GAP-04), and photograph the Webers for model and jet sizes (GAP-05).
-6. Photograph the wheels, tires, gauges, and window trim to close GAP-17, GAP-20, and the CAL-seal styling question.
+6. Photograph the wheels (confirm Sprintstar size/finish), tires, gauges, and window trim to finish GAP-17 and close GAP-20 and the CAL-seal styling question.
 7. Ask any prior contacts which head carries the 2nd oversize spark plug insert (GAP-08), and who Bill Wilson and the Steve Hansen invoice trail are (GAP-18, GAP-06).
+8. Check the folder for sibling Mid America invoices: shipment 04682256-00001 and the backorder fulfillment for two center caps and the 111157 sender (GAP-22).
 
 ## Open gaps
 
@@ -27,11 +28,11 @@ Status as of v5: 16 open, 3 partially resolved, 2 fully resolved.
 | GAP-14 | high | DOC-016 (O'Reilly 2655-492277, 2015-03-28, ~$48.47 net): line items cut off in photo. Re-photograph flat and complete. |
 | GAP-15 | medium | Identify 'EDE 224600 45 STREET' (4 units, DOC-020). Possibly carburetor jets. Verify against physical parts or O'Reilly part lookup. |
 | GAP-16 | medium | Attribution check: Type 1 carb kit (DOC-024) and 1967 Beetle counter lookup (DOC-017) raise the question of whether every receipt in the folder belongs to the Ghia, or whether Mahan had another aircooled VW. Sort folder accordingly; tag any non-Ghia documents as excluded. |
-| GAP-17 | medium | Identify aftermarket wheels (implied by 16pc chrome 14mm lug bolt purchase). Use car photos; record wheel make/model/size and tire spec. |
 | GAP-18 | medium | Attribution: Drake insulating sheets invoice (DOC-031) billed to 'Bill Wilson, NV'. Determine whether Wilson was a helper/friend purchasing for the Ghia or this document belongs to another project. |
 | GAP-19 | medium | Two master cylinders documented (TRW Jan 2015, EMPI buggy m/c Apr 2016). Determine which is installed and why the second was purchased. |
-| GAP-20 | low | Identify gauge heads (Auto Meter? VDO?) matching the two documented senders; photograph dash cluster. |
+| GAP-20 | low | Identify gauge heads (Auto Meter? VDO?) matching the documented senders, now three: Auto Meter 2258 electric temp (P-086), 300-degree oil temp 196-107 (P-091), and the backordered 3/8in resistance sender 111157 (P-184, fulfillment undocumented). Photograph dash cluster. |
 | GAP-21 | medium | Contact/lookup Washington County Collision (Hurricane UT): possible body work records or photos; also translate paint formulas 'wa208v' and 'GM 3295' to a color name via a paint supplier. |
+| GAP-22 | low | Mid America order 04682256: shipment -00001 contents and the backorder fulfillment (2x Sprintstar center caps and the 111157 temperature sender, $55.97 if charged) are undocumented. Check the folder for sibling Mid America invoices; the May 2015 Auto Meter sender purchase may indicate the backordered sender was cancelled. |
 
 ## Partially or substantially resolved
 
@@ -40,6 +41,7 @@ Status as of v5: 16 open, 3 partially resolved, 2 fully resolved.
 | GAP-09 | PARTIALLY RESOLVED (Batch 4) | DOC-043 cost ledger itemizes the bottom end: 94mm P&C, crank, bearings, lifters, rockers, lightened flywheel, gasket set, alternator, oil pump milling. Vendors for these components still undocumented. |
 | GAP-12 | PARTIALLY RESOLVED (Batch 5) | Wiring work documented (DOC-047, Feb 2015): primary wire and supplies, but no complete harness. Tires remain undocumented. |
 | GAP-13 | SUBSTANTIALLY RESOLVED (Batch 4) | Paint trail recovered: body shop = Washington County Collision (Hurricane UT); June 2014 full system from Auto Paints Plus with mixed color 'Dimentions Mixwa208v'; Jan 2015 Nason Ful-Thane BC/CC mixed to GM formula 3295 + SelectClear activator (Boulder Auto Parts). Remaining: translate formula references (wa208v / GM 3295) into the color name, and confirm which system is the final topcoat. |
+| GAP-17 | SUBSTANTIALLY RESOLVED (Batch 6) | Wheels identified as Sprintstar 5-spokes (EMPI pattern) by the 319-655 center cap order, DOC-049, consistent with the chrome 14mm lug bolts (DOC-028). Remaining: wheel size and finish, and the tire spec, from photos of the car. |
 
 ## Fully resolved
 

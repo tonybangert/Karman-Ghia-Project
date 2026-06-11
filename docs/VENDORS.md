@@ -1,6 +1,6 @@
 # Vendor Registry
 
-Fifteen vendors documented across the build.
+Seventeen vendors documented across the build.
 
 ## VEN-01: Raby Enterprises Inc (Aircooled Technology / Type 4 Store)
 - Address: 47 Raby Drive, Cleveland, GA 30528
@@ -57,7 +57,7 @@ Fifteen vendors documented across the build.
 - Address: 17082 N. US Hwy 45, Effingham, IL 62401
 - Customer number: 23552403-000
 - Specialty: VW and Corvette restoration catalog house
-- Documents: DOC-028, DOC-033
+- Documents: DOC-028, DOC-033, DOC-049
 
 ## VEN-10: Butch's Speed Shop
 - Address: 4477 Reno Ave, Las Vegas, NV 89118
@@ -76,7 +76,7 @@ Fifteen vendors documented across the build.
 - Address: 5580 S Decatur Blvd, Suite 114, Las Vegas, NV 89118
 - Phones: main 702-251-8059
 - Specialty: Industrial fastener and hardware supply
-- Documents: DOC-035, DOC-045, DOC-047
+- Documents: DOC-035, DOC-045, DOC-047, DOC-052, DOC-053
 
 ## VEN-13: West Coast Metric Inc.
 - Address: 24002 Frampton Avenue, Harbor City, CA 90710
@@ -94,4 +94,17 @@ Fifteen vendors documented across the build.
 ## VEN-15: Washington County Collision
 - Address: Hurricane, UT area
 - Specialty: Collision/body shop. Named purchaser on the June 2014 paint materials receipt; almost certainly performed or hosted the Ghia's body and paint work during the 2014 Utah phase.
+
+## VEN-16: Nevada Offroad Buggy
+- Address: 3054 S. Valley View #130, Las Vegas, NV 89102
+- Phones: main 702-871-4911, fax 702-871-5221, toll-free 888-755-5900
+- Specialty: Offroad buggy and aircooled VW parts counter
+- Documents: DOC-048
+
+## VEN-17: American Polishing & Plating (DBA Shine Shop)
+- Address: 676 Middlegate Rd, Henderson, NV 89011
+- Phones: main 702-566-1299, alt 702-307-4552
+- Web: www.chromeforu.biz
+- Specialty: Chrome plating and metal polishing. Re-chromed both bumpers Jun-Sep 2016, with a no-charge redo of two pieces.
+- Documents: DOC-050, DOC-051
 

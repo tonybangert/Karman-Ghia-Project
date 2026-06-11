@@ -16,7 +16,7 @@ ghia-restoration-archive/
 ├── README.md                  <- you are here
 ├── data/
 │   ├── master-record.json     <- THE canonical dataset (always current)
-│   └── versions/              <- frozen snapshots, v1 through v5, one per extraction batch
+│   └── versions/              <- frozen snapshots, v1 through v6, one per extraction batch
 ├── docs/
 │   ├── SCHEMA.md              <- the seven-layer data model, conventions, and ID scheme
 │   ├── TIMELINE.md            <- generated narrative and event log, 2013-2018
@@ -24,25 +24,25 @@ ghia-restoration-archive/
 │   ├── VENDORS.md             <- generated registry of all 15 vendors
 │   └── GAPS-AND-ACTIONS.md    <- generated open questions and the call list to close them
 ├── summaries/
-│   └── batch-1 ... batch-5    <- human-readable narrative of what each extraction batch found
+│   └── batch-1 ... batch-6    <- human-readable narrative of what each extraction batch found
 └── scripts/
-    └── extend_v2 ... v5.py    <- the append scripts that produced each version (provenance)
+    └── extend_v2 ... v6.py    <- the append scripts that produced each version (provenance)
 ```
 
 `data/master-record.json` is the single source of truth. Everything in `docs/` is generated from it and should be regenerated, never hand-edited, when the data changes.
 
-## Archive statistics (v5)
+## Archive statistics (v6)
 
 | Metric | Value |
 |---|---|
-| Documents extracted | 47 |
-| Parts and services ledger entries | 184 |
-| Vendors | 15 |
-| Timeline events | 46 |
+| Documents extracted | 53 |
+| Parts and services ledger entries | 196 |
+| Vendors | 17 |
+| Timeline events | 52 |
 | Documented date range | 2013-07-29 to 2018-05-31 |
-| Documented spend (priced ledger entries) | $4,653.64 |
+| Documented spend (priced ledger entries) | $5,129.40 |
 | Restorer's own handwritten cost ledger | ~$2,994 including the $500 car |
-| Data gaps | 21 tracked: 13 open, 6 partially resolved, 2 fully resolved |
+| Data gaps | 22 tracked: 16 open, 4 partially resolved, 2 fully resolved |
 
 ## The data model in brief
 
@@ -71,6 +71,8 @@ Seven layers, fully described in `docs/SCHEMA.md`:
 - The paint trail is recoverable: Washington County Collision (Hurricane UT), a 2014 Auto Paints Plus system purchase referencing mix "wa208v," and a 2015 Nason Ful-Thane mix to GM formula 3295. Translating those references into a color name is action item 2 in `docs/GAPS-AND-ACTIONS.md`.
 - The three-part JBugs interior order (944952A/B/C) reconciles to the penny, including a refund cycle.
 - A warranty replacement, a returned-then-recharged backorder, and two same-day cross-town supply runs are all preserved in the record.
+- The wheels are Sprintstar 5-spokes: identified in Batch 6 by a center cap order that locks together with the chrome 14mm lug bolts bought one day earlier on a separate order.
+- The bumper chrome story is complete: both 3-piece bumpers re-plated in summer 2016, two pieces redone at no charge, and the chrome mounting hardware bought the day after the redo pickup.
 
 ## Roadmap
 
