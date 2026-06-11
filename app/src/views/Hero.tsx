@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import { useArchive } from '@/lib/useArchive'
 import { useCountUp } from '@/lib/useCountUp'
 import { moneyCompact } from '@/lib/format'
-import { GhiaSilhouette } from '@/components/GhiaSilhouette'
 
 function Stat({ value, label, prefix = '', display }: { value: number; label: string; prefix?: string; display?: (n: number) => string }) {
   const { n, ref } = useCountUp(value)
@@ -21,32 +20,52 @@ export function Hero() {
   const t = a.totals
   const y0 = t.firstDate?.slice(0, 4) ?? '2013'
   const y1 = t.lastDate?.slice(0, 4) ?? '2018'
+  const base = import.meta.env.BASE_URL
 
   return (
     <section id="overview" className="relative overflow-hidden scroll-mt-16">
       <div className="absolute inset-0 blueprint-grid opacity-60" aria-hidden />
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-end" aria-hidden>
-        <GhiaSilhouette decorative className="mr-[-4%] w-[78%] text-brand-secondary/10" />
-      </div>
       <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-surface to-transparent" aria-hidden />
 
       <div className="relative mx-auto max-w-content px-6 pb-20 pt-16 sm:pt-24">
-        <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}>
-          <div className="mono inline-flex items-center gap-2 rounded-full border border-line bg-surface-elevated/70 px-3 py-1 text-xs text-ink-muted">
-            1965 Volkswagen Karmann Ghia &middot; Type 14
-          </div>
-          <h1 className="mt-5 max-w-3xl font-display text-5xl font-extrabold leading-[0.95] text-balance sm:text-7xl">
-            The <span className="text-brand-primary">$500</span> Ghia
-          </h1>
-          <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink/90">
-            A coupe bought as a 500 dollar project, restored from {y0} to {y1}, and documented down to the
-            receipt. A Type 4 engine on a Raby cooling system, dual Webers, a body taken to bare metal and back.
-            This is its entire paper trail, made explorable.
-          </p>
-        </motion.div>
+        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
+          <motion.div initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}>
+            <div className="mono inline-flex items-center gap-2 rounded-full border border-line bg-surface-elevated/70 px-3 py-1 text-xs text-ink-muted">
+              1965 Volkswagen Karmann Ghia &middot; Type 14
+            </div>
+            <h1 className="mt-5 font-display text-5xl font-extrabold leading-[0.95] text-balance sm:text-7xl">
+              The <span className="text-brand-primary">$500</span> Ghia
+            </h1>
+            <p className="mt-5 max-w-xl text-lg leading-relaxed text-ink/90">
+              A coupe bought as a 500 dollar project, restored from {y0} to {y1}, and documented down to the
+              receipt. A Type 4 engine on a Raby cooling system, dual Webers, a body taken to bare metal and back.
+              This is its entire paper trail, made explorable.
+            </p>
+          </motion.div>
+
+          <motion.figure
+            className="relative lg:justify-self-end"
+            initial={{ opacity: 0, scale: 0.96 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
+          >
+            <div className="overflow-hidden rounded-xl border border-line shadow-card ring-1 ring-black/5">
+              <img
+                src={`${base}hero-ghia.jpg`}
+                alt="The finished 1965 Karmann Ghia in silver-blue metallic, three-quarter front view on a desert road"
+                className="aspect-[3/2] w-full object-cover"
+                width={1418}
+                height={945}
+              />
+            </div>
+            <figcaption className="mono mt-2 text-right text-xs text-ink-faint">
+              The finished car, silver-blue metallic on Fuchs-style alloys
+            </figcaption>
+          </motion.figure>
+        </div>
 
         <motion.div
-          className="mt-10 grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4"
+          className="mt-12 grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4"
           initial="hidden" animate="show"
           variants={{ hidden: {}, show: { transition: { staggerChildren: 0.08, delayChildren: 0.2 } } }}
         >
